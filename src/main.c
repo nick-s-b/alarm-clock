@@ -145,7 +145,7 @@ main (int argc, char *argv[])
 
 	reload_alarms();
 	
-	g_thread_create((GThreadFunc) alarm_thread, NULL, FALSE, NULL);
+	g_thread_try_new("alarm thread", (GThreadFunc) alarm_thread, NULL, NULL);
 	
 	notify_init(_("Alarm Clock"));
 	
