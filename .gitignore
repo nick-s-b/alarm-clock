@@ -1,3 +1,18 @@
+autom4te.cache
+Makefile
+*.gmo
+alarm-clock
+compile
+config.h
+config.h.in\~
+config.log
+config.status
+stamp-h1
+libtool
+po/Makefile.in
+po/POTFILES
+po/stamp-it
+src/.deps
 # Prerequisites
 *.d
 
