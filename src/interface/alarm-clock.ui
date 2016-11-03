@@ -263,6 +263,7 @@
               <object class="GtkMenuToolButton" id="add_menu">
                 <property name="visible">True</property>
                 <property name="label" translatable="yes">Add Alarm</property>
+                <property name="tooltip_text" translatable="yes">Add Alarm</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-add</property>
                 <property name="menu">menu5</property>
@@ -276,6 +277,8 @@
             <child>
               <object class="GtkToolButton" id="remove_alarm_toolbutton">
                 <property name="visible">True</property>
+                <property name="label" translatable="yes">Remove Alarm</property>
+                <property name="tooltip_text" translatable="yes">Remove Alarm</property>
                 <property name="sensitive">False</property>
                 <property name="stock_id">gtk-remove</property>
                 <signal name="clicked" handler="remove_alarm_dialog"/>
@@ -288,6 +291,8 @@
             <child>
               <object class="GtkToolButton" id="alarm_properties_toolbutton">
                 <property name="visible">True</property>
+                <property name="label" translatable="yes">Alarm Properties</property>
+                <property name="tooltip_text" translatable="yes">Alarm Properties</property>
                 <property name="sensitive">False</property>
                 <property name="stock_id">gtk-properties</property>
                 <signal name="clicked" handler="properties_clicked"/>
@@ -302,6 +307,7 @@
                 <property name="visible">True</property>
                 <property name="sensitive">False</property>
                 <property name="label" translatable="yes">Test current alarm</property>
+                <property name="tooltip_text" translatable="yes">Test current alarm</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-media-play</property>
                 <signal name="clicked" handler="test_alarm"/>
@@ -314,6 +320,7 @@
             <child>
               <object class="GtkToolButton" id="stop_the_sound_toolbutton">
                 <property name="label" translatable="yes">Stop the sound</property>
+                <property name="tooltip_text" translatable="yes">Stop the sound</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-media-stop</property>
                 <signal name="clicked" handler="stop_the_sound"/>
@@ -335,6 +342,7 @@
               <object class="GtkToolButton" id="toolbutton5">
                 <property name="visible">True</property>
                 <property name="label" translatable="yes">Show missed alarms</property>
+                <property name="tooltip_text" translatable="yes">Show missed alarms</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-revert-to-saved</property>
                 <signal name="clicked" handler="show_missed_alarms"/>
@@ -348,6 +356,7 @@
               <object class="GtkToolButton" id="toolbutton6">
                 <property name="visible">True</property>
                 <property name="label" translatable="yes">Birthdays &amp; templates</property>
+                <property name="tooltip_text" translatable="yes">Birthdays &amp; templates</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-index</property>
                 <signal name="clicked" handler="show_templates"/>
