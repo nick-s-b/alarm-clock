@@ -18,4 +18,3 @@ Type=Application
 Categories=Utility;
 Icon=alarm-clock
 StartupNotify=true
-OnlyShowIn=GNOME;
