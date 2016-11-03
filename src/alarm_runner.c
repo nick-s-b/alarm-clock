@@ -183,7 +183,7 @@ start_sound(gpointer user_data)
 			count_play = count_play + (60 * repeat_value);
 		}
 
-		g_thread_new((GThreadFunc) volume_fade_thread, g_strdup(name), FALSE, NULL);
+		g_thread_try_new("volume fade", (GThreadFunc) volume_fade_thread, g_strdup(name), NULL);
 		
 		gst_bus_add_watch (bus, constant_bus_callback, NULL);
 		gst_element_set_state (play, GST_STATE_PLAYING);
@@ -393,7 +393,7 @@ run_alarm(gchar *name)
 	alarm_name = g_key_file_get_string(loaded_alarms, name, "Title", NULL);
 	
 	if (g_key_file_get_boolean(loaded_alarms, name, "SoundEnabled", NULL))
-		g_thread_new((GThreadFunc) start_sound, alarm_code, FALSE, NULL);
+		g_thread_try_new("start sound", (GThreadFunc) start_sound, alarm_code, NULL);
 	
 	if (g_key_file_get_boolean(loaded_alarms, name, "PassivePopupEnabled", NULL))
 	{
