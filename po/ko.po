@@ -1,0 +1,1279 @@
+# Korean translation for alarmclock
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the alarmclock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alarmclock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-29 14:23+0200\n"
+"PO-Revision-Date: 2008-10-14 14:16+0000\n"
+"Last-Translator: wariua <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-11-10 12:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/interface/alarm-clock.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/interface/alarm-clock.ui.h:2
+msgid "<b>Action to perform</b>"
+msgstr "<b>행동</b>"
+
+#: ../src/interface/alarm-clock.ui.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>날짜</b>"
+
+#: ../src/interface/alarm-clock.ui.h:4
+#, fuzzy
+msgid "<b>Command or script</b>"
+msgstr "<b>명령</b>"
+
+#: ../src/interface/alarm-clock.ui.h:5
+msgid "<b>Date</b>"
+msgstr "<b>날짜</b>"
+
+#: ../src/interface/alarm-clock.ui.h:6
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<b>날짜</b>"
+
+#: ../src/interface/alarm-clock.ui.h:7
+msgid "<b>Dialog window</b>"
+msgstr "<b>대화상자</b>"
+
+#: ../src/interface/alarm-clock.ui.h:8
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>일반 옵션</b>"
+
+#: ../src/interface/alarm-clock.ui.h:9
+#, fuzzy
+msgid "<b>Hour</b>"
+msgstr "<b>소리</b>"
+
+#: ../src/interface/alarm-clock.ui.h:10
+#, fuzzy
+msgid "<b>Message</b>"
+msgstr "<b>날짜</b>"
+
+#: ../src/interface/alarm-clock.ui.h:11
+msgid "<b>Months</b>"
+msgstr "<b>월</b>"
+
+#: ../src/interface/alarm-clock.ui.h:12
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "<b>날짜</b>"
+
+#: ../src/interface/alarm-clock.ui.h:13
+#, fuzzy
+msgid "<b>Passive popup</b>"
+msgstr "<b>시간 제한</b>"
+
+#: ../src/interface/alarm-clock.ui.h:14
+#, fuzzy
+msgid "<b>Priority</b>"
+msgstr "<b>시간 제한</b>"
+
+#: ../src/interface/alarm-clock.ui.h:15
+msgid "<b>Short name</b>"
+msgstr "<b>짧은 이름</b>"
+
+#: ../src/interface/alarm-clock.ui.h:16
+msgid "<b>Snooze</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:17
+#, fuzzy
+msgid "<b>Sound file</b>"
+msgstr "<b>소리</b>"
+
+#: ../src/interface/alarm-clock.ui.h:18
+msgid "<b>Sound</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:19
+msgid "<b>Standard action</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:20
+msgid "<b>Startup</b>"
+msgstr "<b>시작</b>"
+
+#: ../src/interface/alarm-clock.ui.h:21
+#, fuzzy
+msgid "<b>Terminal command</b>"
+msgstr "<b>명령</b>"
+
+#: ../src/interface/alarm-clock.ui.h:22
+msgid "<b>Text</b>"
+msgstr "<b>텍스트</b>"
+
+#: ../src/interface/alarm-clock.ui.h:23
+#, fuzzy
+msgid "<b>Time format</b>"
+msgstr "<b>시간 제한</b>"
+
+#: ../src/interface/alarm-clock.ui.h:24
+msgid "<b>Time</b>"
+msgstr "<b>시간</b>"
+
+#: ../src/interface/alarm-clock.ui.h:25
+msgid "<b>Timeout</b>"
+msgstr "<b>시간 제한</b>"
+
+#: ../src/interface/alarm-clock.ui.h:26
+#, fuzzy
+msgid "<b>Title</b>"
+msgstr "<b>시간</b>"
+
+#: ../src/interface/alarm-clock.ui.h:27
+#, fuzzy
+msgid "<b>Volume</b>"
+msgstr "<b>시간</b>"
+
+#: ../src/interface/alarm-clock.ui.h:28
+msgid "<b>Weekdays</b>"
+msgstr "<b>주말</b>"
+
+#: ../src/interface/alarm-clock.ui.h:29
+#, fuzzy
+msgid ""
+"<big><big>No alarms active</big></big>\n"
+"\n"
+"You can create new alarm by clicking on the plus button on the top of this "
+"window."
+msgstr ""
+"<span foreground='gray40'><big><big>알람이 활성화 되지 않았습니다.</big></"
+"big>\n"
+"\n"
+"<small>새로운 알람을 더하려면 도구 상자의 \"더하기\" 버튼을 누르거나 알람 목"
+"록 파일을 여시기 바랍니다.</small></span>"
+
+#: ../src/interface/alarm-clock.ui.h:32
+msgid ""
+"<big>No birthdays found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:36
+msgid "<big>No dates selected.</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:37
+msgid "<big>No missed alarms</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:38
+msgid ""
+"<big>No tempates found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:42
+msgid "<big>No templates found</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:43
+#, fuzzy
+msgid "Add alarm"
+msgstr "새로운 알람 더하기"
+
+#: ../src/interface/alarm-clock.ui.h:44
+#, fuzzy
+msgid "Add new _alarm"
+msgstr "새로운 알람 더하기"
+
+#: ../src/interface/alarm-clock.ui.h:45
+#, fuzzy
+msgid "Add new _counter"
+msgstr "새로운 카운터 더하기..."
+
+#: ../src/interface/alarm-clock.ui.h:46
+#, fuzzy
+msgid "Add new alarm"
+msgstr "새로운 알람 더하기"
+
+#: ../src/interface/alarm-clock.ui.h:47 ../src/alarm_thread.c:480
+#: ../src/common.c:85 ../src/main.c:91 ../src/main.c:120
+#: ../src/status_icon.c:154
+msgid "Alarm Clock"
+msgstr "알람 시계"
+
+#: ../src/interface/alarm-clock.ui.h:48
+#, fuzzy
+msgid "Alarm priority:"
+msgstr "알람 속성"
+
+#: ../src/interface/alarm-clock.ui.h:49
+msgid "Alarm time:"
+msgstr "알람 시각:"
+
+#: ../src/interface/alarm-clock.ui.h:50
+#, fuzzy
+msgid "Alarm timeout:"
+msgstr "알람 시각:"
+
+#: ../src/interface/alarm-clock.ui.h:51 ../src/schedule.c:28
+msgid "April"
+msgstr "4월"
+
+#: ../src/interface/alarm-clock.ui.h:52 ../src/schedule.c:32
+msgid "August"
+msgstr "8월"
+
+#: ../src/interface/alarm-clock.ui.h:53
+msgid "Background color:"
+msgstr "배경색:"
+
+#: ../src/interface/alarm-clock.ui.h:54
+#, fuzzy
+msgid "Birthday preferences"
+msgstr "설정"
+
+#: ../src/interface/alarm-clock.ui.h:55
+msgid "Birthdays"
+msgstr "생일"
+
+#: ../src/interface/alarm-clock.ui.h:56 ../src/status_icon.c:84
+#, fuzzy
+msgid "Birthdays & templates"
+msgstr "생일 날짜"
+
+#: ../src/interface/alarm-clock.ui.h:57
+#, fuzzy
+msgid "Birthdays and templates"
+msgstr "생일 날짜"
+
+#: ../src/interface/alarm-clock.ui.h:58
+#, fuzzy
+msgid "Check for updates..."
+msgstr "메일을 확인함"
+
+#: ../src/interface/alarm-clock.ui.h:59
+msgid "Choose date"
+msgstr "날짜 선택"
+
+#: ../src/interface/alarm-clock.ui.h:60
+msgid "Constant volume"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:61 ../src/main_list.c:370
+msgid "Counter"
+msgstr "카운터"
+
+#: ../src/interface/alarm-clock.ui.h:62 ../src/schedule.c:36
+msgid "December"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:63
+#, fuzzy
+msgid "Deselect all"
+msgstr "선택된 알람 시험"
+
+#: ../src/interface/alarm-clock.ui.h:64
+#, fuzzy
+msgid "Dialog window properties"
+msgstr "대화창"
+
+#: ../src/interface/alarm-clock.ui.h:65
+msgid "Do not play any sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:66
+msgid "Exclude this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:67
+#, fuzzy
+msgid "Execute command or shell script"
+msgstr "쉘 스크립트 실행"
+
+#: ../src/interface/alarm-clock.ui.h:68
+msgid "Execute standard action"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:69
+#, fuzzy
+msgid "Faded volume"
+msgstr "마지막 음량"
+
+#: ../src/interface/alarm-clock.ui.h:70 ../src/schedule.c:26
+msgid "February"
+msgstr "2월"
+
+#: ../src/interface/alarm-clock.ui.h:71
+msgid "Friday"
+msgstr "금요일"
+
+#: ../src/interface/alarm-clock.ui.h:72
+msgid "General"
+msgstr "일반"
+
+#: ../src/interface/alarm-clock.ui.h:73
+msgid "Include this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:74 ../src/schedule.c:25
+msgid "January"
+msgstr "1월"
+
+#: ../src/interface/alarm-clock.ui.h:75 ../src/schedule.c:31
+msgid "July"
+msgstr "7월"
+
+#: ../src/interface/alarm-clock.ui.h:76 ../src/schedule.c:30
+msgid "June"
+msgstr "6월"
+
+#: ../src/interface/alarm-clock.ui.h:77
+msgid "LIST_VIEW"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:78
+msgid "Lock the screen"
+msgstr "화면 잠그기"
+
+#: ../src/interface/alarm-clock.ui.h:79 ../src/schedule.c:27
+msgid "March"
+msgstr "3월"
+
+#: ../src/interface/alarm-clock.ui.h:80 ../src/schedule.c:29
+msgid "May"
+msgstr "5월"
+
+#: ../src/interface/alarm-clock.ui.h:81
+#, fuzzy
+msgid "Missed alarms"
+msgstr "새 알람"
+
+#: ../src/interface/alarm-clock.ui.h:82
+msgid "Monday"
+msgstr "월요일"
+
+#: ../src/interface/alarm-clock.ui.h:83
+msgid "NO_ALARMS"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:84
+msgid "Notification"
+msgstr "알림"
+
+#: ../src/interface/alarm-clock.ui.h:85 ../src/schedule.c:35
+msgid "November"
+msgstr "11월"
+
+#: ../src/interface/alarm-clock.ui.h:86 ../src/schedule.c:34
+msgid "October"
+msgstr "10월"
+
+#: ../src/interface/alarm-clock.ui.h:87 ../src/export.c:70
+msgid "Open alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:88
+#, fuzzy
+msgid "Play sound during event"
+msgstr "이벤트 시 소리 재생"
+
+#: ../src/interface/alarm-clock.ui.h:89
+msgid "Play standard sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:90
+#, fuzzy
+msgid "Play this sound file"
+msgstr "사운드 파일 선택"
+
+#: ../src/interface/alarm-clock.ui.h:91
+#, fuzzy
+msgid "Popup preferences"
+msgstr "설정"
+
+#: ../src/interface/alarm-clock.ui.h:92
+msgid "Preferences"
+msgstr "설정"
+
+#: ../src/interface/alarm-clock.ui.h:93
+msgid "Repeat after finish "
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:94
+msgid "Run command"
+msgstr "명령 실행"
+
+#: ../src/interface/alarm-clock.ui.h:95
+#, fuzzy
+msgid "Run inside GNOME terminal"
+msgstr "터미널에서 실행"
+
+#: ../src/interface/alarm-clock.ui.h:96
+msgid "Saturday"
+msgstr "토요일"
+
+#: ../src/interface/alarm-clock.ui.h:97 ../src/export.c:29
+msgid "Save alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:98
+msgid "Schedule"
+msgstr "스케쥴"
+
+#: ../src/interface/alarm-clock.ui.h:99 ../src/main_list.c:375
+msgid "Scheduled"
+msgstr "예약됨"
+
+#: ../src/interface/alarm-clock.ui.h:100
+#, fuzzy
+msgid "Select all"
+msgstr "행동 선택:"
+
+#: ../src/interface/alarm-clock.ui.h:101
+#, fuzzy
+msgid "Select date"
+msgstr "행동 선택:"
+
+#: ../src/interface/alarm-clock.ui.h:102 ../src/schedule.c:33
+msgid "September"
+msgstr "9월"
+
+#: ../src/interface/alarm-clock.ui.h:103
+#, fuzzy
+msgid "Show dialog window during event"
+msgstr "대화상자 보이기"
+
+#: ../src/interface/alarm-clock.ui.h:104 ../src/status_icon.c:88
+msgid "Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:105
+msgid "Show passive popup during event"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:106
+msgid "Show snooze button (min):"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:107
+msgid "Single day"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:108
+#, fuzzy
+msgid "Sound properties"
+msgstr "알람 속성"
+
+#: ../src/interface/alarm-clock.ui.h:109
+msgid "Standard action"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:110
+msgid "Start minimized"
+msgstr "최소화 상태로 시작"
+
+#: ../src/interface/alarm-clock.ui.h:111
+msgid "Start the program automatically with GNOME"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:112
+#, fuzzy
+msgid "Start this alarm in (in minutes):"
+msgstr "다음 시간 후 알람 시작 (분):"
+
+#: ../src/interface/alarm-clock.ui.h:113
+msgid "Stop the sound"
+msgstr "소리 멈춤"
+
+#: ../src/interface/alarm-clock.ui.h:114
+msgid "Sunday"
+msgstr "일요일"
+
+#: ../src/interface/alarm-clock.ui.h:115
+msgid "Templates"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:116
+#, fuzzy
+msgid "Test current alarm"
+msgstr "선택된 알람 시험"
+
+#: ../src/interface/alarm-clock.ui.h:117
+msgid "Text color:"
+msgstr "글자색"
+
+#: ../src/interface/alarm-clock.ui.h:118
+msgid "Text size:"
+msgstr "글자 크기:"
+
+#: ../src/interface/alarm-clock.ui.h:119
+msgid "Thursday"
+msgstr "목요일"
+
+#: ../src/interface/alarm-clock.ui.h:120
+msgid "Today"
+msgstr "오늘"
+
+#: ../src/interface/alarm-clock.ui.h:121
+msgid "Tomorrow"
+msgstr "내일"
+
+#: ../src/interface/alarm-clock.ui.h:122
+msgid "Tuesday"
+msgstr "화요일"
+
+#: ../src/interface/alarm-clock.ui.h:123
+msgid "Turn off the monitor"
+msgstr "모니터 끄기"
+
+#: ../src/interface/alarm-clock.ui.h:124
+msgid "Use 12-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:125
+msgid "Use 24-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:126
+msgid "Use custom sound file"
+msgstr "사용자 지정 사운드 사용"
+
+#: ../src/interface/alarm-clock.ui.h:127
+msgid "Wednesday"
+msgstr "수요일"
+
+#: ../src/interface/alarm-clock.ui.h:128
+#, fuzzy
+msgid "_Add new counter..."
+msgstr "새로운 카운터 더하기..."
+
+#: ../src/interface/alarm-clock.ui.h:129
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: ../src/interface/alarm-clock.ui.h:130
+msgid "_File"
+msgstr "파일(_F)"
+
+#: ../src/interface/alarm-clock.ui.h:131
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../src/interface/alarm-clock.ui.h:132
+#, fuzzy
+msgid "_Remove alarm"
+msgstr "이 알람 빼기"
+
+#: ../src/interface/alarm-clock.ui.h:133 ../src/main_list.c:106
+#: ../src/status_icon.c:92
+msgid "_Show menu bar"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:134
+msgid "_Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:135
+msgid "_View"
+msgstr "보기(_V)"
+
+#: ../src/interface/alarm-clock.ui.h:136
+msgid "page 1"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:137
+msgid "page 2"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:138
+msgid "toolbutton1"
+msgstr ""
+
+#: ../src/alarm_runner.c:95
+#, fuzzy
+msgid "<b>Too many sounds!</b>"
+msgstr "<b>소리</b>"
+
+#: ../src/alarm_runner.c:96
+msgid "Cannot play more than 1 sound at once."
+msgstr ""
+
+#: ../src/alarm_runner.c:121
+#, c-format
+msgid "Cannot play sound because the sound file <b>%s</b> was not found."
+msgstr ""
+
+#: ../src/alarm_runner.c:127
+#, fuzzy
+msgid "<b>Cannot find sound file!</b>"
+msgstr "<b>창 제목</b>"
+
+#: ../src/alarm_runner.c:277
+msgid "Snooze"
+msgstr ""
+
+#: ../src/alarm_runner.c:344
+msgid "Press any key to continue..."
+msgstr ""
+
+#: ../src/alarm_thread.c:474
+#, c-format
+msgid ""
+"Today's birthdays:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/common.c:94
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/counters.c:31 ../src/modify_alarm.c:243 ../src/modify_alarm.c:244
+msgid "Untitled"
+msgstr "제목 없음"
+
+#: ../src/counters.c:45 ../src/modify_alarm.c:262
+msgid "Popup"
+msgstr ""
+
+#: ../src/counters.c:46 ../src/modify_alarm.c:263
+msgid "Short popup"
+msgstr ""
+
+#: ../src/counters.c:51 ../src/modify_alarm.c:268
+msgid "Dialog window"
+msgstr ""
+
+#: ../src/counters.c:52 ../src/modify_alarm.c:269
+#, fuzzy
+msgid "This is a small message"
+msgstr "간단한 알리미입니다."
+
+#: ../src/counters.c:77
+#, fuzzy
+msgid "Sound files"
+msgstr "소리 파일:"
+
+#: ../src/counters.c:80 ../src/export.c:38 ../src/export.c:79
+msgid "All files"
+msgstr "모든 파일"
+
+#: ../src/counters.c:152 ../src/modify_alarm.c:421
+#, fuzzy
+msgid "<b>Invalid filename</b>"
+msgstr "<b>창 제목</b>"
+
+#: ../src/counters.c:153 ../src/modify_alarm.c:422
+msgid "You need to specify sound file name."
+msgstr ""
+
+#: ../src/counters.c:170
+#, fuzzy
+msgid "<b>Invalid title</b>"
+msgstr "<b>창 제목</b>"
+
+#: ../src/counters.c:171
+msgid "You need to specify title of the counter."
+msgstr ""
+
+#: ../src/export.c:40 ../src/export.c:81
+#, fuzzy
+msgid "Alarm clock alarms"
+msgstr "알람 시계"
+
+#: ../src/main_list.c:86
+#, fuzzy
+msgid "_Add new alarm"
+msgstr "새로운 알람 더하기"
+
+#: ../src/main_list.c:90
+#, fuzzy
+msgid "_Add new counter"
+msgstr "새로운 카운터 더하기..."
+
+#: ../src/main_list.c:96
+#, fuzzy
+msgid "_Remove this alarm"
+msgstr "이 알람 빼기"
+
+#: ../src/main_list.c:215 ../src/main_window.c:190
+msgid "Name"
+msgstr "이름"
+
+#: ../src/main_list.c:216
+#, fuzzy
+msgid "Alarm type"
+msgstr "알람 시각:"
+
+#: ../src/main_list.c:217
+#, fuzzy
+msgid "Date and time"
+msgstr "날짜 및 시간"
+
+#: ../src/main_list.c:218
+msgid "Time left"
+msgstr ""
+
+#: ../src/main_list.c:364
+msgid "<i>Single</i>"
+msgstr ""
+
+#: ../src/main_list.c:365
+msgid "Single"
+msgstr ""
+
+#: ../src/main_list.c:369
+#, fuzzy
+msgid "<i>Counter</i>"
+msgstr "카운터"
+
+#: ../src/main_list.c:374
+#, fuzzy
+msgid "<i>Scheduled</i>"
+msgstr "예약됨"
+
+#: ../src/main_window.c:50
+msgid "<b>You have old alarms</b>"
+msgstr ""
+
+#: ../src/main_window.c:52
+msgid ""
+"It seems you missed some alarms, because your old alarm list is not empty."
+msgstr ""
+
+#: ../src/main_window.c:191
+msgid "Date"
+msgstr "날짜"
+
+#: ../src/main_window.c:246 ../src/schedule.c:349
+#, fuzzy
+msgid "<b>Include</b>"
+msgstr "<b>소리</b>"
+
+#: ../src/main_window.c:248 ../src/schedule.c:351
+#, fuzzy
+msgid "<b>Exclude</b>"
+msgstr "<b>예외</b>"
+
+#: ../src/main_window.c:270
+msgid "Small"
+msgstr ""
+
+#: ../src/main_window.c:271
+msgid "Medium"
+msgstr "중간"
+
+#: ../src/main_window.c:272
+msgid "Large"
+msgstr ""
+
+#: ../src/main_window.c:273
+msgid "Very large"
+msgstr ""
+
+#: ../src/modify_alarm.c:369 ../src/modify_alarm.c:386
+#, c-format
+msgid "Infinite"
+msgstr ""
+
+#: ../src/modify_alarm.c:756 ../src/modify_alarm.c:777
+msgid "<b>Error occured!</b>"
+msgstr ""
+
+#: ../src/modify_alarm.c:758
+msgid "You need to select at least one notification."
+msgstr ""
+
+#: ../src/modify_alarm.c:779
+msgid "Alarm title cannot be empty."
+msgstr ""
+
+#: ../src/modify_alarm.c:1065 ../src/templates.c:477
+#, fuzzy
+msgid "<b>Are you sure?</b>"
+msgstr "확실합니까?"
+
+#: ../src/modify_alarm.c:1067
+#, fuzzy, c-format
+msgid "Are you sure you want to remove alarm %s?"
+msgstr "정말로 이 알람을 빼시겠습니까?"
+
+#: ../src/schedule.c:38
+msgid "Invalid"
+msgstr ""
+
+#: ../src/schedule.c:435
+#, fuzzy
+msgid "<b>Cannot add date</b>"
+msgstr "<b>짧은 이름</b>"
+
+#: ../src/schedule.c:437
+msgid "This date already exists on the list."
+msgstr ""
+
+#: ../src/schedule.c:498
+msgid ""
+"You need to select at least one month and day or include one date to the "
+"schedule."
+msgstr ""
+
+#: ../src/schedule.c:524
+#, fuzzy
+msgid "<b>Cannot proceed</b>"
+msgstr "<b>명령</b>"
+
+#: ../src/status_icon.c:68
+#, fuzzy
+msgid "_Show main window"
+msgstr "주 윈도우를 화면에 보이기"
+
+#: ../src/status_icon.c:74
+#, fuzzy
+msgid "_Add alarm..."
+msgstr "새로운 알람 더하기..."
+
+#: ../src/status_icon.c:78
+#, fuzzy
+msgid "Add counter..."
+msgstr "새로운 카운터 더하기..."
+
+#: ../src/templates.c:163
+msgid "You need to provide the name."
+msgstr ""
+
+#: ../src/templates.c:401
+#, fuzzy, c-format
+msgid "Are you sure you want to remove birthday for %s?"
+msgstr "정말로 이 생일을 빼시겠습니까?"
+
+#: ../src/templates.c:470
+#, fuzzy, c-format
+msgid "Are you sure you want to remove template %s?"
+msgstr "정말로 이 알람을 빼시겠습니까?"
+
+#~ msgid "Current time: %c"
+#~ msgstr "현재 시각: %c"
+
+#~ msgid "Birthday today! Remember to buy presents:\n"
+#~ msgstr "오늘은 생일입니다! 선물을 사는 것을 잊지 마십시오:\n"
+
+#~ msgid "Confirmation equired"
+#~ msgstr "확인이 필요합니다."
+
+#~ msgid ""
+#~ "Alarm Clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "in %i seconds. Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "알람 시계는 다음 행동을 취하게 됩니다:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "(%i 초 남음). 취소하시려면 \"취소\" 버튼을 눌러주십시오."
+
+#~ msgid "Confirmation required"
+#~ msgstr "확인이 필요합니다."
+
+#~ msgid ""
+#~ "Alarm clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "알람 시계는 다음 행동을 취하게 됩니다:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "취소하시려면 \"취소\" 버튼을 눌러주십시오."
+
+#~ msgid "Error loading GTK+ libraries. Check if they are properly installed"
+#~ msgstr "Error loading GTK+ libraries. Check if they are properly installed"
+
+#~ msgid "on your system."
+#~ msgstr "on your system."
+
+#~ msgid "Error!"
+#~ msgstr "에러!"
+
+#~ msgid "Error loading pynotify module!"
+#~ msgstr "pynotify 모듈 로딩 에러!"
+
+#~ msgid "Cannot initialize threading library!"
+#~ msgstr "쓰레딩 라이브러리를 초기화 할 수 없습니다!"
+
+#~ msgid "An instance is running"
+#~ msgstr "다른 개체가 실행중입니다."
+
+#~ msgid "Another instance of Alarm Clock is already running, aborting."
+#~ msgstr "이미 다른 개체가 실행중입니다. 취소합니다."
+
+#~ msgid "Type"
+#~ msgstr "유형"
+
+#~ msgid "First and last name"
+#~ msgstr "이름과 성"
+
+#~ msgid "Birthday removal"
+#~ msgstr "생일 빼기"
+
+#~ msgid "Alarm removal"
+#~ msgstr "알람 빼기"
+
+#~ msgid ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "For Kamila:)"
+#~ msgstr ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "Kamila를 위해 :)"
+
+#~ msgid ""
+#~ "This alarm cannot be saved, because it's in the past. You need to "
+#~ "manually correct the problem."
+#~ msgstr ""
+#~ "과거로 설정되어 있어서 이 알람을 저장할 수 없습니다. 직접 이 문제를 해결"
+#~ "해 주십시오."
+
+#~ msgid "Error"
+#~ msgstr "오류"
+
+#~ msgid "Audio files"
+#~ msgstr "오디오 파일"
+
+#~ msgid "A simple counter."
+#~ msgstr "간단한 카운터"
+
+#~ msgid "Counter message"
+#~ msgstr "카운터 메세지"
+
+#~ msgid "Choose your sound file"
+#~ msgstr "소리 선택"
+
+#~ msgid "Choose your Glade file"
+#~ msgstr "글래이드 파일 선택"
+
+#~ msgid "Glade files"
+#~ msgstr "글래이드 파일"
+
+#~ msgid "None"
+#~ msgstr "없음"
+
+#~ msgid "Comment"
+#~ msgstr "설명"
+
+#~ msgid "This is simple dialog window"
+#~ msgstr "간단한 대화상자입니다."
+
+#~ msgid "Reminder"
+#~ msgstr "알리미"
+
+#~ msgid "%s:%s - Today"
+#~ msgstr "%s:%s - 오늘"
+
+#~ msgid "%s:%s - Cancelled"
+#~ msgstr "%s:%s - 취소됨"
+
+#~ msgid "Select location"
+#~ msgstr "위치 선택"
+
+#~ msgid "This file does not contain any alarm information."
+#~ msgstr "이 파일은 알람 정보를 가지고 있지 않습니다."
+
+#~ msgid ""
+#~ "Are you sure you want to create a new alarm list?\n"
+#~ "Any unsaved changes will be lost."
+#~ msgstr ""
+#~ "정말로 새로운 알람 목록을 만드시겠습니까?\n"
+#~ "저장되지 않은 정보는 잃습니다."
+
+#~ msgid ""
+#~ "The GLADE file <b>%s</b> is incorrect. It should contain a dialog called "
+#~ "\"alarm_dialog\" and a label called \"alarm_label\"."
+#~ msgstr ""
+#~ "<b>%s</b>는 올바르지 않은 글래이드 파일입니다. 대화상자 \"alarm_dialog"
+#~ "\"와 라벨 \"alarm_label\"를 포함해야만 합니다."
+
+#~ msgid "Error: cannot create dialog window."
+#~ msgstr "오류: 대화상자를 생성할 수 없습니다."
+
+#~ msgid "Shutdown"
+#~ msgstr "시스템 종료"
+
+#~ msgid "Reboot"
+#~ msgstr "다시 시작"
+
+#~ msgid "Usage:"
+#~ msgstr "사용법:"
+
+#~ msgid "  %s [--OPTION]"
+#~ msgstr "  %s [--옵션]"
+
+#~ msgid "Available options:"
+#~ msgstr "사용 가능한 옵션:"
+
+#~ msgid "  -?, -h, --help        Show this help"
+#~ msgstr "  -?, -h, --help        이 도움말을 표시합니다."
+
+#~ msgid "  -v, --version         Show version"
+#~ msgstr "  -v, --version         버전을 표시합니다."
+
+#~ msgid "  -t, --tray            Start minimized"
+#~ msgstr "  -t, --tray            최소화 상태로 시작합니다."
+
+#~ msgid "Alarm Clock version %s"
+#~ msgstr "알람 시계 버전 %s"
+
+#~ msgid "Unknown parameter, use --help for help."
+#~ msgstr "알려지지 않은 인수, 도움말은 --help를 이용하십시오."
+
+#~ msgid "110"
+#~ msgstr "110"
+
+#~ msgid "<b>Account type</b>"
+#~ msgstr "<b>계정 종류</b>"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>설명</b>"
+
+#~ msgid "<b>Confirmation</b>"
+#~ msgstr "<b>확인</b>"
+
+#~ msgid "<b>Login information</b>"
+#~ msgstr "<b>로그인 정보</b>"
+
+#~ msgid "<b>Mail checking</b>"
+#~ msgstr "<b>메일 확인</b>"
+
+#~ msgid "<b>Server information</b>"
+#~ msgstr "<b>서버 정보</b>"
+
+#~ msgid "<b>Summary text</b>"
+#~ msgstr "<b>요약문</b>"
+
+#~ msgid "<b>Summary</b>"
+#~ msgstr "<b>요약</b>"
+
+#~ msgid ""
+#~ "<big>No birthdays found.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>To create a new birthday, please click\n"
+#~ "on Add button on the right side.\n"
+#~ "You can remove birthday by clicking\n"
+#~ "the Remove button. You can edit birthdays\n"
+#~ "in the future by clicking Properties button.</small>"
+#~ msgstr ""
+#~ "<big>저장된 생일을 찾을 수 없습니다.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>새로운 생일을 더하려면 오른편의\n"
+#~ "\"더하기\" 버튼을 눌러주십시오.\n"
+#~ "\"빼기\" 버튼을 눌러서 생일을 뺄 수 있습니다.\n"
+#~ "\"속성\" 버튼을 눌러 미래의 생일을 고칠 수 있습니다.</small>"
+
+#~ msgid "Account type:"
+#~ msgstr "계정 종류:"
+
+#~ msgid "Add exception"
+#~ msgstr "예외 더하기"
+
+#~ msgid ""
+#~ "Add items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr "목록에 항목 더하기"
+
+#~ msgid "Address:"
+#~ msgstr "주소:"
+
+#~ msgid ""
+#~ "Append items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr "목록에 항목 더하기"
+
+#~ msgid "Ask for confirmation"
+#~ msgstr "확인을 위해 물어보기"
+
+#~ msgid "Author:"
+#~ msgstr "만든이:"
+
+#~ msgid "Choose a GLADE file"
+#~ msgstr "글래이드 파일 선택"
+
+#~ msgid "Choose action:"
+#~ msgstr "행동 선택:"
+
+#~ msgid "Choose file to open"
+#~ msgstr "열 파일 선택"
+
+#~ msgid "Comments:"
+#~ msgstr "설명:"
+
+#~ msgid "Confirmation timeout (sec):"
+#~ msgstr "확인 시간 제한 (초):"
+
+#~ msgid "Create simple counter"
+#~ msgstr "간단한 카운터 만들기"
+
+#~ msgid "Email address"
+#~ msgstr "이메일 주소"
+
+#~ msgid "Email address:"
+#~ msgstr "이메일 주소:"
+
+#~ msgid "Enable mail notification"
+#~ msgstr "메일 알림 활성화"
+
+#~ msgid "Fade"
+#~ msgstr "사라짐"
+
+#~ msgid "High"
+#~ msgstr "높음"
+
+#~ msgid "Initial volume:"
+#~ msgstr "시작 음량"
+
+#~ msgid "Interval (in minutes):"
+#~ msgstr "간격 (분):"
+
+#~ msgid ""
+#~ "January\n"
+#~ "February\n"
+#~ "March\n"
+#~ "April\n"
+#~ "May\n"
+#~ "June\n"
+#~ "July\n"
+#~ "August\n"
+#~ "September\n"
+#~ "October\n"
+#~ "November\n"
+#~ "December"
+#~ msgstr ""
+#~ "1월\n"
+#~ "2월\n"
+#~ "3월\n"
+#~ "4월\n"
+#~ "5월\n"
+#~ "6월\n"
+#~ "7월\n"
+#~ "8월\n"
+#~ "9월\n"
+#~ "10월\n"
+#~ "11월\n"
+#~ "12월"
+
+#~ msgid "Load exception list"
+#~ msgstr "예외 목록 불러오기"
+
+#~ msgid "Login:"
+#~ msgstr "로그인:"
+
+#~ msgid "Low"
+#~ msgstr "낮음"
+
+#~ msgid "Month:"
+#~ msgstr "월:"
+
+#~ msgid ""
+#~ "POP3\n"
+#~ "IMAP"
+#~ msgstr ""
+#~ "POP3\n"
+#~ "IMAP"
+
+#~ msgid "Password:"
+#~ msgstr "암호:"
+
+#~ msgid "Person's name:"
+#~ msgstr "사람의 이름:"
+
+#~ msgid "Play sound"
+#~ msgstr "소리 재생"
+
+#~ msgid "Port:"
+#~ msgstr "포트:"
+
+#~ msgid "Reboot the computer"
+#~ msgstr "컴퓨터 재시작"
+
+#~ msgid "Remove selected alarm"
+#~ msgstr "선택된 알람 빼기"
+
+#~ msgid "Save exception list"
+#~ msgstr "예외 목록 저장"
+
+#~ msgid "Select birthday"
+#~ msgstr "생일 선택"
+
+#~ msgid "Select exception list"
+#~ msgstr "예외 목록 선택"
+
+#~ msgid "Show in fullscreen"
+#~ msgstr "전체화면으로 보기"
+
+#~ msgid "Shut down the computer"
+#~ msgstr "컴퓨터를 종료"
+
+#~ msgid "Simple counter"
+#~ msgstr "간단한 카운터"
+
+#~ msgid ""
+#~ "Small\n"
+#~ "Normal\n"
+#~ "Big\n"
+#~ "Large\n"
+#~ "Very large\n"
+#~ "Huge\n"
+#~ "Giant"
+#~ msgstr ""
+#~ "작은\n"
+#~ "보통\n"
+#~ "큰\n"
+#~ "더 큰\n"
+#~ "매우 큰\n"
+#~ "엄청 큰\n"
+#~ "엄청난"
+
+#~ msgid "Test"
+#~ msgstr "시험"
+
+#~ msgid "Timeout in seconds:"
+#~ msgstr "시간 제한(초):"
+
+#~ msgid "Unnamed person"
+#~ msgstr "이름 없는 사람"
+
+#~ msgid "Use SSL (eg. for GMail)"
+#~ msgstr "SSL 사용 (GMail)"
+
+#~ msgid "Volume:"
+#~ msgstr "음량:"
+
+#~ msgid "What do you want to do?"
+#~ msgstr "무엇을 하겠습니까?"
+
+#~ msgid "gtk-clear"
+#~ msgstr "gtk-clear"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"

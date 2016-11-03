@@ -1,0 +1,1427 @@
+# Simplified Chinese translation for alarmclock
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the alarmclock package.
+# Aron Xu <Unknown>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alarmclock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-29 14:23+0200\n"
+"PO-Revision-Date: 2008-10-10 03:05+0000\n"
+"Last-Translator: Mr.Lodar <Unknown>\n"
+"Language-Team: Simplified Chinese <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-11-10 12:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/interface/alarm-clock.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/interface/alarm-clock.ui.h:2
+msgid "<b>Action to perform</b>"
+msgstr "<b>要执行的动作</b>"
+
+#: ../src/interface/alarm-clock.ui.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>紧急</b>"
+
+#: ../src/interface/alarm-clock.ui.h:4
+#, fuzzy
+msgid "<b>Command or script</b>"
+msgstr "<b>命令</b>"
+
+#: ../src/interface/alarm-clock.ui.h:5
+msgid "<b>Date</b>"
+msgstr "<b>日期</b>"
+
+#: ../src/interface/alarm-clock.ui.h:6
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<b>日期</b>"
+
+#: ../src/interface/alarm-clock.ui.h:7
+msgid "<b>Dialog window</b>"
+msgstr "<b>对话框</b>"
+
+#: ../src/interface/alarm-clock.ui.h:8
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>通用选项</b>"
+
+#: ../src/interface/alarm-clock.ui.h:9
+#, fuzzy
+msgid "<b>Hour</b>"
+msgstr "<b>声音</b>"
+
+#: ../src/interface/alarm-clock.ui.h:10
+#, fuzzy
+msgid "<b>Message</b>"
+msgstr "<b>日期</b>"
+
+#: ../src/interface/alarm-clock.ui.h:11
+msgid "<b>Months</b>"
+msgstr "<b>月</b>"
+
+#: ../src/interface/alarm-clock.ui.h:12
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "<b>日期</b>"
+
+#: ../src/interface/alarm-clock.ui.h:13
+#, fuzzy
+msgid "<b>Passive popup</b>"
+msgstr "<b>被动窗口</b>"
+
+#: ../src/interface/alarm-clock.ui.h:14
+#, fuzzy
+msgid "<b>Priority</b>"
+msgstr "<b>超时</b>"
+
+#: ../src/interface/alarm-clock.ui.h:15
+msgid "<b>Short name</b>"
+msgstr "<b>简称</b>"
+
+#: ../src/interface/alarm-clock.ui.h:16
+msgid "<b>Snooze</b>"
+msgstr "<b>打盹</b>"
+
+#: ../src/interface/alarm-clock.ui.h:17
+#, fuzzy
+msgid "<b>Sound file</b>"
+msgstr "<b>声音</b>"
+
+#: ../src/interface/alarm-clock.ui.h:18
+msgid "<b>Sound</b>"
+msgstr "<b>声音</b>"
+
+#: ../src/interface/alarm-clock.ui.h:19
+msgid "<b>Standard action</b>"
+msgstr "<b>标准动作</b>"
+
+#: ../src/interface/alarm-clock.ui.h:20
+msgid "<b>Startup</b>"
+msgstr "<b>启动</b>"
+
+#: ../src/interface/alarm-clock.ui.h:21
+#, fuzzy
+msgid "<b>Terminal command</b>"
+msgstr "<b>命令</b>"
+
+#: ../src/interface/alarm-clock.ui.h:22
+msgid "<b>Text</b>"
+msgstr "<b>文字</b>"
+
+#: ../src/interface/alarm-clock.ui.h:23
+#, fuzzy
+msgid "<b>Time format</b>"
+msgstr "<b>超时</b>"
+
+#: ../src/interface/alarm-clock.ui.h:24
+msgid "<b>Time</b>"
+msgstr "<b>时间</b>"
+
+#: ../src/interface/alarm-clock.ui.h:25
+msgid "<b>Timeout</b>"
+msgstr "<b>超时</b>"
+
+#: ../src/interface/alarm-clock.ui.h:26
+#, fuzzy
+msgid "<b>Title</b>"
+msgstr "<b>时间</b>"
+
+#: ../src/interface/alarm-clock.ui.h:27
+#, fuzzy
+msgid "<b>Volume</b>"
+msgstr "<b>时间</b>"
+
+#: ../src/interface/alarm-clock.ui.h:28
+msgid "<b>Weekdays</b>"
+msgstr "<b>工作日</b>"
+
+#: ../src/interface/alarm-clock.ui.h:29
+#, fuzzy
+msgid ""
+"<big><big>No alarms active</big></big>\n"
+"\n"
+"You can create new alarm by clicking on the plus button on the top of this "
+"window."
+msgstr ""
+"<span foreground='gray40'><big><big>没有被激活的提醒</big></big>\n"
+"\n"
+"<small>要新建一个提醒，点击“添加”按钮活打开一个提醒列表文件。</small></span>"
+
+#: ../src/interface/alarm-clock.ui.h:32
+msgid ""
+"<big>No birthdays found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:36
+msgid "<big>No dates selected.</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:37
+#, fuzzy
+msgid "<big>No missed alarms</big>"
+msgstr "显示错过的闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:38
+msgid ""
+"<big>No tempates found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:42
+msgid "<big>No templates found</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:43
+#, fuzzy
+msgid "Add alarm"
+msgstr "添加一个新闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:44
+#, fuzzy
+msgid "Add new _alarm"
+msgstr "添加一个新闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:45
+#, fuzzy
+msgid "Add new _counter"
+msgstr "添加新的计数器…"
+
+#: ../src/interface/alarm-clock.ui.h:46
+#, fuzzy
+msgid "Add new alarm"
+msgstr "添加一个新闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:47 ../src/alarm_thread.c:480
+#: ../src/common.c:85 ../src/main.c:91 ../src/main.c:120
+#: ../src/status_icon.c:154
+msgid "Alarm Clock"
+msgstr "闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:48
+#, fuzzy
+msgid "Alarm priority:"
+msgstr "提醒属性"
+
+#: ../src/interface/alarm-clock.ui.h:49
+msgid "Alarm time:"
+msgstr "闹钟时间："
+
+#: ../src/interface/alarm-clock.ui.h:50
+#, fuzzy
+msgid "Alarm timeout:"
+msgstr "闹钟时间："
+
+#: ../src/interface/alarm-clock.ui.h:51 ../src/schedule.c:28
+msgid "April"
+msgstr "四月"
+
+#: ../src/interface/alarm-clock.ui.h:52 ../src/schedule.c:32
+msgid "August"
+msgstr "八月"
+
+#: ../src/interface/alarm-clock.ui.h:53
+msgid "Background color:"
+msgstr "背景颜色："
+
+#: ../src/interface/alarm-clock.ui.h:54
+#, fuzzy
+msgid "Birthday preferences"
+msgstr "首选项"
+
+#: ../src/interface/alarm-clock.ui.h:55
+msgid "Birthdays"
+msgstr "生日"
+
+#: ../src/interface/alarm-clock.ui.h:56 ../src/status_icon.c:84
+#, fuzzy
+msgid "Birthdays & templates"
+msgstr "生日和模板"
+
+#: ../src/interface/alarm-clock.ui.h:57
+#, fuzzy
+msgid "Birthdays and templates"
+msgstr "生日和模板"
+
+#: ../src/interface/alarm-clock.ui.h:58
+#, fuzzy
+msgid "Check for updates..."
+msgstr "检查电子邮件"
+
+#: ../src/interface/alarm-clock.ui.h:59
+msgid "Choose date"
+msgstr "选择日期"
+
+#: ../src/interface/alarm-clock.ui.h:60
+msgid "Constant volume"
+msgstr "固定音量"
+
+#: ../src/interface/alarm-clock.ui.h:61 ../src/main_list.c:370
+msgid "Counter"
+msgstr "计数器"
+
+#: ../src/interface/alarm-clock.ui.h:62 ../src/schedule.c:36
+msgid "December"
+msgstr "十二月"
+
+#: ../src/interface/alarm-clock.ui.h:63
+#, fuzzy
+msgid "Deselect all"
+msgstr "全部不选"
+
+#: ../src/interface/alarm-clock.ui.h:64
+#, fuzzy
+msgid "Dialog window properties"
+msgstr "对话框"
+
+#: ../src/interface/alarm-clock.ui.h:65
+#, fuzzy
+msgid "Do not play any sound"
+msgstr "播放标准的声音"
+
+#: ../src/interface/alarm-clock.ui.h:66
+msgid "Exclude this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:67
+#, fuzzy
+msgid "Execute command or shell script"
+msgstr "执行 shell 脚本"
+
+#: ../src/interface/alarm-clock.ui.h:68
+#, fuzzy
+msgid "Execute standard action"
+msgstr "执行标准动作"
+
+#: ../src/interface/alarm-clock.ui.h:69
+#, fuzzy
+msgid "Faded volume"
+msgstr "最终音量"
+
+#: ../src/interface/alarm-clock.ui.h:70 ../src/schedule.c:26
+msgid "February"
+msgstr "二月"
+
+#: ../src/interface/alarm-clock.ui.h:71
+msgid "Friday"
+msgstr "星期五"
+
+#: ../src/interface/alarm-clock.ui.h:72
+msgid "General"
+msgstr "常规"
+
+#: ../src/interface/alarm-clock.ui.h:73
+msgid "Include this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:74 ../src/schedule.c:25
+msgid "January"
+msgstr "一月"
+
+#: ../src/interface/alarm-clock.ui.h:75 ../src/schedule.c:31
+msgid "July"
+msgstr "七月"
+
+#: ../src/interface/alarm-clock.ui.h:76 ../src/schedule.c:30
+msgid "June"
+msgstr "六月"
+
+#: ../src/interface/alarm-clock.ui.h:77
+msgid "LIST_VIEW"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:78
+msgid "Lock the screen"
+msgstr "锁住屏幕"
+
+#: ../src/interface/alarm-clock.ui.h:79 ../src/schedule.c:27
+msgid "March"
+msgstr "三月"
+
+#: ../src/interface/alarm-clock.ui.h:80 ../src/schedule.c:29
+msgid "May"
+msgstr "五月"
+
+#: ../src/interface/alarm-clock.ui.h:81
+#, fuzzy
+msgid "Missed alarms"
+msgstr "错过的闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:82
+msgid "Monday"
+msgstr "星期一"
+
+#: ../src/interface/alarm-clock.ui.h:83
+msgid "NO_ALARMS"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:84
+msgid "Notification"
+msgstr "通知"
+
+#: ../src/interface/alarm-clock.ui.h:85 ../src/schedule.c:35
+msgid "November"
+msgstr "十一月"
+
+#: ../src/interface/alarm-clock.ui.h:86 ../src/schedule.c:34
+msgid "October"
+msgstr "十月"
+
+#: ../src/interface/alarm-clock.ui.h:87 ../src/export.c:70
+msgid "Open alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:88
+#, fuzzy
+msgid "Play sound during event"
+msgstr "在时间发生时播放声音"
+
+#: ../src/interface/alarm-clock.ui.h:89
+msgid "Play standard sound"
+msgstr "播放标准的声音"
+
+#: ../src/interface/alarm-clock.ui.h:90
+#, fuzzy
+msgid "Play this sound file"
+msgstr "选择一个声音文件"
+
+#: ../src/interface/alarm-clock.ui.h:91
+#, fuzzy
+msgid "Popup preferences"
+msgstr "首选项"
+
+#: ../src/interface/alarm-clock.ui.h:92
+msgid "Preferences"
+msgstr "首选项"
+
+#: ../src/interface/alarm-clock.ui.h:93
+#, fuzzy
+msgid "Repeat after finish "
+msgstr "重复（0为无限）"
+
+#: ../src/interface/alarm-clock.ui.h:94
+msgid "Run command"
+msgstr "运行命令"
+
+#: ../src/interface/alarm-clock.ui.h:95
+#, fuzzy
+msgid "Run inside GNOME terminal"
+msgstr "在终端运行"
+
+#: ../src/interface/alarm-clock.ui.h:96
+msgid "Saturday"
+msgstr "星期六"
+
+#: ../src/interface/alarm-clock.ui.h:97 ../src/export.c:29
+msgid "Save alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:98
+msgid "Schedule"
+msgstr "计划表"
+
+#: ../src/interface/alarm-clock.ui.h:99 ../src/main_list.c:375
+msgid "Scheduled"
+msgstr "日程"
+
+#: ../src/interface/alarm-clock.ui.h:100
+#, fuzzy
+msgid "Select all"
+msgstr "全部选择"
+
+#: ../src/interface/alarm-clock.ui.h:101
+#, fuzzy
+msgid "Select date"
+msgstr "选择动作："
+
+#: ../src/interface/alarm-clock.ui.h:102 ../src/schedule.c:33
+msgid "September"
+msgstr "九月"
+
+#: ../src/interface/alarm-clock.ui.h:103
+#, fuzzy
+msgid "Show dialog window during event"
+msgstr "显示对话窗口"
+
+#: ../src/interface/alarm-clock.ui.h:104 ../src/status_icon.c:88
+msgid "Show missed alarms"
+msgstr "显示错过的闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:105
+#, fuzzy
+msgid "Show passive popup during event"
+msgstr "显示被动窗口"
+
+#: ../src/interface/alarm-clock.ui.h:106
+#, fuzzy
+msgid "Show snooze button (min):"
+msgstr "显示（打盹）按钮的分钟数："
+
+#: ../src/interface/alarm-clock.ui.h:107
+msgid "Single day"
+msgstr "单日"
+
+#: ../src/interface/alarm-clock.ui.h:108
+#, fuzzy
+msgid "Sound properties"
+msgstr "提醒属性"
+
+#: ../src/interface/alarm-clock.ui.h:109
+msgid "Standard action"
+msgstr "标准动作"
+
+#: ../src/interface/alarm-clock.ui.h:110
+msgid "Start minimized"
+msgstr "启动后最小化"
+
+#: ../src/interface/alarm-clock.ui.h:111
+#, fuzzy
+msgid "Start the program automatically with GNOME"
+msgstr "通过 GNOME 启动 Alarm Clock"
+
+#: ../src/interface/alarm-clock.ui.h:112
+#, fuzzy
+msgid "Start this alarm in (in minutes):"
+msgstr "在几分钟后启动提醒："
+
+#: ../src/interface/alarm-clock.ui.h:113
+msgid "Stop the sound"
+msgstr "停止声音"
+
+#: ../src/interface/alarm-clock.ui.h:114
+msgid "Sunday"
+msgstr "星期日"
+
+#: ../src/interface/alarm-clock.ui.h:115
+msgid "Templates"
+msgstr "模板"
+
+#: ../src/interface/alarm-clock.ui.h:116
+#, fuzzy
+msgid "Test current alarm"
+msgstr "测试选中的提醒"
+
+#: ../src/interface/alarm-clock.ui.h:117
+msgid "Text color:"
+msgstr "文字颜色："
+
+#: ../src/interface/alarm-clock.ui.h:118
+msgid "Text size:"
+msgstr "文字大小"
+
+#: ../src/interface/alarm-clock.ui.h:119
+msgid "Thursday"
+msgstr "星期四"
+
+#: ../src/interface/alarm-clock.ui.h:120
+msgid "Today"
+msgstr "今日"
+
+#: ../src/interface/alarm-clock.ui.h:121
+msgid "Tomorrow"
+msgstr "明天"
+
+#: ../src/interface/alarm-clock.ui.h:122
+msgid "Tuesday"
+msgstr "星期二"
+
+#: ../src/interface/alarm-clock.ui.h:123
+msgid "Turn off the monitor"
+msgstr "关闭显示器"
+
+#: ../src/interface/alarm-clock.ui.h:124
+msgid "Use 12-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:125
+msgid "Use 24-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:126
+msgid "Use custom sound file"
+msgstr "使用自定义声音文件"
+
+#: ../src/interface/alarm-clock.ui.h:127
+msgid "Wednesday"
+msgstr "星期三"
+
+#: ../src/interface/alarm-clock.ui.h:128
+#, fuzzy
+msgid "_Add new counter..."
+msgstr "添加新的计数器…"
+
+#: ../src/interface/alarm-clock.ui.h:129
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: ../src/interface/alarm-clock.ui.h:130
+msgid "_File"
+msgstr "文件(_F)"
+
+#: ../src/interface/alarm-clock.ui.h:131
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../src/interface/alarm-clock.ui.h:132
+#, fuzzy
+msgid "_Remove alarm"
+msgstr "移除此闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:133 ../src/main_list.c:106
+#: ../src/status_icon.c:92
+#, fuzzy
+msgid "_Show menu bar"
+msgstr "显示错过的闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:134
+#, fuzzy
+msgid "_Show missed alarms"
+msgstr "显示错过的闹钟"
+
+#: ../src/interface/alarm-clock.ui.h:135
+msgid "_View"
+msgstr "视图(_V)"
+
+#: ../src/interface/alarm-clock.ui.h:136
+msgid "page 1"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:137
+msgid "page 2"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:138
+msgid "toolbutton1"
+msgstr ""
+
+#: ../src/alarm_runner.c:95
+#, fuzzy
+msgid "<b>Too many sounds!</b>"
+msgstr "<b>声音</b>"
+
+#: ../src/alarm_runner.c:96
+msgid "Cannot play more than 1 sound at once."
+msgstr ""
+
+#: ../src/alarm_runner.c:121
+#, fuzzy, c-format
+msgid "Cannot play sound because the sound file <b>%s</b> was not found."
+msgstr "不能播放声音，因为另外一个闹铃正在播放！"
+
+#: ../src/alarm_runner.c:127
+#, fuzzy
+msgid "<b>Cannot find sound file!</b>"
+msgstr "<b>窗口标题</b>"
+
+#: ../src/alarm_runner.c:277
+msgid "Snooze"
+msgstr "打盹"
+
+#: ../src/alarm_runner.c:344
+msgid "Press any key to continue..."
+msgstr ""
+
+#: ../src/alarm_thread.c:474
+#, c-format
+msgid ""
+"Today's birthdays:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/common.c:94
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Aron Xu https://launchpad.net/~cnfavor\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Aron Xu https://launchpad.net/~cnfavor\n"
+"  Mr.Lodar https://launchpad.net/~mr.lodar\n"
+"  Tao Wei https://launchpad.net/~weitao1979"
+
+#: ../src/counters.c:31 ../src/modify_alarm.c:243 ../src/modify_alarm.c:244
+msgid "Untitled"
+msgstr "无标题"
+
+#: ../src/counters.c:45 ../src/modify_alarm.c:262
+msgid "Popup"
+msgstr ""
+
+#: ../src/counters.c:46 ../src/modify_alarm.c:263
+msgid "Short popup"
+msgstr ""
+
+#: ../src/counters.c:51 ../src/modify_alarm.c:268
+msgid "Dialog window"
+msgstr "对话框"
+
+#: ../src/counters.c:52 ../src/modify_alarm.c:269
+#, fuzzy
+msgid "This is a small message"
+msgstr "这是一个普通提醒。"
+
+#: ../src/counters.c:77
+#, fuzzy
+msgid "Sound files"
+msgstr "声音文件："
+
+#: ../src/counters.c:80 ../src/export.c:38 ../src/export.c:79
+msgid "All files"
+msgstr "所有文件"
+
+#: ../src/counters.c:152 ../src/modify_alarm.c:421
+#, fuzzy
+msgid "<b>Invalid filename</b>"
+msgstr "<b>窗口标题</b>"
+
+#: ../src/counters.c:153 ../src/modify_alarm.c:422
+msgid "You need to specify sound file name."
+msgstr ""
+
+#: ../src/counters.c:170
+#, fuzzy
+msgid "<b>Invalid title</b>"
+msgstr "<b>窗口标题</b>"
+
+#: ../src/counters.c:171
+#, fuzzy
+msgid "You need to specify title of the counter."
+msgstr "你至少需要选择一个月份来操作。"
+
+#: ../src/export.c:40 ../src/export.c:81
+#, fuzzy
+msgid "Alarm clock alarms"
+msgstr "闹钟"
+
+#: ../src/main_list.c:86
+#, fuzzy
+msgid "_Add new alarm"
+msgstr "添加一个新闹钟"
+
+#: ../src/main_list.c:90
+#, fuzzy
+msgid "_Add new counter"
+msgstr "添加新的计数器…"
+
+#: ../src/main_list.c:96
+#, fuzzy
+msgid "_Remove this alarm"
+msgstr "移除此闹钟"
+
+#: ../src/main_list.c:215 ../src/main_window.c:190
+msgid "Name"
+msgstr "名称"
+
+#: ../src/main_list.c:216
+#, fuzzy
+msgid "Alarm type"
+msgstr "闹钟时间："
+
+#: ../src/main_list.c:217
+#, fuzzy
+msgid "Date and time"
+msgstr "日期和时间"
+
+#: ../src/main_list.c:218
+msgid "Time left"
+msgstr ""
+
+#: ../src/main_list.c:364
+#, fuzzy
+msgid "<i>Single</i>"
+msgstr "单个的"
+
+#: ../src/main_list.c:365
+msgid "Single"
+msgstr "单个的"
+
+#: ../src/main_list.c:369
+#, fuzzy
+msgid "<i>Counter</i>"
+msgstr "计数器"
+
+#: ../src/main_list.c:374
+#, fuzzy
+msgid "<i>Scheduled</i>"
+msgstr "日程"
+
+#: ../src/main_window.c:50
+#, fuzzy
+msgid "<b>You have old alarms</b>"
+msgstr "你有一个过去的闹钟"
+
+#: ../src/main_window.c:52
+msgid ""
+"It seems you missed some alarms, because your old alarm list is not empty."
+msgstr "看起来你错过了一些闹钟，因为你的过去的闹钟列表不是空的。"
+
+#: ../src/main_window.c:191
+msgid "Date"
+msgstr "日期"
+
+#: ../src/main_window.c:246 ../src/schedule.c:349
+#, fuzzy
+msgid "<b>Include</b>"
+msgstr "<b>声音</b>"
+
+#: ../src/main_window.c:248 ../src/schedule.c:351
+#, fuzzy
+msgid "<b>Exclude</b>"
+msgstr "<b>例外</b>"
+
+#: ../src/main_window.c:270
+msgid "Small"
+msgstr ""
+
+#: ../src/main_window.c:271
+msgid "Medium"
+msgstr "中等"
+
+#: ../src/main_window.c:272
+msgid "Large"
+msgstr ""
+
+#: ../src/main_window.c:273
+msgid "Very large"
+msgstr ""
+
+#: ../src/modify_alarm.c:369 ../src/modify_alarm.c:386
+#, c-format
+msgid "Infinite"
+msgstr ""
+
+#: ../src/modify_alarm.c:756 ../src/modify_alarm.c:777
+#, fuzzy
+msgid "<b>Error occured!</b>"
+msgstr "<b>声音</b>"
+
+#: ../src/modify_alarm.c:758
+#, fuzzy
+msgid "You need to select at least one notification."
+msgstr "你至少需要选择一个月份来操作。"
+
+#: ../src/modify_alarm.c:779
+msgid "Alarm title cannot be empty."
+msgstr ""
+
+#: ../src/modify_alarm.c:1065 ../src/templates.c:477
+#, fuzzy
+msgid "<b>Are you sure?</b>"
+msgstr "确认吗？"
+
+#: ../src/modify_alarm.c:1067
+#, fuzzy, c-format
+msgid "Are you sure you want to remove alarm %s?"
+msgstr "你确认要移除这个闹钟么？"
+
+#: ../src/schedule.c:38
+msgid "Invalid"
+msgstr ""
+
+#: ../src/schedule.c:435
+#, fuzzy
+msgid "<b>Cannot add date</b>"
+msgstr "<b>标准动作</b>"
+
+#: ../src/schedule.c:437
+msgid "This date already exists on the list."
+msgstr ""
+
+#: ../src/schedule.c:498
+#, fuzzy
+msgid ""
+"You need to select at least one month and day or include one date to the "
+"schedule."
+msgstr "你至少需要选择一个月份来操作。"
+
+#: ../src/schedule.c:524
+#, fuzzy
+msgid "<b>Cannot proceed</b>"
+msgstr "<b>打盹</b>"
+
+#: ../src/status_icon.c:68
+#, fuzzy
+msgid "_Show main window"
+msgstr "显示被动窗口"
+
+#: ../src/status_icon.c:74
+#, fuzzy
+msgid "_Add alarm..."
+msgstr "添加新闹钟..."
+
+#: ../src/status_icon.c:78
+#, fuzzy
+msgid "Add counter..."
+msgstr "添加新的计数器…"
+
+#: ../src/templates.c:163
+msgid "You need to provide the name."
+msgstr ""
+
+#: ../src/templates.c:401
+#, fuzzy, c-format
+msgid "Are you sure you want to remove birthday for %s?"
+msgstr "你确认要移除这个生日么？"
+
+#: ../src/templates.c:470
+#, fuzzy, c-format
+msgid "Are you sure you want to remove template %s?"
+msgstr "你确认要移除这个模板么？"
+
+#~ msgid "Current time: %c"
+#~ msgstr "当前时间: %c"
+
+#~ msgid "Birthday today! Remember to buy presents:\n"
+#~ msgstr "今天是生日!记得去买礼物:\n"
+
+#~ msgid "Confirmation equired"
+#~ msgstr "需要确认"
+
+#~ msgid ""
+#~ "Alarm Clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "in %i seconds. Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "Alarm Clock将会执行以下的动作：\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "在 %i 秒内点击“取消”以取消该动作。"
+
+#~ msgid "Confirmation required"
+#~ msgstr "需要确认"
+
+#~ msgid ""
+#~ "Alarm clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "Alarm Clock将会执行以下的动作：\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "点击“取消”以取消该动作。"
+
+#~ msgid "Error loading GTK+ libraries. Check if they are properly installed"
+#~ msgstr "加载 GTK+ 库出错。 请检查它们是否已被正确安装"
+
+#~ msgid "on your system."
+#~ msgstr "在你的系统上。"
+
+#~ msgid "Error!"
+#~ msgstr "错误！"
+
+#~ msgid "Error loading pynotify module!"
+#~ msgstr "载入 pynotify 模块出错！"
+
+#~ msgid "Cannot initialize threading library!"
+#~ msgstr "无法初始化 threading 库！"
+
+#~ msgid "An instance is running"
+#~ msgstr "一个实例正在运行"
+
+#~ msgid "Another instance of Alarm Clock is already running, aborting."
+#~ msgstr "已有一个 Alarm Clock 实例在运行，退出。"
+
+#~ msgid "Keyboard interrupt, closing."
+#~ msgstr "键盘中断，关闭。"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Template name"
+#~ msgstr "模板名称"
+
+#~ msgid "First and last name"
+#~ msgstr "姓名"
+
+#~ msgid "Birthday date"
+#~ msgstr "生日"
+
+#~ msgid "Birthday removal"
+#~ msgstr "移动生日"
+
+#~ msgid "Alarm removal"
+#~ msgstr "移动提醒"
+
+#~ msgid "Show main window on screen"
+#~ msgstr "在屏幕上显示主窗口"
+
+#~ msgid ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "For Kamila:)"
+#~ msgstr ""
+#~ "版权所有 (C) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "仅以此献给 Kamila:)"
+
+#~ msgid "Programming"
+#~ msgstr "编程"
+
+#~ msgid ""
+#~ "This alarm cannot be saved, because it's in the past. You need to "
+#~ "manually correct the problem."
+#~ msgstr ""
+#~ "您的提醒无法被保存，因为它被设置到过去的时间里，您需要手动解决此问题。"
+
+#~ msgid "Error"
+#~ msgstr "错误"
+
+#~ msgid "Audio files"
+#~ msgstr "音频文件"
+
+#~ msgid "A simple counter."
+#~ msgstr "一个普通计数器。"
+
+#~ msgid "Counter message"
+#~ msgstr "计数器信息"
+
+#~ msgid "Choose your sound file"
+#~ msgstr "选择您的音频文件"
+
+#~ msgid "Choose your Glade file"
+#~ msgstr "选择您的界面文件"
+
+#~ msgid "Glade files"
+#~ msgstr "界面文件"
+
+#~ msgid "None"
+#~ msgstr "无"
+
+#~ msgid "Comment"
+#~ msgstr "注释"
+
+#~ msgid "<b>Month list is empty</b>"
+#~ msgstr "<b>月份为空</b>"
+
+#~ msgid "<b>Days list is empty</b>"
+#~ msgstr "<b>日期为空</b>"
+
+#~ msgid "You need to select at least one day to proceed."
+#~ msgstr "你至少需要选择一天来操作。"
+
+#~ msgid "This is simple dialog window"
+#~ msgstr "这是普通对话框"
+
+#~ msgid "Reminder"
+#~ msgstr "提醒"
+
+#~ msgid "Dialog Window"
+#~ msgstr "对话框窗口"
+
+#~ msgid "%s:%s - Today"
+#~ msgstr "%s:%s - 今天"
+
+#~ msgid "%s:%s - Cancelled"
+#~ msgstr "%s:%s - 已终止"
+
+#~ msgid "Select location"
+#~ msgstr "选择位置"
+
+#~ msgid "This file does not contain any alarm information."
+#~ msgstr "这个文件不包含任何闹钟信息。"
+
+#~ msgid ""
+#~ "Are you sure you want to create a new alarm list?\n"
+#~ "Any unsaved changes will be lost."
+#~ msgstr ""
+#~ "你确认要建立一个新的闹钟列表么？\n"
+#~ "所有未保存的更改都会丢失。"
+
+#~ msgid ""
+#~ "The GLADE file <b>%s</b> is incorrect. It should contain a dialog called "
+#~ "\"alarm_dialog\" and a label called \"alarm_label\"."
+#~ msgstr ""
+#~ "“空闲”文件 <b>%s</b>不正确。它应当包含一个叫做 \"alarm_dialog\" 的对话和一"
+#~ "个叫做\"alarm_label\"的标签。"
+
+#~ msgid "Error: cannot create dialog window."
+#~ msgstr "错误：无法创建对话框。"
+
+#~ msgid "Shutdown"
+#~ msgstr "关机"
+
+#~ msgid "Reboot"
+#~ msgstr "重启"
+
+#~ msgid "Usage:"
+#~ msgstr "用法："
+
+#~ msgid "  %s [--OPTION]"
+#~ msgstr "  %s [--选项]"
+
+#~ msgid "Available options:"
+#~ msgstr "可用选项："
+
+#~ msgid "  -?, -h, --help        Show this help"
+#~ msgstr "  -?, -h, --help        显示此帮助"
+
+#~ msgid "  -v, --version         Show version"
+#~ msgstr "  -v, --version         显示版本"
+
+#~ msgid "  -t, --tray            Start minimized"
+#~ msgstr "  -t, --tray            启动时最小化"
+
+#~ msgid "Alarm Clock version %s"
+#~ msgstr "闹钟版本 %s"
+
+#~ msgid "Unknown parameter, use --help for help."
+#~ msgstr "位置参数，使用 --help 以获得帮助"
+
+#~ msgid "110"
+#~ msgstr "110"
+
+#~ msgid "<b>Account type</b>"
+#~ msgstr "<b>帐户类型</b>"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>注释</b>"
+
+#~ msgid "<b>Confirmation</b>"
+#~ msgstr "<b>确认</b>"
+
+#~ msgid "<b>Login information</b>"
+#~ msgstr "<b>登录信息</b>"
+
+#~ msgid "<b>Mail checking</b>"
+#~ msgstr "<b>检查邮件</b>"
+
+#~ msgid "<b>Server information</b>"
+#~ msgstr "<b>服务器信息</b>"
+
+#~ msgid "<b>Summary text</b>"
+#~ msgstr "<b>总览文本</b>"
+
+#~ msgid "<b>Summary</b>"
+#~ msgstr "<b>摘要</b>"
+
+#~ msgid ""
+#~ "<big>No birthdays found.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>To create a new birthday, please click\n"
+#~ "on Add button on the right side.\n"
+#~ "You can remove birthday by clicking\n"
+#~ "the Remove button. You can edit birthdays\n"
+#~ "in the future by clicking Properties button.</small>"
+#~ msgstr ""
+#~ "<big>没有找到符合条件的生日。\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>要新建一个生日，请点击\n"
+#~ "右侧的添加按钮。\n"
+#~ "您可以通过点击移除按钮\n"
+#~ "以移除一个已存在的生日。\n"
+#~ "您可以通过点击属性按钮\n"
+#~ "编辑一个生日。</small>"
+
+#~ msgid ""
+#~ "<big>No templates found.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>To create a new template, please click\n"
+#~ "on Add button on the right side.\n"
+#~ "You can remove template by clicking\n"
+#~ "the Remove button. You can edit templates\n"
+#~ "in the future by clicking Properties button.</small>"
+#~ msgstr ""
+#~ "<big>没有找到符合条件的模板。\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>要新建一个模板，请点击\n"
+#~ "右侧的添加按钮。\n"
+#~ "您可以通过点击移除按钮\n"
+#~ "以移除一个已存在的模板。\n"
+#~ "您可以通过点击属性按钮\n"
+#~ "编辑一个模板。</small>"
+
+#~ msgid "Account type:"
+#~ msgstr "账户类型："
+
+#~ msgid "Add exception"
+#~ msgstr "添加例外"
+
+#~ msgid ""
+#~ "Add items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr ""
+#~ "添加项目到列表\n"
+#~ "覆盖列表中已存在的项目"
+
+#~ msgid "Address:"
+#~ msgstr "地址:"
+
+#~ msgid ""
+#~ "Append items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr ""
+#~ "附加项目到列表\n"
+#~ "覆盖列表上已存在的项目"
+
+#~ msgid "Ask for confirmation"
+#~ msgstr "要求确认"
+
+#~ msgid "Author:"
+#~ msgstr "作者："
+
+#~ msgid "Choose a GLADE file"
+#~ msgstr "选择一个界面文件"
+
+#~ msgid "Choose action:"
+#~ msgstr "选择动作："
+
+#~ msgid "Choose file to open"
+#~ msgstr "选择要打开的文件"
+
+#~ msgid "Comments:"
+#~ msgstr "注释："
+
+#~ msgid "Confirmation timeout (sec):"
+#~ msgstr "确认超时（秒）："
+
+#~ msgid "Create from template"
+#~ msgstr "从模板创建"
+
+#~ msgid "Create new alarm from scratch"
+#~ msgstr "随便创建一个新的提醒"
+
+#~ msgid "Create simple counter"
+#~ msgstr "创建简单计数器"
+
+#~ msgid "Custom window:"
+#~ msgstr "自定义窗口"
+
+#~ msgid "Day:"
+#~ msgstr "日："
+
+#~ msgid "Duration in seconds:"
+#~ msgstr "持续秒数："
+
+#~ msgid "Email address"
+#~ msgstr "电子邮件地址"
+
+#~ msgid "Email address:"
+#~ msgstr "电子邮件地址："
+
+#~ msgid "Enable mail notification"
+#~ msgstr "启用邮件提醒"
+
+#~ msgid "Fade"
+#~ msgstr "淡入淡出"
+
+#~ msgid "High"
+#~ msgstr "高"
+
+#~ msgid "Initial volume:"
+#~ msgstr "初始音量："
+
+#~ msgid "Interval (in minutes):"
+#~ msgstr "间隔分钟数："
+
+#~ msgid ""
+#~ "January\n"
+#~ "February\n"
+#~ "March\n"
+#~ "April\n"
+#~ "May\n"
+#~ "June\n"
+#~ "July\n"
+#~ "August\n"
+#~ "September\n"
+#~ "October\n"
+#~ "November\n"
+#~ "December"
+#~ msgstr ""
+#~ "一月\n"
+#~ "二月\n"
+#~ "三月\n"
+#~ "四月\n"
+#~ "五月\n"
+#~ "六月\n"
+#~ "七月\n"
+#~ "八月\n"
+#~ "九月\n"
+#~ "十月\n"
+#~ "十一月\n"
+#~ "十二月"
+
+#~ msgid "Load custom window"
+#~ msgstr "载入自定义窗口"
+
+#~ msgid "Load exception list"
+#~ msgstr "载入例外列表"
+
+#~ msgid "Login:"
+#~ msgstr "登录："
+
+#~ msgid "Low"
+#~ msgstr "低"
+
+#~ msgid "Month:"
+#~ msgstr "月份："
+
+#~ msgid "NO_TEMP"
+#~ msgstr "NO_TEMP"
+
+#~ msgid "New alarm"
+#~ msgstr "新建提醒"
+
+#~ msgid "No sound"
+#~ msgstr "无声音"
+
+#~ msgid ""
+#~ "POP3\n"
+#~ "IMAP"
+#~ msgstr ""
+#~ "POP3\n"
+#~ "IMAP"
+
+#~ msgid "Passive window"
+#~ msgstr "被动窗口"
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Person's name:"
+#~ msgstr "人名"
+
+#~ msgid "Play sound"
+#~ msgstr "播放声音"
+
+#~ msgid "Play specified file"
+#~ msgstr "播放选定的文件"
+
+#~ msgid "Port:"
+#~ msgstr "端口："
+
+#~ msgid "Reboot the computer"
+#~ msgstr "重新启动计算机"
+
+#~ msgid "Remove selected alarm"
+#~ msgstr "移除选中的提醒"
+
+#~ msgid "Save exception list"
+#~ msgstr "保存例外列表"
+
+#~ msgid "Select birthday"
+#~ msgstr "选择生日"
+
+#~ msgid "Select exception list"
+#~ msgstr "选择例外列表"
+
+#~ msgid "Show in fullscreen"
+#~ msgstr "全屏显示"
+
+#~ msgid "Shut down the computer"
+#~ msgstr "关闭计算机"
+
+#~ msgid "Simple counter"
+#~ msgstr "简单计数器"
+
+#~ msgid ""
+#~ "Small\n"
+#~ "Normal\n"
+#~ "Big\n"
+#~ "Large\n"
+#~ "Very large\n"
+#~ "Huge\n"
+#~ "Giant"
+#~ msgstr ""
+#~ "小\n"
+#~ "正常\n"
+#~ "大\n"
+#~ "很大\n"
+#~ "非常的\n"
+#~ "巨大\n"
+#~ "无比的大"
+
+#~ msgid "Start Alarm Clock automatically after login"
+#~ msgstr "登录后自动启动 Alarm Clock"
+
+#~ msgid "Stops the currently played sound file."
+#~ msgstr "停止当前的声音播放。"
+
+#~ msgid "TEMP"
+#~ msgstr "TEMP"
+
+#~ msgid "Test"
+#~ msgstr "测试"
+
+#~ msgid "Timeout in seconds:"
+#~ msgstr "超时秒数："
+
+#~ msgid "Unnamed person"
+#~ msgstr "未命名的人"
+
+#~ msgid "Use SSL (eg. for GMail)"
+#~ msgstr "使用 SSL (例如使用 GMail)"
+
+#~ msgid "Use default window"
+#~ msgstr "使用默认窗口"
+
+#~ msgid "Use the same settings for dialog window"
+#~ msgstr "为对话框窗口使用相同的设置"
+
+#~ msgid "Use the same settings for passive window"
+#~ msgstr "为被动窗口使用相同的设置"
+
+#~ msgid "Volume:"
+#~ msgstr "音量："
+
+#~ msgid "What do you want to do?"
+#~ msgstr "您想做什么？"
+
+#~ msgid "gtk-clear"
+#~ msgstr "gtk-clear"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#~ msgid "Error loading GTK+ libraries. Check if they are properly"
+#~ msgstr "载入 GTK+ 出错. 请检查他们是否完好"
+
+#~ msgid "installed on your system."
+#~ msgstr "安装在您的系统上。"
+
+#~ msgid "Missing GStreamer Python bindings!"
+#~ msgstr "GStreamer Python 模块丢失！"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "30 s"
+#~ msgstr "30 s"
+
+#~ msgid "Alarm Clock for GNOME Desktop"
+#~ msgstr "GNOME 下的闹钟程序"
+
+#~ msgid "Blinking tray icon on event"
+#~ msgstr "当事件发生时闪烁托盘图标"

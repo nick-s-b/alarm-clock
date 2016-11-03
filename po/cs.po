@@ -1,0 +1,1192 @@
+# Czech translation for alarmclock
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the alarmclock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alarmclock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-29 14:23+0200\n"
+"PO-Revision-Date: 2008-10-25 19:14+0000\n"
+"Last-Translator: Konki <pavel.konkol@seznam.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-11-10 12:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/interface/alarm-clock.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/interface/alarm-clock.ui.h:2
+msgid "<b>Action to perform</b>"
+msgstr "<b>Akce, která se má provést</b>"
+
+#: ../src/interface/alarm-clock.ui.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>Důležitost</b>"
+
+#: ../src/interface/alarm-clock.ui.h:4
+#, fuzzy
+msgid "<b>Command or script</b>"
+msgstr "<b>Příkaz</b>"
+
+#: ../src/interface/alarm-clock.ui.h:5
+msgid "<b>Date</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:6
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:7
+msgid "<b>Dialog window</b>"
+msgstr "<b>Dialogové okno</b>"
+
+#: ../src/interface/alarm-clock.ui.h:8
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>Hlavní nastavení</b>"
+
+#: ../src/interface/alarm-clock.ui.h:9
+#, fuzzy
+msgid "<b>Hour</b>"
+msgstr "<b>Zvuky</b>"
+
+#: ../src/interface/alarm-clock.ui.h:10
+#, fuzzy
+msgid "<b>Message</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:11
+msgid "<b>Months</b>"
+msgstr "<b>Měsíce</b>"
+
+#: ../src/interface/alarm-clock.ui.h:12
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:13
+#, fuzzy
+msgid "<b>Passive popup</b>"
+msgstr "<b>Pasivní okno</b>"
+
+#: ../src/interface/alarm-clock.ui.h:14
+#, fuzzy
+msgid "<b>Priority</b>"
+msgstr "<b>Čas do skončení</b>"
+
+#: ../src/interface/alarm-clock.ui.h:15
+msgid "<b>Short name</b>"
+msgstr "<b>Krátké jméno</b>"
+
+#: ../src/interface/alarm-clock.ui.h:16
+msgid "<b>Snooze</b>"
+msgstr "<b>Usínání</b>"
+
+#: ../src/interface/alarm-clock.ui.h:17
+#, fuzzy
+msgid "<b>Sound file</b>"
+msgstr "<b>Zvuky</b>"
+
+#: ../src/interface/alarm-clock.ui.h:18
+msgid "<b>Sound</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:19
+msgid "<b>Standard action</b>"
+msgstr "<b>Standardní akce</b>"
+
+#: ../src/interface/alarm-clock.ui.h:20
+msgid "<b>Startup</b>"
+msgstr "<b>Spuštění</b>"
+
+#: ../src/interface/alarm-clock.ui.h:21
+#, fuzzy
+msgid "<b>Terminal command</b>"
+msgstr "<b>Příkaz</b>"
+
+#: ../src/interface/alarm-clock.ui.h:22
+msgid "<b>Text</b>"
+msgstr "<b>Text</b>"
+
+#: ../src/interface/alarm-clock.ui.h:23
+#, fuzzy
+msgid "<b>Time format</b>"
+msgstr "<b>Čas do skončení</b>"
+
+#: ../src/interface/alarm-clock.ui.h:24
+msgid "<b>Time</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:25
+msgid "<b>Timeout</b>"
+msgstr "<b>Čas do skončení</b>"
+
+#: ../src/interface/alarm-clock.ui.h:26
+#, fuzzy
+msgid "<b>Title</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:27
+#, fuzzy
+msgid "<b>Volume</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:28
+msgid "<b>Weekdays</b>"
+msgstr "<b>Dny v týdnu</b>"
+
+#: ../src/interface/alarm-clock.ui.h:29
+msgid ""
+"<big><big>No alarms active</big></big>\n"
+"\n"
+"You can create new alarm by clicking on the plus button on the top of this "
+"window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:32
+msgid ""
+"<big>No birthdays found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:36
+msgid "<big>No dates selected.</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:37
+msgid "<big>No missed alarms</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:38
+msgid ""
+"<big>No tempates found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:42
+msgid "<big>No templates found</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:43
+#, fuzzy
+msgid "Add alarm"
+msgstr "Přidat nové upozornění"
+
+#: ../src/interface/alarm-clock.ui.h:44
+#, fuzzy
+msgid "Add new _alarm"
+msgstr "Přidat nové upozornění"
+
+#: ../src/interface/alarm-clock.ui.h:45
+#, fuzzy
+msgid "Add new _counter"
+msgstr "Přidej nové počítadlo..."
+
+#: ../src/interface/alarm-clock.ui.h:46
+#, fuzzy
+msgid "Add new alarm"
+msgstr "Přidat nové upozornění"
+
+#: ../src/interface/alarm-clock.ui.h:47 ../src/alarm_thread.c:480
+#: ../src/common.c:85 ../src/main.c:91 ../src/main.c:120
+#: ../src/status_icon.c:154
+msgid "Alarm Clock"
+msgstr "Budík"
+
+#: ../src/interface/alarm-clock.ui.h:48
+#, fuzzy
+msgid "Alarm priority:"
+msgstr "Vlastnosti budíku"
+
+#: ../src/interface/alarm-clock.ui.h:49
+msgid "Alarm time:"
+msgstr "Čas budíku"
+
+#: ../src/interface/alarm-clock.ui.h:50
+#, fuzzy
+msgid "Alarm timeout:"
+msgstr "Čas budíku"
+
+#: ../src/interface/alarm-clock.ui.h:51 ../src/schedule.c:28
+msgid "April"
+msgstr "Duben"
+
+#: ../src/interface/alarm-clock.ui.h:52 ../src/schedule.c:32
+msgid "August"
+msgstr "Srpen"
+
+#: ../src/interface/alarm-clock.ui.h:53
+msgid "Background color:"
+msgstr "Barva pozadí:"
+
+#: ../src/interface/alarm-clock.ui.h:54
+#, fuzzy
+msgid "Birthday preferences"
+msgstr "Narozeniny"
+
+#: ../src/interface/alarm-clock.ui.h:55
+msgid "Birthdays"
+msgstr "Narozeniny"
+
+#: ../src/interface/alarm-clock.ui.h:56 ../src/status_icon.c:84
+#, fuzzy
+msgid "Birthdays & templates"
+msgstr "Narozeniny a Šablony"
+
+#: ../src/interface/alarm-clock.ui.h:57
+#, fuzzy
+msgid "Birthdays and templates"
+msgstr "Narozeniny a Šablony"
+
+#: ../src/interface/alarm-clock.ui.h:58
+#, fuzzy
+msgid "Check for updates..."
+msgstr "Zjišťování elektronické pošty"
+
+#: ../src/interface/alarm-clock.ui.h:59
+msgid "Choose date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:60
+msgid "Constant volume"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:61 ../src/main_list.c:370
+msgid "Counter"
+msgstr "Počítadlo"
+
+#: ../src/interface/alarm-clock.ui.h:62 ../src/schedule.c:36
+msgid "December"
+msgstr "Prosinec"
+
+#: ../src/interface/alarm-clock.ui.h:63
+#, fuzzy
+msgid "Deselect all"
+msgstr "Otestovat zvolený alarm"
+
+#: ../src/interface/alarm-clock.ui.h:64
+#, fuzzy
+msgid "Dialog window properties"
+msgstr "Dialogové okno"
+
+#: ../src/interface/alarm-clock.ui.h:65
+msgid "Do not play any sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:66
+msgid "Exclude this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:67
+#, fuzzy
+msgid "Execute command or shell script"
+msgstr "Spustit shellový skript"
+
+#: ../src/interface/alarm-clock.ui.h:68
+#, fuzzy
+msgid "Execute standard action"
+msgstr "Vykonat standardní akci"
+
+#: ../src/interface/alarm-clock.ui.h:69
+#, fuzzy
+msgid "Faded volume"
+msgstr "Konečný součet:"
+
+#: ../src/interface/alarm-clock.ui.h:70 ../src/schedule.c:26
+msgid "February"
+msgstr "Únor"
+
+#: ../src/interface/alarm-clock.ui.h:71
+msgid "Friday"
+msgstr "Pátek"
+
+#: ../src/interface/alarm-clock.ui.h:72
+msgid "General"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:73
+msgid "Include this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:74 ../src/schedule.c:25
+msgid "January"
+msgstr "Leden"
+
+#: ../src/interface/alarm-clock.ui.h:75 ../src/schedule.c:31
+msgid "July"
+msgstr "Červenec"
+
+#: ../src/interface/alarm-clock.ui.h:76 ../src/schedule.c:30
+msgid "June"
+msgstr "Červen"
+
+#: ../src/interface/alarm-clock.ui.h:77
+msgid "LIST_VIEW"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:78
+msgid "Lock the screen"
+msgstr "Uzamkne obrazovku"
+
+#: ../src/interface/alarm-clock.ui.h:79 ../src/schedule.c:27
+msgid "March"
+msgstr "Březen"
+
+#: ../src/interface/alarm-clock.ui.h:80 ../src/schedule.c:29
+msgid "May"
+msgstr "Květen"
+
+#: ../src/interface/alarm-clock.ui.h:81
+#, fuzzy
+msgid "Missed alarms"
+msgstr "Zmeškané alarmy"
+
+#: ../src/interface/alarm-clock.ui.h:82
+msgid "Monday"
+msgstr "Pondělí"
+
+#: ../src/interface/alarm-clock.ui.h:83
+msgid "NO_ALARMS"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:84
+msgid "Notification"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:85 ../src/schedule.c:35
+msgid "November"
+msgstr "Listopad"
+
+#: ../src/interface/alarm-clock.ui.h:86 ../src/schedule.c:34
+msgid "October"
+msgstr "Říjen"
+
+#: ../src/interface/alarm-clock.ui.h:87 ../src/export.c:70
+msgid "Open alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:88
+#, fuzzy
+msgid "Play sound during event"
+msgstr "Přehrát zvuk"
+
+#: ../src/interface/alarm-clock.ui.h:89
+msgid "Play standard sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:90
+#, fuzzy
+msgid "Play this sound file"
+msgstr "Vybrat zvukový soubor"
+
+#: ../src/interface/alarm-clock.ui.h:91
+msgid "Popup preferences"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:92
+msgid "Preferences"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:93
+msgid "Repeat after finish "
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:94
+msgid "Run command"
+msgstr "Spustit příkaz"
+
+#: ../src/interface/alarm-clock.ui.h:95
+#, fuzzy
+msgid "Run inside GNOME terminal"
+msgstr "Spustit v terminálu"
+
+#: ../src/interface/alarm-clock.ui.h:96
+msgid "Saturday"
+msgstr "Sobota"
+
+#: ../src/interface/alarm-clock.ui.h:97 ../src/export.c:29
+msgid "Save alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:98
+msgid "Schedule"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:99 ../src/main_list.c:375
+msgid "Scheduled"
+msgstr "Naplánováno"
+
+#: ../src/interface/alarm-clock.ui.h:100
+#, fuzzy
+msgid "Select all"
+msgstr "Vybrat akci:"
+
+#: ../src/interface/alarm-clock.ui.h:101
+#, fuzzy
+msgid "Select date"
+msgstr "Vybrat akci:"
+
+#: ../src/interface/alarm-clock.ui.h:102 ../src/schedule.c:33
+msgid "September"
+msgstr "Září"
+
+#: ../src/interface/alarm-clock.ui.h:103
+#, fuzzy
+msgid "Show dialog window during event"
+msgstr "Ukázat dialogové okno"
+
+#: ../src/interface/alarm-clock.ui.h:104 ../src/status_icon.c:88
+msgid "Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:105
+#, fuzzy
+msgid "Show passive popup during event"
+msgstr "Ukázat pasivní okna"
+
+#: ../src/interface/alarm-clock.ui.h:106
+msgid "Show snooze button (min):"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:107
+msgid "Single day"
+msgstr "Samostatný den"
+
+#: ../src/interface/alarm-clock.ui.h:108
+#, fuzzy
+msgid "Sound properties"
+msgstr "Vlastnosti budíku"
+
+#: ../src/interface/alarm-clock.ui.h:109
+msgid "Standard action"
+msgstr "Standardní akce"
+
+#: ../src/interface/alarm-clock.ui.h:110
+msgid "Start minimized"
+msgstr "Spustit minimalizované"
+
+#: ../src/interface/alarm-clock.ui.h:111
+msgid "Start the program automatically with GNOME"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:112
+#, fuzzy
+msgid "Start this alarm in (in minutes):"
+msgstr "Interval (v minutách):"
+
+#: ../src/interface/alarm-clock.ui.h:113
+msgid "Stop the sound"
+msgstr "Zastavit zvuk"
+
+#: ../src/interface/alarm-clock.ui.h:114
+msgid "Sunday"
+msgstr "Neděle"
+
+#: ../src/interface/alarm-clock.ui.h:115
+msgid "Templates"
+msgstr "Šablony"
+
+#: ../src/interface/alarm-clock.ui.h:116
+#, fuzzy
+msgid "Test current alarm"
+msgstr "Otestovat zvolený alarm"
+
+#: ../src/interface/alarm-clock.ui.h:117
+msgid "Text color:"
+msgstr "Barva textu:"
+
+#: ../src/interface/alarm-clock.ui.h:118
+msgid "Text size:"
+msgstr "Velikost textu:"
+
+#: ../src/interface/alarm-clock.ui.h:119
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: ../src/interface/alarm-clock.ui.h:120
+msgid "Today"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:121
+msgid "Tomorrow"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:122
+msgid "Tuesday"
+msgstr "Úterý"
+
+#: ../src/interface/alarm-clock.ui.h:123
+msgid "Turn off the monitor"
+msgstr "Vypne monitor"
+
+#: ../src/interface/alarm-clock.ui.h:124
+msgid "Use 12-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:125
+msgid "Use 24-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:126
+msgid "Use custom sound file"
+msgstr "Použít vlastní zvukový soubor"
+
+#: ../src/interface/alarm-clock.ui.h:127
+msgid "Wednesday"
+msgstr "Středa"
+
+#: ../src/interface/alarm-clock.ui.h:128
+#, fuzzy
+msgid "_Add new counter..."
+msgstr "Přidej nové počítadlo..."
+
+#: ../src/interface/alarm-clock.ui.h:129
+msgid "_Edit"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:130
+msgid "_File"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:131
+msgid "_Help"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:132
+#, fuzzy
+msgid "_Remove alarm"
+msgstr "Odstranit tento budík"
+
+#: ../src/interface/alarm-clock.ui.h:133 ../src/main_list.c:106
+#: ../src/status_icon.c:92
+msgid "_Show menu bar"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:134
+#, fuzzy
+msgid "_Show missed alarms"
+msgstr "Zmeškané alarmy"
+
+#: ../src/interface/alarm-clock.ui.h:135
+msgid "_View"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:136
+msgid "page 1"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:137
+msgid "page 2"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:138
+msgid "toolbutton1"
+msgstr ""
+
+#: ../src/alarm_runner.c:95
+#, fuzzy
+msgid "<b>Too many sounds!</b>"
+msgstr "<b>Zvuky</b>"
+
+#: ../src/alarm_runner.c:96
+msgid "Cannot play more than 1 sound at once."
+msgstr ""
+
+#: ../src/alarm_runner.c:121
+#, fuzzy, c-format
+msgid "Cannot play sound because the sound file <b>%s</b> was not found."
+msgstr "Nemohu přehrát zvuk, protože jiný alarm se přehrává."
+
+#: ../src/alarm_runner.c:127
+#, fuzzy
+msgid "<b>Cannot find sound file!</b>"
+msgstr "<b>Titul okna</b>"
+
+#: ../src/alarm_runner.c:277
+msgid "Snooze"
+msgstr ""
+
+#: ../src/alarm_runner.c:344
+msgid "Press any key to continue..."
+msgstr ""
+
+#: ../src/alarm_thread.c:474
+#, c-format
+msgid ""
+"Today's birthdays:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/common.c:94
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/counters.c:31 ../src/modify_alarm.c:243 ../src/modify_alarm.c:244
+msgid "Untitled"
+msgstr "Nepojmenovaný"
+
+#: ../src/counters.c:45 ../src/modify_alarm.c:262
+msgid "Popup"
+msgstr ""
+
+#: ../src/counters.c:46 ../src/modify_alarm.c:263
+msgid "Short popup"
+msgstr ""
+
+#: ../src/counters.c:51 ../src/modify_alarm.c:268
+msgid "Dialog window"
+msgstr "Dialogové okno"
+
+#: ../src/counters.c:52 ../src/modify_alarm.c:269
+#, fuzzy
+msgid "This is a small message"
+msgstr "Jednoduché připomínání"
+
+#: ../src/counters.c:77
+#, fuzzy
+msgid "Sound files"
+msgstr "Zvukový soubor:"
+
+#: ../src/counters.c:80 ../src/export.c:38 ../src/export.c:79
+msgid "All files"
+msgstr "Všechny soubory"
+
+#: ../src/counters.c:152 ../src/modify_alarm.c:421
+#, fuzzy
+msgid "<b>Invalid filename</b>"
+msgstr "<b>Titul okna</b>"
+
+#: ../src/counters.c:153 ../src/modify_alarm.c:422
+msgid "You need to specify sound file name."
+msgstr ""
+
+#: ../src/counters.c:170
+#, fuzzy
+msgid "<b>Invalid title</b>"
+msgstr "<b>Titul okna</b>"
+
+#: ../src/counters.c:171
+#, fuzzy
+msgid "You need to specify title of the counter."
+msgstr "Musíte zvolit alespoň jeden měsíc k potvrzení."
+
+#: ../src/export.c:40 ../src/export.c:81
+#, fuzzy
+msgid "Alarm clock alarms"
+msgstr "Budík"
+
+#: ../src/main_list.c:86
+#, fuzzy
+msgid "_Add new alarm"
+msgstr "Přidat nové upozornění"
+
+#: ../src/main_list.c:90
+#, fuzzy
+msgid "_Add new counter"
+msgstr "Přidej nové počítadlo..."
+
+#: ../src/main_list.c:96
+#, fuzzy
+msgid "_Remove this alarm"
+msgstr "Odstranit tento budík"
+
+#: ../src/main_list.c:215 ../src/main_window.c:190
+msgid "Name"
+msgstr "Název"
+
+#: ../src/main_list.c:216
+#, fuzzy
+msgid "Alarm type"
+msgstr "Čas budíku"
+
+#: ../src/main_list.c:217
+#, fuzzy
+msgid "Date and time"
+msgstr "Datum a Čas"
+
+#: ../src/main_list.c:218
+msgid "Time left"
+msgstr ""
+
+#: ../src/main_list.c:364
+#, fuzzy
+msgid "<i>Single</i>"
+msgstr "Jednotlivý"
+
+#: ../src/main_list.c:365
+msgid "Single"
+msgstr "Jednotlivý"
+
+#: ../src/main_list.c:369
+#, fuzzy
+msgid "<i>Counter</i>"
+msgstr "Počítadlo"
+
+#: ../src/main_list.c:374
+#, fuzzy
+msgid "<i>Scheduled</i>"
+msgstr "Naplánováno"
+
+#: ../src/main_window.c:50
+#, fuzzy
+msgid "<b>You have old alarms</b>"
+msgstr "Máte staré alarmy."
+
+#: ../src/main_window.c:52
+msgid ""
+"It seems you missed some alarms, because your old alarm list is not empty."
+msgstr ""
+
+#: ../src/main_window.c:191
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/main_window.c:246 ../src/schedule.c:349
+#, fuzzy
+msgid "<b>Include</b>"
+msgstr "<b>Usínání</b>"
+
+#: ../src/main_window.c:248 ../src/schedule.c:351
+#, fuzzy
+msgid "<b>Exclude</b>"
+msgstr "<b>Výjimky</b>"
+
+#: ../src/main_window.c:270
+msgid "Small"
+msgstr ""
+
+#: ../src/main_window.c:271
+msgid "Medium"
+msgstr ""
+
+#: ../src/main_window.c:272
+msgid "Large"
+msgstr ""
+
+#: ../src/main_window.c:273
+msgid "Very large"
+msgstr ""
+
+#: ../src/modify_alarm.c:369 ../src/modify_alarm.c:386
+#, c-format
+msgid "Infinite"
+msgstr ""
+
+#: ../src/modify_alarm.c:756 ../src/modify_alarm.c:777
+msgid "<b>Error occured!</b>"
+msgstr ""
+
+#: ../src/modify_alarm.c:758
+#, fuzzy
+msgid "You need to select at least one notification."
+msgstr "Musíte zvolit alespoň jeden měsíc k potvrzení."
+
+#: ../src/modify_alarm.c:779
+msgid "Alarm title cannot be empty."
+msgstr ""
+
+#: ../src/modify_alarm.c:1065 ../src/templates.c:477
+#, fuzzy
+msgid "<b>Are you sure?</b>"
+msgstr "Jste si jistí?"
+
+#: ../src/modify_alarm.c:1067
+#, fuzzy, c-format
+msgid "Are you sure you want to remove alarm %s?"
+msgstr "Jste si jistí že chcete odstranit tento alarm?"
+
+#: ../src/schedule.c:38
+msgid "Invalid"
+msgstr ""
+
+#: ../src/schedule.c:435
+#, fuzzy
+msgid "<b>Cannot add date</b>"
+msgstr "<b>Standardní akce</b>"
+
+#: ../src/schedule.c:437
+msgid "This date already exists on the list."
+msgstr ""
+
+#: ../src/schedule.c:498
+#, fuzzy
+msgid ""
+"You need to select at least one month and day or include one date to the "
+"schedule."
+msgstr "Musíte zvolit alespoň jeden měsíc k potvrzení."
+
+#: ../src/schedule.c:524
+#, fuzzy
+msgid "<b>Cannot proceed</b>"
+msgstr "<b>Usínání</b>"
+
+#: ../src/status_icon.c:68
+#, fuzzy
+msgid "_Show main window"
+msgstr "Ukázat pasivní okna"
+
+#: ../src/status_icon.c:74
+#, fuzzy
+msgid "_Add alarm..."
+msgstr "Přidej nový alarm..."
+
+#: ../src/status_icon.c:78
+#, fuzzy
+msgid "Add counter..."
+msgstr "Přidej nové počítadlo..."
+
+#: ../src/templates.c:163
+msgid "You need to provide the name."
+msgstr ""
+
+#: ../src/templates.c:401
+#, fuzzy, c-format
+msgid "Are you sure you want to remove birthday for %s?"
+msgstr "Jste si jistí že chcete odstranit tyto narozeniny?"
+
+#: ../src/templates.c:470
+#, fuzzy, c-format
+msgid "Are you sure you want to remove template %s?"
+msgstr "Jste si jistí že chcete odstranit tuto šablonu?"
+
+#~ msgid "Current time: %c"
+#~ msgstr "Aktuální čas: %c"
+
+#~ msgid "Birthday today! Remember to buy presents:\n"
+#~ msgstr "Dnes narozeniny! Nezapomeň koupit dárky:\n"
+
+#~ msgid "Confirmation equired"
+#~ msgstr "Vyžaduje potvrzení"
+
+#~ msgid ""
+#~ "Alarm Clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "in %i seconds. Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "Budík provede následující akce:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "v %i sekund. Klikni na \"Zrušit\" pro zrušení akce."
+
+#~ msgid "Confirmation required"
+#~ msgstr "Vyžaduje potvrzení"
+
+#~ msgid ""
+#~ "Alarm clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "Budík provede náasledující akci:\n"
+#~ "%s\n"
+#~ "Klikněte na \"Zrušit\" pro zrušení akce."
+
+#~ msgid "Error loading GTK+ libraries. Check if they are properly installed"
+#~ msgstr "Chyba načítání GTK+ knihoven. Ověřte, zda jsou nainstalované."
+
+#~ msgid "on your system."
+#~ msgstr "ve vašem systému."
+
+#~ msgid "Error!"
+#~ msgstr "Chyba!"
+
+#~ msgid "Error loading pynotify module!"
+#~ msgstr "Chyba při nahrávání pynotify modulu!"
+
+#~ msgid "Cannot initialize threading library!"
+#~ msgstr "Nemohu inicializovat vláknovou knihovnu!"
+
+#~ msgid "An instance is running"
+#~ msgstr "Jiná situace běží"
+
+#~ msgid "Another instance of Alarm Clock is already running, aborting."
+#~ msgstr "Je spuštěna jiná situace Alarmu, ukončuji."
+
+#~ msgid "Keyboard interrupt, closing."
+#~ msgstr "Chyba klávesnice, ukončuji."
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Template name"
+#~ msgstr "Název šablony"
+
+#~ msgid "First and last name"
+#~ msgstr "Jméno a příjmení"
+
+#~ msgid "Birthday date"
+#~ msgstr "Datum narození"
+
+#~ msgid "Birthday removal"
+#~ msgstr "odstranění narozenin"
+
+#~ msgid "Alarm removal"
+#~ msgstr "Odstranění alarmu"
+
+#~ msgid "Show main window on screen"
+#~ msgstr "Ukaž hlavní okno"
+
+#~ msgid ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "For Kamila:)"
+#~ msgstr ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "Pro Kamila:)"
+
+#~ msgid "Packaging and a lot of help"
+#~ msgstr "Balíčkování a hodně pomoci"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "Audio files"
+#~ msgstr "Zvukové soubory"
+
+#~ msgid "A simple counter."
+#~ msgstr "Jednoduché počítadlo"
+
+#~ msgid "Counter message"
+#~ msgstr "Zpráva počítadla"
+
+#~ msgid "Choose your sound file"
+#~ msgstr "Vyber si zvukový soubor"
+
+#~ msgid "Choose your Glade file"
+#~ msgstr "Vyber si Glade soubory"
+
+#~ msgid "Glade files"
+#~ msgstr "Glade soubory"
+
+#~ msgid "None"
+#~ msgstr "Žádné"
+
+#~ msgid "Comment"
+#~ msgstr "Komentář"
+
+#~ msgid "You need to select at least one day to proceed."
+#~ msgstr "Musíte zvolit alespoň jeden den k potvrzení."
+
+#~ msgid "This is simple dialog window"
+#~ msgstr "Jednoduché dialogové okno"
+
+#~ msgid "Reminder"
+#~ msgstr "Připomínka"
+
+#~ msgid "Dialog Window"
+#~ msgstr "Dialogové okno"
+
+#~ msgid "%s:%s - Today"
+#~ msgstr "%s:%s - Dnes"
+
+#~ msgid "%s:%s - Cancelled"
+#~ msgstr "%s:%s - Zrušeno"
+
+#~ msgid "Select location"
+#~ msgstr "Výběr umístění"
+
+#~ msgid "This file does not contain any alarm information."
+#~ msgstr "Tento soubor neobsahuje informace o alarmu."
+
+#~ msgid ""
+#~ "Are you sure you want to create a new alarm list?\n"
+#~ "Any unsaved changes will be lost."
+#~ msgstr ""
+#~ "Jste si jistí že chcete vytvořit nový seznam alarmů?\n"
+#~ "Všechny neuložené změny budou ztraceny."
+
+#~ msgid ""
+#~ "The GLADE file <b>%s</b> is incorrect. It should contain a dialog called "
+#~ "\"alarm_dialog\" and a label called \"alarm_label\"."
+#~ msgstr ""
+#~ "GLADE soubor <b>%s</b> není správný. Měl by obsahovat dialog nazvaný "
+#~ "\"alarm_dialog\" a pojmenování \"alarm_label\"."
+
+#~ msgid "Error: cannot create dialog window."
+#~ msgstr "Chyba: nemohu vytvořit dialogové okno."
+
+#~ msgid "Shutdown"
+#~ msgstr "Vypnout"
+
+#~ msgid "Reboot"
+#~ msgstr "Restartovat"
+
+#~ msgid "Usage:"
+#~ msgstr "Užití:"
+
+#~ msgid "  %s [--OPTION]"
+#~ msgstr "  %s [--OPTION]"
+
+#~ msgid "Available options:"
+#~ msgstr "Dostupné nastavení:"
+
+#~ msgid "  -?, -h, --help        Show this help"
+#~ msgstr "  -?, -h, --help        Zobrazí tuto nápovědu"
+
+#~ msgid "  -v, --version         Show version"
+#~ msgstr "  -v, --version         Zobrazit verzi"
+
+#~ msgid "  -t, --tray            Start minimized"
+#~ msgstr "  -t, --tray            Spustit minimalizované"
+
+#~ msgid "Alarm Clock version %s"
+#~ msgstr "Budík verze %s"
+
+#~ msgid "Unknown parameter, use --help for help."
+#~ msgstr "Neznámý parametr. použijte --help pro nápovědu"
+
+#~ msgid "110"
+#~ msgstr "110"
+
+#~ msgid "<b>Account type</b>"
+#~ msgstr "<b>Typ účtu</b>"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>Komentář</b>"
+
+#~ msgid "<b>Confirmation</b>"
+#~ msgstr "<b>Potvrzení<b>"
+
+#~ msgid "<b>Login information</b>"
+#~ msgstr "<b>Přihlašovací informace</b>"
+
+#~ msgid "<b>Mail checking</b>"
+#~ msgstr "<b>Ověřování elektronické pošty</b>"
+
+#~ msgid "<b>Server information</b>"
+#~ msgstr "<b>Informace serveru</b>"
+
+#~ msgid "<b>Summary text</b>"
+#~ msgstr "<b>Souhrnný text</b>"
+
+#~ msgid "<b>Summary</b>"
+#~ msgstr "<b>Souhrn</b>"
+
+#~ msgid "Account type:"
+#~ msgstr "Typ účtu:"
+
+#~ msgid "Add exception"
+#~ msgstr "Přidat výjimku"
+
+#~ msgid ""
+#~ "Add items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr ""
+#~ "Přidat položky do seznamu\n"
+#~ "Přepsat položky v seznamu"
+
+#~ msgid "Ask for confirmation"
+#~ msgstr "Požádat o potvrzení"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Choose a GLADE file"
+#~ msgstr "Vybrat GLADE soubor"
+
+#~ msgid "Choose file to open"
+#~ msgstr "Zvolte soubor k otevření"
+
+#~ msgid "Comments:"
+#~ msgstr "Komentáře:"
+
+#~ msgid "Confirmation timeout (sec):"
+#~ msgstr "Potvrzení časového limitu (sek):"
+
+#~ msgid "Create from template"
+#~ msgstr "Vytvořit ze šablony"
+
+#~ msgid "Create new alarm from scratch"
+#~ msgstr "Vytvořit nový alarm ze zaškrtnutí"
+
+#~ msgid "Day:"
+#~ msgstr "Den:"
+
+#~ msgid "Duration after fade:"
+#~ msgstr "Délka slábnutí:"
+
+#~ msgid "Duration in seconds:"
+#~ msgstr "Trvání ve vteřinách:"
+
+#~ msgid "Email address:"
+#~ msgstr "Emailová adresa:"
+
+#~ msgid "Enable mail notification"
+#~ msgstr "Zapnout oznámení elektronické pošty"
+
+#~ msgid "Load custom window"
+#~ msgstr "Načíst vlastní okno"
+
+#~ msgid "Load exception list"
+#~ msgstr "Načíst list vyjímek"
+
+#~ msgid "Month:"
+#~ msgstr "Měsíc:"
+
+#~ msgid "New alarm"
+#~ msgstr "Nový alarm"
+
+#~ msgid "Passive window"
+#~ msgstr "Pasivní okno"
+
+#~ msgid "Person's name:"
+#~ msgstr "Jméno osoby :"
+
+#~ msgid "Reboot the computer"
+#~ msgstr "Restartovat počítač"
+
+#~ msgid "Remove selected alarm"
+#~ msgstr "Odstranit vybraný alarm"
+
+#~ msgid "Save exception list"
+#~ msgstr "Uložit list vyjímek"
+
+#~ msgid "Select birthday"
+#~ msgstr "Zvolit narozeniny"
+
+#~ msgid "Select exception list"
+#~ msgstr "Zvolit list vyjímek"
+
+#~ msgid "Show in fullscreen"
+#~ msgstr "Zobrazit ve fullscreen"
+
+#~ msgid "Shut down the computer"
+#~ msgstr "Vypnout počítač"
+
+#~ msgid "Simple counter"
+#~ msgstr "Jednoduché počítadlo"
+
+#~ msgid "Stops the currently played sound file."
+#~ msgstr "Zastavit aktuálně hraný zvukový soubor"
+
+#~ msgid "Unnamed person"
+#~ msgstr "Nepojmenovaná osoba"
+
+#~ msgid "Use default window"
+#~ msgstr "Použít standardní okno"
+
+#~ msgid "Volume:"
+#~ msgstr "Hlasitost:"
+
+#~ msgid "What do you want to do?"
+#~ msgstr "Co si přejete udělat?"

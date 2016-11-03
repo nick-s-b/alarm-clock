@@ -1,0 +1,1022 @@
+# Slovenian translation for alarmclock
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the alarmclock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alarmclock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-29 14:23+0200\n"
+"PO-Revision-Date: 2008-10-30 10:07+0000\n"
+"Last-Translator: Štefan Baebler <Unknown>\n"
+"Language-Team: Slovenian <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-11-10 12:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/interface/alarm-clock.ui.h:1
+msgid ":"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:2
+msgid "<b>Action to perform</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>Nujnost</b>"
+
+#: ../src/interface/alarm-clock.ui.h:4
+#, fuzzy
+msgid "<b>Command or script</b>"
+msgstr "<b>Ukaz</b>"
+
+#: ../src/interface/alarm-clock.ui.h:5
+msgid "<b>Date</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:6
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:7
+msgid "<b>Dialog window</b>"
+msgstr "<b>Pogovorno okno</b>"
+
+#: ../src/interface/alarm-clock.ui.h:8
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>Splošne možnosti</b>"
+
+#: ../src/interface/alarm-clock.ui.h:9
+#, fuzzy
+msgid "<b>Hour</b>"
+msgstr "<b>Zvok</b>"
+
+#: ../src/interface/alarm-clock.ui.h:10
+#, fuzzy
+msgid "<b>Message</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:11
+msgid "<b>Months</b>"
+msgstr "<b>Meseci</b>"
+
+#: ../src/interface/alarm-clock.ui.h:12
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "<b>Datum</b>"
+
+#: ../src/interface/alarm-clock.ui.h:13
+msgid "<b>Passive popup</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:14
+#, fuzzy
+msgid "<b>Priority</b>"
+msgstr "<b>Naslov okna</b>"
+
+#: ../src/interface/alarm-clock.ui.h:15
+msgid "<b>Short name</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:16
+msgid "<b>Snooze</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:17
+#, fuzzy
+msgid "<b>Sound file</b>"
+msgstr "<b>Zvok</b>"
+
+#: ../src/interface/alarm-clock.ui.h:18
+msgid "<b>Sound</b>"
+msgstr "<b>Zvok</b>"
+
+#: ../src/interface/alarm-clock.ui.h:19
+msgid "<b>Standard action</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:20
+msgid "<b>Startup</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:21
+#, fuzzy
+msgid "<b>Terminal command</b>"
+msgstr "<b>Ukaz</b>"
+
+#: ../src/interface/alarm-clock.ui.h:22
+msgid "<b>Text</b>"
+msgstr "<b>Besedilo</b>"
+
+#: ../src/interface/alarm-clock.ui.h:23
+#, fuzzy
+msgid "<b>Time format</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:24
+msgid "<b>Time</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:25
+msgid "<b>Timeout</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:26
+#, fuzzy
+msgid "<b>Title</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:27
+#, fuzzy
+msgid "<b>Volume</b>"
+msgstr "<b>Čas</b>"
+
+#: ../src/interface/alarm-clock.ui.h:28
+msgid "<b>Weekdays</b>"
+msgstr "<b>Delovniki</b>"
+
+#: ../src/interface/alarm-clock.ui.h:29
+msgid ""
+"<big><big>No alarms active</big></big>\n"
+"\n"
+"You can create new alarm by clicking on the plus button on the top of this "
+"window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:32
+msgid ""
+"<big>No birthdays found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:36
+msgid "<big>No dates selected.</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:37
+msgid "<big>No missed alarms</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:38
+msgid ""
+"<big>No tempates found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:42
+msgid "<big>No templates found</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:43
+msgid "Add alarm"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:44
+msgid "Add new _alarm"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:45
+#, fuzzy
+msgid "Add new _counter"
+msgstr "Preprost števec."
+
+#: ../src/interface/alarm-clock.ui.h:46
+msgid "Add new alarm"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:47 ../src/alarm_thread.c:480
+#: ../src/common.c:85 ../src/main.c:91 ../src/main.c:120
+#: ../src/status_icon.c:154
+msgid "Alarm Clock"
+msgstr "Budilka"
+
+#: ../src/interface/alarm-clock.ui.h:48
+msgid "Alarm priority:"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:49
+msgid "Alarm time:"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:50
+msgid "Alarm timeout:"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:51 ../src/schedule.c:28
+msgid "April"
+msgstr "april"
+
+#: ../src/interface/alarm-clock.ui.h:52 ../src/schedule.c:32
+msgid "August"
+msgstr "avgust"
+
+#: ../src/interface/alarm-clock.ui.h:53
+msgid "Background color:"
+msgstr "Barva ozadja:"
+
+#: ../src/interface/alarm-clock.ui.h:54
+#, fuzzy
+msgid "Birthday preferences"
+msgstr "Nastavitve"
+
+#: ../src/interface/alarm-clock.ui.h:55
+msgid "Birthdays"
+msgstr "Rojstni dnevi"
+
+#: ../src/interface/alarm-clock.ui.h:56 ../src/status_icon.c:84
+#, fuzzy
+msgid "Birthdays & templates"
+msgstr "Rojstni dnevi in predloge"
+
+#: ../src/interface/alarm-clock.ui.h:57
+#, fuzzy
+msgid "Birthdays and templates"
+msgstr "Rojstni dnevi in predloge"
+
+#: ../src/interface/alarm-clock.ui.h:58
+msgid "Check for updates..."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:59
+msgid "Choose date"
+msgstr "Izberite datum"
+
+#: ../src/interface/alarm-clock.ui.h:60
+msgid "Constant volume"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:61 ../src/main_list.c:370
+msgid "Counter"
+msgstr "Števec"
+
+#: ../src/interface/alarm-clock.ui.h:62 ../src/schedule.c:36
+msgid "December"
+msgstr "december"
+
+#: ../src/interface/alarm-clock.ui.h:63
+#, fuzzy
+msgid "Deselect all"
+msgstr "Odizberi vse"
+
+#: ../src/interface/alarm-clock.ui.h:64
+#, fuzzy
+msgid "Dialog window properties"
+msgstr "Pogovorno okno"
+
+#: ../src/interface/alarm-clock.ui.h:65
+msgid "Do not play any sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:66
+msgid "Exclude this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:67
+#, fuzzy
+msgid "Execute command or shell script"
+msgstr "Poženi lupinski skript"
+
+#: ../src/interface/alarm-clock.ui.h:68
+msgid "Execute standard action"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:69
+msgid "Faded volume"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:70 ../src/schedule.c:26
+msgid "February"
+msgstr "februar"
+
+#: ../src/interface/alarm-clock.ui.h:71
+msgid "Friday"
+msgstr "petek"
+
+#: ../src/interface/alarm-clock.ui.h:72
+msgid "General"
+msgstr "Splošno"
+
+#: ../src/interface/alarm-clock.ui.h:73
+msgid "Include this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:74 ../src/schedule.c:25
+msgid "January"
+msgstr "januar"
+
+#: ../src/interface/alarm-clock.ui.h:75 ../src/schedule.c:31
+msgid "July"
+msgstr "julij"
+
+#: ../src/interface/alarm-clock.ui.h:76 ../src/schedule.c:30
+msgid "June"
+msgstr "junij"
+
+#: ../src/interface/alarm-clock.ui.h:77
+msgid "LIST_VIEW"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:78
+msgid "Lock the screen"
+msgstr "Zakleni zaslon"
+
+#: ../src/interface/alarm-clock.ui.h:79 ../src/schedule.c:27
+msgid "March"
+msgstr "marec"
+
+#: ../src/interface/alarm-clock.ui.h:80 ../src/schedule.c:29
+msgid "May"
+msgstr "maj"
+
+#: ../src/interface/alarm-clock.ui.h:81
+msgid "Missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:82
+msgid "Monday"
+msgstr "ponedeljek"
+
+#: ../src/interface/alarm-clock.ui.h:83
+msgid "NO_ALARMS"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:84
+msgid "Notification"
+msgstr "Obvestilo"
+
+#: ../src/interface/alarm-clock.ui.h:85 ../src/schedule.c:35
+msgid "November"
+msgstr "november"
+
+#: ../src/interface/alarm-clock.ui.h:86 ../src/schedule.c:34
+msgid "October"
+msgstr "oktober"
+
+#: ../src/interface/alarm-clock.ui.h:87 ../src/export.c:70
+msgid "Open alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:88
+#, fuzzy
+msgid "Play sound during event"
+msgstr "Ob dogodku predvajaj zvok"
+
+#: ../src/interface/alarm-clock.ui.h:89
+msgid "Play standard sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:90
+#, fuzzy
+msgid "Play this sound file"
+msgstr "Izberite zvočno datoteko"
+
+#: ../src/interface/alarm-clock.ui.h:91
+#, fuzzy
+msgid "Popup preferences"
+msgstr "Nastavitve"
+
+#: ../src/interface/alarm-clock.ui.h:92
+msgid "Preferences"
+msgstr "Nastavitve"
+
+#: ../src/interface/alarm-clock.ui.h:93
+msgid "Repeat after finish "
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:94
+msgid "Run command"
+msgstr "Zaženi ukaz"
+
+#: ../src/interface/alarm-clock.ui.h:95
+#, fuzzy
+msgid "Run inside GNOME terminal"
+msgstr "Poženi v terminalu"
+
+#: ../src/interface/alarm-clock.ui.h:96
+msgid "Saturday"
+msgstr "sobota"
+
+#: ../src/interface/alarm-clock.ui.h:97 ../src/export.c:29
+msgid "Save alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:98
+msgid "Schedule"
+msgstr "Razpored"
+
+#: ../src/interface/alarm-clock.ui.h:99 ../src/main_list.c:375
+msgid "Scheduled"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:100
+#, fuzzy
+msgid "Select all"
+msgstr "Izberi vse"
+
+#: ../src/interface/alarm-clock.ui.h:101
+#, fuzzy
+msgid "Select date"
+msgstr "Izberi vse"
+
+#: ../src/interface/alarm-clock.ui.h:102 ../src/schedule.c:33
+msgid "September"
+msgstr "september"
+
+#: ../src/interface/alarm-clock.ui.h:103
+msgid "Show dialog window during event"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:104 ../src/status_icon.c:88
+msgid "Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:105
+msgid "Show passive popup during event"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:106
+msgid "Show snooze button (min):"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:107
+msgid "Single day"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:108
+msgid "Sound properties"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:109
+msgid "Standard action"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:110
+msgid "Start minimized"
+msgstr "Zaženi pomanjšano"
+
+#: ../src/interface/alarm-clock.ui.h:111
+msgid "Start the program automatically with GNOME"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:112
+msgid "Start this alarm in (in minutes):"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:113
+msgid "Stop the sound"
+msgstr "Ustavi zvok"
+
+#: ../src/interface/alarm-clock.ui.h:114
+msgid "Sunday"
+msgstr "nedelja"
+
+#: ../src/interface/alarm-clock.ui.h:115
+msgid "Templates"
+msgstr "Predloge"
+
+#: ../src/interface/alarm-clock.ui.h:116
+msgid "Test current alarm"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:117
+msgid "Text color:"
+msgstr "Barva besedila:"
+
+#: ../src/interface/alarm-clock.ui.h:118
+msgid "Text size:"
+msgstr "Velikost pisave:"
+
+#: ../src/interface/alarm-clock.ui.h:119
+msgid "Thursday"
+msgstr "četrtek"
+
+#: ../src/interface/alarm-clock.ui.h:120
+msgid "Today"
+msgstr "Danes"
+
+#: ../src/interface/alarm-clock.ui.h:121
+msgid "Tomorrow"
+msgstr "Jutri"
+
+#: ../src/interface/alarm-clock.ui.h:122
+msgid "Tuesday"
+msgstr "torek"
+
+#: ../src/interface/alarm-clock.ui.h:123
+msgid "Turn off the monitor"
+msgstr "Ugasni zaslon"
+
+#: ../src/interface/alarm-clock.ui.h:124
+msgid "Use 12-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:125
+msgid "Use 24-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:126
+msgid "Use custom sound file"
+msgstr "Uporabi lastno zvočno datoteko"
+
+#: ../src/interface/alarm-clock.ui.h:127
+msgid "Wednesday"
+msgstr "sreda"
+
+#: ../src/interface/alarm-clock.ui.h:128
+#, fuzzy
+msgid "_Add new counter..."
+msgstr "Preprost števec."
+
+#: ../src/interface/alarm-clock.ui.h:129
+msgid "_Edit"
+msgstr "_Uredi"
+
+#: ../src/interface/alarm-clock.ui.h:130
+msgid "_File"
+msgstr "_Datoteka"
+
+#: ../src/interface/alarm-clock.ui.h:131
+msgid "_Help"
+msgstr "_Pomoč"
+
+#: ../src/interface/alarm-clock.ui.h:132
+msgid "_Remove alarm"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:133 ../src/main_list.c:106
+#: ../src/status_icon.c:92
+msgid "_Show menu bar"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:134
+msgid "_Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:135
+msgid "_View"
+msgstr "_Pogled"
+
+#: ../src/interface/alarm-clock.ui.h:136
+msgid "page 1"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:137
+msgid "page 2"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:138
+msgid "toolbutton1"
+msgstr ""
+
+#: ../src/alarm_runner.c:95
+#, fuzzy
+msgid "<b>Too many sounds!</b>"
+msgstr "<b>Zvoki</b>"
+
+#: ../src/alarm_runner.c:96
+msgid "Cannot play more than 1 sound at once."
+msgstr ""
+
+#: ../src/alarm_runner.c:121
+#, c-format
+msgid "Cannot play sound because the sound file <b>%s</b> was not found."
+msgstr ""
+
+#: ../src/alarm_runner.c:127
+#, fuzzy
+msgid "<b>Cannot find sound file!</b>"
+msgstr "<b>Naslov okna</b>"
+
+#: ../src/alarm_runner.c:277
+msgid "Snooze"
+msgstr "Dremež"
+
+#: ../src/alarm_runner.c:344
+msgid "Press any key to continue..."
+msgstr ""
+
+#: ../src/alarm_thread.c:474
+#, c-format
+msgid ""
+"Today's birthdays:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/common.c:94
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/counters.c:31 ../src/modify_alarm.c:243 ../src/modify_alarm.c:244
+msgid "Untitled"
+msgstr ""
+
+#: ../src/counters.c:45 ../src/modify_alarm.c:262
+msgid "Popup"
+msgstr ""
+
+#: ../src/counters.c:46 ../src/modify_alarm.c:263
+msgid "Short popup"
+msgstr ""
+
+#: ../src/counters.c:51 ../src/modify_alarm.c:268
+msgid "Dialog window"
+msgstr "Pogovorno okno"
+
+#: ../src/counters.c:52 ../src/modify_alarm.c:269
+#, fuzzy
+msgid "This is a small message"
+msgstr "To je preprost opomnik."
+
+#: ../src/counters.c:77
+#, fuzzy
+msgid "Sound files"
+msgstr "Zvočna datoteka:"
+
+#: ../src/counters.c:80 ../src/export.c:38 ../src/export.c:79
+msgid "All files"
+msgstr "Vse datoteke"
+
+#: ../src/counters.c:152 ../src/modify_alarm.c:421
+#, fuzzy
+msgid "<b>Invalid filename</b>"
+msgstr "<b>Naslov okna</b>"
+
+#: ../src/counters.c:153 ../src/modify_alarm.c:422
+msgid "You need to specify sound file name."
+msgstr ""
+
+#: ../src/counters.c:170
+#, fuzzy
+msgid "<b>Invalid title</b>"
+msgstr "<b>Naslov okna</b>"
+
+#: ../src/counters.c:171
+#, fuzzy
+msgid "You need to specify title of the counter."
+msgstr "Za nadaljevanje potrebujete vsaj en mesec."
+
+#: ../src/export.c:40 ../src/export.c:81
+#, fuzzy
+msgid "Alarm clock alarms"
+msgstr "Budilka"
+
+#: ../src/main_list.c:86
+msgid "_Add new alarm"
+msgstr ""
+
+#: ../src/main_list.c:90
+#, fuzzy
+msgid "_Add new counter"
+msgstr "Preprost števec."
+
+#: ../src/main_list.c:96
+msgid "_Remove this alarm"
+msgstr ""
+
+#: ../src/main_list.c:215 ../src/main_window.c:190
+msgid "Name"
+msgstr "Ime"
+
+#: ../src/main_list.c:216
+msgid "Alarm type"
+msgstr ""
+
+#: ../src/main_list.c:217
+#, fuzzy
+msgid "Date and time"
+msgstr "Datum in čas"
+
+#: ../src/main_list.c:218
+msgid "Time left"
+msgstr ""
+
+#: ../src/main_list.c:364
+msgid "<i>Single</i>"
+msgstr ""
+
+#: ../src/main_list.c:365
+msgid "Single"
+msgstr ""
+
+#: ../src/main_list.c:369
+#, fuzzy
+msgid "<i>Counter</i>"
+msgstr "Števec"
+
+#: ../src/main_list.c:374
+#, fuzzy
+msgid "<i>Scheduled</i>"
+msgstr "Razpored"
+
+#: ../src/main_window.c:50
+msgid "<b>You have old alarms</b>"
+msgstr ""
+
+#: ../src/main_window.c:52
+msgid ""
+"It seems you missed some alarms, because your old alarm list is not empty."
+msgstr ""
+
+#: ../src/main_window.c:191
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/main_window.c:246 ../src/schedule.c:349
+#, fuzzy
+msgid "<b>Include</b>"
+msgstr "<b>Zvok</b>"
+
+#: ../src/main_window.c:248 ../src/schedule.c:351
+#, fuzzy
+msgid "<b>Exclude</b>"
+msgstr "<b>Izjeme</b>"
+
+#: ../src/main_window.c:270
+msgid "Small"
+msgstr ""
+
+#: ../src/main_window.c:271
+msgid "Medium"
+msgstr ""
+
+#: ../src/main_window.c:272
+msgid "Large"
+msgstr ""
+
+#: ../src/main_window.c:273
+msgid "Very large"
+msgstr ""
+
+#: ../src/modify_alarm.c:369 ../src/modify_alarm.c:386
+#, c-format
+msgid "Infinite"
+msgstr ""
+
+#: ../src/modify_alarm.c:756 ../src/modify_alarm.c:777
+#, fuzzy
+msgid "<b>Error occured!</b>"
+msgstr "<b>Zvok</b>"
+
+#: ../src/modify_alarm.c:758
+#, fuzzy
+msgid "You need to select at least one notification."
+msgstr "Za nadaljevanje potrebujete vsaj en mesec."
+
+#: ../src/modify_alarm.c:779
+msgid "Alarm title cannot be empty."
+msgstr ""
+
+#: ../src/modify_alarm.c:1065 ../src/templates.c:477
+#, fuzzy
+msgid "<b>Are you sure?</b>"
+msgstr "Ali ste prepričani?"
+
+#: ../src/modify_alarm.c:1067
+#, c-format
+msgid "Are you sure you want to remove alarm %s?"
+msgstr ""
+
+#: ../src/schedule.c:38
+msgid "Invalid"
+msgstr ""
+
+#: ../src/schedule.c:435
+#, fuzzy
+msgid "<b>Cannot add date</b>"
+msgstr "<b>Ukaz</b>"
+
+#: ../src/schedule.c:437
+msgid "This date already exists on the list."
+msgstr ""
+
+#: ../src/schedule.c:498
+#, fuzzy
+msgid ""
+"You need to select at least one month and day or include one date to the "
+"schedule."
+msgstr "Za nadaljevanje potrebujete vsaj en mesec."
+
+#: ../src/schedule.c:524
+#, fuzzy
+msgid "<b>Cannot proceed</b>"
+msgstr "<b>Ukaz</b>"
+
+#: ../src/status_icon.c:68
+msgid "_Show main window"
+msgstr ""
+
+#: ../src/status_icon.c:74
+msgid "_Add alarm..."
+msgstr ""
+
+#: ../src/status_icon.c:78
+#, fuzzy
+msgid "Add counter..."
+msgstr "Preprost števec."
+
+#: ../src/templates.c:163
+msgid "You need to provide the name."
+msgstr ""
+
+#: ../src/templates.c:401
+#, c-format
+msgid "Are you sure you want to remove birthday for %s?"
+msgstr ""
+
+#: ../src/templates.c:470
+#, c-format
+msgid "Are you sure you want to remove template %s?"
+msgstr ""
+
+#~ msgid "Current time: %c"
+#~ msgstr "Trenutni čas: %c"
+
+#~ msgid "Confirmation required"
+#~ msgstr "Potrebna potrditev"
+
+#~ msgid "Error!"
+#~ msgstr "Napaka!"
+
+#~ msgid "Type"
+#~ msgstr "Vrsta"
+
+#~ msgid "Template name"
+#~ msgstr "Ime predloge"
+
+#~ msgid "First and last name"
+#~ msgstr "Ime in priimek"
+
+#~ msgid "Birthday date"
+#~ msgstr "Rojstni datum"
+
+#~ msgid "Error"
+#~ msgstr "Napaka"
+
+#~ msgid "Audio files"
+#~ msgstr "Zvočne datoteke"
+
+#~ msgid "None"
+#~ msgstr "Brez"
+
+#~ msgid "Comment"
+#~ msgstr "Komentar"
+
+#~ msgid "<b>Month list is empty</b>"
+#~ msgstr "<b>Seznam mesecev je prazen</b>"
+
+#~ msgid "<b>Days list is empty</b>"
+#~ msgstr "<b>Seznam dni je prazen</b>"
+
+#~ msgid "You need to select at least one day to proceed."
+#~ msgstr "Za nadaljevanje potrebujete vsaj en dan."
+
+#~ msgid "Reminder"
+#~ msgstr "Opomnik"
+
+#~ msgid "Dialog Window"
+#~ msgstr "Pogovorno okno"
+
+#~ msgid "%s:%s - Today"
+#~ msgstr "%s:%s - Danes"
+
+#~ msgid "Usage:"
+#~ msgstr "Uporaba:"
+
+#~ msgid "<b>Account type</b>"
+#~ msgstr "<b>Vrsta računa</b>"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>Komentar</b>"
+
+#~ msgid "<b>Confirmation</b>"
+#~ msgstr "<b>Potrditev</b>"
+
+#~ msgid "<b>Summary text</b>"
+#~ msgstr "<b>Besedilo povzetka</b>"
+
+#~ msgid "<b>Summary</b>"
+#~ msgstr "<b>Povzetek</b>"
+
+#~ msgid "Account type:"
+#~ msgstr "Vrsta računa:"
+
+#~ msgid "Add exception"
+#~ msgstr "Dodaj izjemo"
+
+#~ msgid "Address:"
+#~ msgstr "Naslov:"
+
+#~ msgid "Author:"
+#~ msgstr "Avtor:"
+
+#~ msgid "Comments:"
+#~ msgstr "Komentarji:"
+
+#~ msgid "Day:"
+#~ msgstr "Dan:"
+
+#~ msgid "Email address"
+#~ msgstr "E-poštni naslov"
+
+#~ msgid "Email address:"
+#~ msgstr "E-poštni naslov:"
+
+#~ msgid "Initial volume:"
+#~ msgstr "Začetna glasnost:"
+
+#~ msgid ""
+#~ "January\n"
+#~ "February\n"
+#~ "March\n"
+#~ "April\n"
+#~ "May\n"
+#~ "June\n"
+#~ "July\n"
+#~ "August\n"
+#~ "September\n"
+#~ "October\n"
+#~ "November\n"
+#~ "December"
+#~ msgstr ""
+#~ "januar\n"
+#~ "februar\n"
+#~ "marec\n"
+#~ "april\n"
+#~ "maj\n"
+#~ "junij\n"
+#~ "julij\n"
+#~ "avgust\n"
+#~ "september\n"
+#~ "oktober\n"
+#~ "november\n"
+#~ "december"
+
+#~ msgid "Login:"
+#~ msgstr "Prijava:"
+
+#~ msgid "Month:"
+#~ msgstr "Mesec:"
+
+#~ msgid "No sound"
+#~ msgstr "Brez zvoka"
+
+#~ msgid ""
+#~ "POP3\n"
+#~ "IMAP"
+#~ msgstr ""
+#~ "POP3\n"
+#~ "IMAP"
+
+#~ msgid "Password:"
+#~ msgstr "Geslo:"
+
+#~ msgid "Person's name:"
+#~ msgstr "Ime osebe:"
+
+#~ msgid "Play sound"
+#~ msgstr "Predvajaj zvok"
+
+#~ msgid "Port:"
+#~ msgstr "Vrata:"
+
+#~ msgid "Reboot the computer"
+#~ msgstr "Znova zaženi računalnik"
+
+#~ msgid "Shut down the computer"
+#~ msgstr "Izklopi računalnik"
+
+#~ msgid "Stops the currently played sound file."
+#~ msgstr "Ustavi predvajanje zvoka, ki je trenutno predvajan."
+
+#~ msgid "Test"
+#~ msgstr "Preizkus"
+
+#~ msgid "Timeout in seconds:"
+#~ msgstr "Zakasnitev v sekundah:"
+
+#~ msgid "Unnamed person"
+#~ msgstr "Neimenovana oseba"
+
+#~ msgid "Use SSL (eg. for GMail)"
+#~ msgstr "Uporabi SSL (npr. za GMail)"
+
+#~ msgid "Use default window"
+#~ msgstr "Uporabi privzeto okno"
+
+#~ msgid "Volume:"
+#~ msgstr "Glasnost:"
+
+#~ msgid "What do you want to do?"
+#~ msgstr "Kaj želite napraviti sedaj?"

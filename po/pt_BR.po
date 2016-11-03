@@ -1,0 +1,1358 @@
+# Brazilian Portuguese translation for alarmclock
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the alarmclock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alarmclock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-29 14:23+0200\n"
+"PO-Revision-Date: 2008-09-29 07:10+0000\n"
+"Last-Translator: elias <Unknown>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-11-10 12:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/interface/alarm-clock.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/interface/alarm-clock.ui.h:2
+msgid "<b>Action to perform</b>"
+msgstr "<b>Ação a realizar</b>"
+
+#: ../src/interface/alarm-clock.ui.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>Urgência</b>"
+
+#: ../src/interface/alarm-clock.ui.h:4
+#, fuzzy
+msgid "<b>Command or script</b>"
+msgstr "<b>Comando</b>"
+
+#: ../src/interface/alarm-clock.ui.h:5
+msgid "<b>Date</b>"
+msgstr "<b>Data</b>"
+
+#: ../src/interface/alarm-clock.ui.h:6
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<b>Data</b>"
+
+#: ../src/interface/alarm-clock.ui.h:7
+msgid "<b>Dialog window</b>"
+msgstr "<b>Janela de diálogo</b>"
+
+#: ../src/interface/alarm-clock.ui.h:8
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>Informações gerais</b>"
+
+#: ../src/interface/alarm-clock.ui.h:9
+#, fuzzy
+msgid "<b>Hour</b>"
+msgstr "<b>Sons</b>"
+
+#: ../src/interface/alarm-clock.ui.h:10
+#, fuzzy
+msgid "<b>Message</b>"
+msgstr "<b>Data</b>"
+
+#: ../src/interface/alarm-clock.ui.h:11
+msgid "<b>Months</b>"
+msgstr "<b>Meses</b>"
+
+#: ../src/interface/alarm-clock.ui.h:12
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "<b>Data</b>"
+
+#: ../src/interface/alarm-clock.ui.h:13
+#, fuzzy
+msgid "<b>Passive popup</b>"
+msgstr "<b>Janela passiva</b>"
+
+#: ../src/interface/alarm-clock.ui.h:14
+#, fuzzy
+msgid "<b>Priority</b>"
+msgstr "<b>Tempo limite</b>"
+
+#: ../src/interface/alarm-clock.ui.h:15
+msgid "<b>Short name</b>"
+msgstr "<b>Nome curto</b>"
+
+#: ../src/interface/alarm-clock.ui.h:16
+msgid "<b>Snooze</b>"
+msgstr "<b>Sombra</b>"
+
+#: ../src/interface/alarm-clock.ui.h:17
+#, fuzzy
+msgid "<b>Sound file</b>"
+msgstr "<b>Sons</b>"
+
+#: ../src/interface/alarm-clock.ui.h:18
+msgid "<b>Sound</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:19
+msgid "<b>Standard action</b>"
+msgstr "<b>Ação padrão</b>"
+
+#: ../src/interface/alarm-clock.ui.h:20
+msgid "<b>Startup</b>"
+msgstr "<b>Inicialização</b>"
+
+#: ../src/interface/alarm-clock.ui.h:21
+#, fuzzy
+msgid "<b>Terminal command</b>"
+msgstr "<b>Comando</b>"
+
+#: ../src/interface/alarm-clock.ui.h:22
+msgid "<b>Text</b>"
+msgstr "<b>Texto</b>"
+
+#: ../src/interface/alarm-clock.ui.h:23
+#, fuzzy
+msgid "<b>Time format</b>"
+msgstr "<b>Tempo limite</b>"
+
+#: ../src/interface/alarm-clock.ui.h:24
+msgid "<b>Time</b>"
+msgstr "<b>Hora</b>"
+
+#: ../src/interface/alarm-clock.ui.h:25
+msgid "<b>Timeout</b>"
+msgstr "<b>Tempo limite</b>"
+
+#: ../src/interface/alarm-clock.ui.h:26
+#, fuzzy
+msgid "<b>Title</b>"
+msgstr "<b>Hora</b>"
+
+#: ../src/interface/alarm-clock.ui.h:27
+#, fuzzy
+msgid "<b>Volume</b>"
+msgstr "<b>Hora</b>"
+
+#: ../src/interface/alarm-clock.ui.h:28
+msgid "<b>Weekdays</b>"
+msgstr "<b>Dias úteis</b>"
+
+#: ../src/interface/alarm-clock.ui.h:29
+#, fuzzy
+msgid ""
+"<big><big>No alarms active</big></big>\n"
+"\n"
+"You can create new alarm by clicking on the plus button on the top of this "
+"window."
+msgstr ""
+"<span foreground='gray40'><big><big>Nenhum alarme ativo.</big></big>\n"
+"\n"
+"<small>Para criar um novo alarme, clique no botão \"Adicionar\" ou abra o "
+"arquivo da lista de alarmes.</small></span>"
+
+#: ../src/interface/alarm-clock.ui.h:32
+msgid ""
+"<big>No birthdays found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:36
+msgid "<big>No dates selected.</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:37
+msgid "<big>No missed alarms</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:38
+msgid ""
+"<big>No tempates found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:42
+msgid "<big>No templates found</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:43
+#, fuzzy
+msgid "Add alarm"
+msgstr "Adicionar novo alarme"
+
+#: ../src/interface/alarm-clock.ui.h:44
+#, fuzzy
+msgid "Add new _alarm"
+msgstr "Adicionar novo alarme"
+
+#: ../src/interface/alarm-clock.ui.h:45
+#, fuzzy
+msgid "Add new _counter"
+msgstr "Adicionar novo contador..."
+
+#: ../src/interface/alarm-clock.ui.h:46
+#, fuzzy
+msgid "Add new alarm"
+msgstr "Adicionar novo alarme"
+
+#: ../src/interface/alarm-clock.ui.h:47 ../src/alarm_thread.c:480
+#: ../src/common.c:85 ../src/main.c:91 ../src/main.c:120
+#: ../src/status_icon.c:154
+msgid "Alarm Clock"
+msgstr "Alarm Clock"
+
+#: ../src/interface/alarm-clock.ui.h:48
+#, fuzzy
+msgid "Alarm priority:"
+msgstr "Propriedades do alarme"
+
+#: ../src/interface/alarm-clock.ui.h:49
+msgid "Alarm time:"
+msgstr "Hora do alarme:"
+
+#: ../src/interface/alarm-clock.ui.h:50
+#, fuzzy
+msgid "Alarm timeout:"
+msgstr "Hora do alarme:"
+
+#: ../src/interface/alarm-clock.ui.h:51 ../src/schedule.c:28
+msgid "April"
+msgstr "Abril"
+
+#: ../src/interface/alarm-clock.ui.h:52 ../src/schedule.c:32
+msgid "August"
+msgstr "Agosto"
+
+#: ../src/interface/alarm-clock.ui.h:53
+msgid "Background color:"
+msgstr "Cor de fundo:"
+
+#: ../src/interface/alarm-clock.ui.h:54
+#, fuzzy
+msgid "Birthday preferences"
+msgstr "Preferências"
+
+#: ../src/interface/alarm-clock.ui.h:55
+msgid "Birthdays"
+msgstr "Aniversários"
+
+#: ../src/interface/alarm-clock.ui.h:56 ../src/status_icon.c:84
+#, fuzzy
+msgid "Birthdays & templates"
+msgstr "Aniversários e Modelos"
+
+#: ../src/interface/alarm-clock.ui.h:57
+#, fuzzy
+msgid "Birthdays and templates"
+msgstr "Aniversários e Modelos"
+
+#: ../src/interface/alarm-clock.ui.h:58
+#, fuzzy
+msgid "Check for updates..."
+msgstr "Checando por emails"
+
+#: ../src/interface/alarm-clock.ui.h:59
+msgid "Choose date"
+msgstr "Escolha a data"
+
+#: ../src/interface/alarm-clock.ui.h:60
+msgid "Constant volume"
+msgstr "Volume constante"
+
+#: ../src/interface/alarm-clock.ui.h:61 ../src/main_list.c:370
+msgid "Counter"
+msgstr "Contador"
+
+#: ../src/interface/alarm-clock.ui.h:62 ../src/schedule.c:36
+msgid "December"
+msgstr "Dezembro"
+
+#: ../src/interface/alarm-clock.ui.h:63
+#, fuzzy
+msgid "Deselect all"
+msgstr "Desmarcar Todos"
+
+#: ../src/interface/alarm-clock.ui.h:64
+#, fuzzy
+msgid "Dialog window properties"
+msgstr "Janela de diálogo"
+
+#: ../src/interface/alarm-clock.ui.h:65
+msgid "Do not play any sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:66
+msgid "Exclude this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:67
+#, fuzzy
+msgid "Execute command or shell script"
+msgstr "Executar shell script"
+
+#: ../src/interface/alarm-clock.ui.h:68
+#, fuzzy
+msgid "Execute standard action"
+msgstr "Realizar ação padrão"
+
+#: ../src/interface/alarm-clock.ui.h:69
+#, fuzzy
+msgid "Faded volume"
+msgstr "Volume final:"
+
+#: ../src/interface/alarm-clock.ui.h:70 ../src/schedule.c:26
+msgid "February"
+msgstr "Fevereiro"
+
+#: ../src/interface/alarm-clock.ui.h:71
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: ../src/interface/alarm-clock.ui.h:72
+msgid "General"
+msgstr "Geral"
+
+#: ../src/interface/alarm-clock.ui.h:73
+msgid "Include this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:74 ../src/schedule.c:25
+msgid "January"
+msgstr "Janeiro"
+
+#: ../src/interface/alarm-clock.ui.h:75 ../src/schedule.c:31
+msgid "July"
+msgstr "Julho"
+
+#: ../src/interface/alarm-clock.ui.h:76 ../src/schedule.c:30
+msgid "June"
+msgstr "Junho"
+
+#: ../src/interface/alarm-clock.ui.h:77
+msgid "LIST_VIEW"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:78
+msgid "Lock the screen"
+msgstr "Travar a tela"
+
+#: ../src/interface/alarm-clock.ui.h:79 ../src/schedule.c:27
+msgid "March"
+msgstr "Março"
+
+#: ../src/interface/alarm-clock.ui.h:80 ../src/schedule.c:29
+msgid "May"
+msgstr "Maio"
+
+#: ../src/interface/alarm-clock.ui.h:81
+#, fuzzy
+msgid "Missed alarms"
+msgstr "Novo alarme"
+
+#: ../src/interface/alarm-clock.ui.h:82
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: ../src/interface/alarm-clock.ui.h:83
+msgid "NO_ALARMS"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:84
+msgid "Notification"
+msgstr "Notificação"
+
+#: ../src/interface/alarm-clock.ui.h:85 ../src/schedule.c:35
+msgid "November"
+msgstr "Novembro"
+
+#: ../src/interface/alarm-clock.ui.h:86 ../src/schedule.c:34
+msgid "October"
+msgstr "Outubro"
+
+#: ../src/interface/alarm-clock.ui.h:87 ../src/export.c:70
+msgid "Open alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:88
+#, fuzzy
+msgid "Play sound during event"
+msgstr "Tocar som para evento"
+
+#: ../src/interface/alarm-clock.ui.h:89
+msgid "Play standard sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:90
+#, fuzzy
+msgid "Play this sound file"
+msgstr "Escolha um arquivo de som"
+
+#: ../src/interface/alarm-clock.ui.h:91
+#, fuzzy
+msgid "Popup preferences"
+msgstr "Preferências"
+
+#: ../src/interface/alarm-clock.ui.h:92
+msgid "Preferences"
+msgstr "Preferências"
+
+#: ../src/interface/alarm-clock.ui.h:93
+msgid "Repeat after finish "
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:94
+msgid "Run command"
+msgstr "Executar comando"
+
+#: ../src/interface/alarm-clock.ui.h:95
+#, fuzzy
+msgid "Run inside GNOME terminal"
+msgstr "Executar no terminal"
+
+#: ../src/interface/alarm-clock.ui.h:96
+msgid "Saturday"
+msgstr "Sábado"
+
+#: ../src/interface/alarm-clock.ui.h:97 ../src/export.c:29
+msgid "Save alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:98
+msgid "Schedule"
+msgstr "Agendamento"
+
+#: ../src/interface/alarm-clock.ui.h:99 ../src/main_list.c:375
+msgid "Scheduled"
+msgstr "Programado"
+
+#: ../src/interface/alarm-clock.ui.h:100
+#, fuzzy
+msgid "Select all"
+msgstr "Seleciona Tudo"
+
+#: ../src/interface/alarm-clock.ui.h:101
+#, fuzzy
+msgid "Select date"
+msgstr "Selecionar ação:"
+
+#: ../src/interface/alarm-clock.ui.h:102 ../src/schedule.c:33
+msgid "September"
+msgstr "Setembro"
+
+#: ../src/interface/alarm-clock.ui.h:103
+#, fuzzy
+msgid "Show dialog window during event"
+msgstr "Mostrar janela de diálogo"
+
+#: ../src/interface/alarm-clock.ui.h:104 ../src/status_icon.c:88
+msgid "Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:105
+#, fuzzy
+msgid "Show passive popup during event"
+msgstr "Mostrar janela passiva"
+
+#: ../src/interface/alarm-clock.ui.h:106
+#, fuzzy
+msgid "Show snooze button (min):"
+msgstr "Mostrar o botão suspender (tempo de espera em minutos):"
+
+#: ../src/interface/alarm-clock.ui.h:107
+msgid "Single day"
+msgstr "Único dia"
+
+#: ../src/interface/alarm-clock.ui.h:108
+#, fuzzy
+msgid "Sound properties"
+msgstr "Propriedades do alarme"
+
+#: ../src/interface/alarm-clock.ui.h:109
+msgid "Standard action"
+msgstr "Ação padrão"
+
+#: ../src/interface/alarm-clock.ui.h:110
+msgid "Start minimized"
+msgstr "Iniciar minimizado"
+
+#: ../src/interface/alarm-clock.ui.h:111
+msgid "Start the program automatically with GNOME"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:112
+#, fuzzy
+msgid "Start this alarm in (in minutes):"
+msgstr "Iniciar alarme depois (em minutos):"
+
+#: ../src/interface/alarm-clock.ui.h:113
+msgid "Stop the sound"
+msgstr "Pausar o som"
+
+#: ../src/interface/alarm-clock.ui.h:114
+msgid "Sunday"
+msgstr "Domingo"
+
+#: ../src/interface/alarm-clock.ui.h:115
+msgid "Templates"
+msgstr "Modelos"
+
+#: ../src/interface/alarm-clock.ui.h:116
+#, fuzzy
+msgid "Test current alarm"
+msgstr "Testar o alarme selecionado"
+
+#: ../src/interface/alarm-clock.ui.h:117
+msgid "Text color:"
+msgstr "Cor do texto:"
+
+#: ../src/interface/alarm-clock.ui.h:118
+msgid "Text size:"
+msgstr "Tamanho do texto:"
+
+#: ../src/interface/alarm-clock.ui.h:119
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: ../src/interface/alarm-clock.ui.h:120
+msgid "Today"
+msgstr "Hoje"
+
+#: ../src/interface/alarm-clock.ui.h:121
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+#: ../src/interface/alarm-clock.ui.h:122
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: ../src/interface/alarm-clock.ui.h:123
+msgid "Turn off the monitor"
+msgstr "Desligar o monitor"
+
+#: ../src/interface/alarm-clock.ui.h:124
+msgid "Use 12-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:125
+msgid "Use 24-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:126
+msgid "Use custom sound file"
+msgstr "Usar arquivo de som personalizado"
+
+#: ../src/interface/alarm-clock.ui.h:127
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: ../src/interface/alarm-clock.ui.h:128
+#, fuzzy
+msgid "_Add new counter..."
+msgstr "Adicionar novo contador..."
+
+#: ../src/interface/alarm-clock.ui.h:129
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../src/interface/alarm-clock.ui.h:130
+msgid "_File"
+msgstr "_Arquivo"
+
+#: ../src/interface/alarm-clock.ui.h:131
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../src/interface/alarm-clock.ui.h:132
+#, fuzzy
+msgid "_Remove alarm"
+msgstr "Remover este alarme"
+
+#: ../src/interface/alarm-clock.ui.h:133 ../src/main_list.c:106
+#: ../src/status_icon.c:92
+msgid "_Show menu bar"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:134
+msgid "_Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:135
+msgid "_View"
+msgstr "_Exibir"
+
+#: ../src/interface/alarm-clock.ui.h:136
+msgid "page 1"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:137
+msgid "page 2"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:138
+msgid "toolbutton1"
+msgstr ""
+
+#: ../src/alarm_runner.c:95
+#, fuzzy
+msgid "<b>Too many sounds!</b>"
+msgstr "<b>Sons</b>"
+
+#: ../src/alarm_runner.c:96
+msgid "Cannot play more than 1 sound at once."
+msgstr ""
+
+#: ../src/alarm_runner.c:121
+#, c-format
+msgid "Cannot play sound because the sound file <b>%s</b> was not found."
+msgstr ""
+
+#: ../src/alarm_runner.c:127
+#, fuzzy
+msgid "<b>Cannot find sound file!</b>"
+msgstr "<b>Título da janela</b>"
+
+#: ../src/alarm_runner.c:277
+msgid "Snooze"
+msgstr "Suspender"
+
+#: ../src/alarm_runner.c:344
+msgid "Press any key to continue..."
+msgstr ""
+
+#: ../src/alarm_thread.c:474
+#, c-format
+msgid ""
+"Today's birthdays:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/common.c:94
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/counters.c:31 ../src/modify_alarm.c:243 ../src/modify_alarm.c:244
+msgid "Untitled"
+msgstr "Sem título"
+
+#: ../src/counters.c:45 ../src/modify_alarm.c:262
+msgid "Popup"
+msgstr ""
+
+#: ../src/counters.c:46 ../src/modify_alarm.c:263
+msgid "Short popup"
+msgstr ""
+
+#: ../src/counters.c:51 ../src/modify_alarm.c:268
+msgid "Dialog window"
+msgstr "Janela de diálogo"
+
+#: ../src/counters.c:52 ../src/modify_alarm.c:269
+#, fuzzy
+msgid "This is a small message"
+msgstr "Este é um simples lembrete."
+
+#: ../src/counters.c:77
+#, fuzzy
+msgid "Sound files"
+msgstr "Arquivo de som:"
+
+#: ../src/counters.c:80 ../src/export.c:38 ../src/export.c:79
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: ../src/counters.c:152 ../src/modify_alarm.c:421
+#, fuzzy
+msgid "<b>Invalid filename</b>"
+msgstr "<b>Título da janela</b>"
+
+#: ../src/counters.c:153 ../src/modify_alarm.c:422
+msgid "You need to specify sound file name."
+msgstr ""
+
+#: ../src/counters.c:170
+#, fuzzy
+msgid "<b>Invalid title</b>"
+msgstr "<b>Título da janela</b>"
+
+#: ../src/counters.c:171
+msgid "You need to specify title of the counter."
+msgstr ""
+
+#: ../src/export.c:40 ../src/export.c:81
+#, fuzzy
+msgid "Alarm clock alarms"
+msgstr "Alarm Clock"
+
+#: ../src/main_list.c:86
+#, fuzzy
+msgid "_Add new alarm"
+msgstr "Adicionar novo alarme"
+
+#: ../src/main_list.c:90
+#, fuzzy
+msgid "_Add new counter"
+msgstr "Adicionar novo contador..."
+
+#: ../src/main_list.c:96
+#, fuzzy
+msgid "_Remove this alarm"
+msgstr "Remover este alarme"
+
+#: ../src/main_list.c:215 ../src/main_window.c:190
+msgid "Name"
+msgstr "Nome"
+
+#: ../src/main_list.c:216
+#, fuzzy
+msgid "Alarm type"
+msgstr "Hora do alarme:"
+
+#: ../src/main_list.c:217
+#, fuzzy
+msgid "Date and time"
+msgstr "Data e hora"
+
+#: ../src/main_list.c:218
+msgid "Time left"
+msgstr ""
+
+#: ../src/main_list.c:364
+#, fuzzy
+msgid "<i>Single</i>"
+msgstr "Simples"
+
+#: ../src/main_list.c:365
+msgid "Single"
+msgstr "Simples"
+
+#: ../src/main_list.c:369
+#, fuzzy
+msgid "<i>Counter</i>"
+msgstr "Contador"
+
+#: ../src/main_list.c:374
+#, fuzzy
+msgid "<i>Scheduled</i>"
+msgstr "Programado"
+
+#: ../src/main_window.c:50
+msgid "<b>You have old alarms</b>"
+msgstr ""
+
+#: ../src/main_window.c:52
+msgid ""
+"It seems you missed some alarms, because your old alarm list is not empty."
+msgstr ""
+
+#: ../src/main_window.c:191
+msgid "Date"
+msgstr "Data"
+
+#: ../src/main_window.c:246 ../src/schedule.c:349
+#, fuzzy
+msgid "<b>Include</b>"
+msgstr "<b>Sombra</b>"
+
+#: ../src/main_window.c:248 ../src/schedule.c:351
+#, fuzzy
+msgid "<b>Exclude</b>"
+msgstr "<b>Exceções</b>"
+
+#: ../src/main_window.c:270
+msgid "Small"
+msgstr ""
+
+#: ../src/main_window.c:271
+msgid "Medium"
+msgstr "Médio"
+
+#: ../src/main_window.c:272
+msgid "Large"
+msgstr ""
+
+#: ../src/main_window.c:273
+msgid "Very large"
+msgstr ""
+
+#: ../src/modify_alarm.c:369 ../src/modify_alarm.c:386
+#, c-format
+msgid "Infinite"
+msgstr ""
+
+#: ../src/modify_alarm.c:756 ../src/modify_alarm.c:777
+msgid "<b>Error occured!</b>"
+msgstr ""
+
+#: ../src/modify_alarm.c:758
+msgid "You need to select at least one notification."
+msgstr ""
+
+#: ../src/modify_alarm.c:779
+msgid "Alarm title cannot be empty."
+msgstr ""
+
+#: ../src/modify_alarm.c:1065 ../src/templates.c:477
+#, fuzzy
+msgid "<b>Are you sure?</b>"
+msgstr "Você tem certeza?"
+
+#: ../src/modify_alarm.c:1067
+#, fuzzy, c-format
+msgid "Are you sure you want to remove alarm %s?"
+msgstr "Você tem certeza que deseja remover este alarme?"
+
+#: ../src/schedule.c:38
+msgid "Invalid"
+msgstr ""
+
+#: ../src/schedule.c:435
+#, fuzzy
+msgid "<b>Cannot add date</b>"
+msgstr "<b>Ação padrão</b>"
+
+#: ../src/schedule.c:437
+msgid "This date already exists on the list."
+msgstr ""
+
+#: ../src/schedule.c:498
+msgid ""
+"You need to select at least one month and day or include one date to the "
+"schedule."
+msgstr ""
+
+#: ../src/schedule.c:524
+#, fuzzy
+msgid "<b>Cannot proceed</b>"
+msgstr "<b>Sombra</b>"
+
+#: ../src/status_icon.c:68
+#, fuzzy
+msgid "_Show main window"
+msgstr "Mostrar janela passiva"
+
+#: ../src/status_icon.c:74
+#, fuzzy
+msgid "_Add alarm..."
+msgstr "Adicionar novo alarme..."
+
+#: ../src/status_icon.c:78
+#, fuzzy
+msgid "Add counter..."
+msgstr "Adicionar novo contador..."
+
+#: ../src/templates.c:163
+msgid "You need to provide the name."
+msgstr ""
+
+#: ../src/templates.c:401
+#, fuzzy, c-format
+msgid "Are you sure you want to remove birthday for %s?"
+msgstr "Você tem certeza que deseja remover este aniversário?"
+
+#: ../src/templates.c:470
+#, fuzzy, c-format
+msgid "Are you sure you want to remove template %s?"
+msgstr "Você tem certeza que deseja remover este modelo?"
+
+#~ msgid "Current time: %c"
+#~ msgstr "Hora atual: %c"
+
+#~ msgid "Birthday today! Remember to buy presents:\n"
+#~ msgstr "Aniversário hoje! Lembrar de comprar presentes:\n"
+
+#~ msgid "Confirmation equired"
+#~ msgstr "Requer confirmação"
+
+#~ msgid ""
+#~ "Alarm Clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "in %i seconds. Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "Alarm Clock realizará a seguinte ação:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "em %i segundos. Clique em \"Cancelar\" para cancelar a ação."
+
+#~ msgid "Confirmation required"
+#~ msgstr "Requer confirmação"
+
+#~ msgid ""
+#~ "Alarm clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "Alarm clock realizará a seguinte ação:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Clique em \"Cancelar\" para cancelar a ação."
+
+#~ msgid "on your system."
+#~ msgstr "em seu sistema."
+
+#~ msgid "Error!"
+#~ msgstr "Erro!"
+
+#~ msgid "Error loading pynotify module!"
+#~ msgstr "Erro ao carregar módulo pynotify!"
+
+#~ msgid "Cannot initialize threading library!"
+#~ msgstr "Não é possível inicializar biblioteca threading!"
+
+#~ msgid "An instance is running"
+#~ msgstr "Uma instância está rodando"
+
+#~ msgid "Another instance of Alarm Clock is already running, aborting."
+#~ msgstr "Outra instância do Alarm Clock já está rodando, abortando."
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Template name"
+#~ msgstr "Nome do modelo"
+
+#~ msgid "First and last name"
+#~ msgstr "Primeiro e último nome"
+
+#~ msgid "Birthday date"
+#~ msgstr "Dia do aniversário"
+
+#~ msgid "Birthday removal"
+#~ msgstr "Remover aniversário"
+
+#~ msgid "Alarm removal"
+#~ msgstr "Remover alarme"
+
+#~ msgid "Show main window on screen"
+#~ msgstr "Mostrar janela principal na tela"
+
+#~ msgid ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "For Kamila:)"
+#~ msgstr ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "For Kamila:)"
+
+#~ msgid "Programming"
+#~ msgstr "Programando"
+
+#~ msgid ""
+#~ "This alarm cannot be saved, because it's in the past. You need to "
+#~ "manually correct the problem."
+#~ msgstr ""
+#~ "Este alarme não pode ser salvo, porque ele está no passado. Você precisa "
+#~ "manualmente corrigir o problema."
+
+#~ msgid "Error"
+#~ msgstr "Erro"
+
+#~ msgid "Audio files"
+#~ msgstr "Arquivos de áudio"
+
+#~ msgid "A simple counter."
+#~ msgstr "Um simples contador."
+
+#~ msgid "Counter message"
+#~ msgstr "Mensagem do contador"
+
+#~ msgid "Choose your sound file"
+#~ msgstr "Escolha seu arquivo de áudio"
+
+#~ msgid "Choose your Glade file"
+#~ msgstr "Escolha seu arquivo Glade"
+
+#~ msgid "Glade files"
+#~ msgstr "Arquivos Glade"
+
+#~ msgid "None"
+#~ msgstr "Nenhum"
+
+#~ msgid "Comment"
+#~ msgstr "Comentário"
+
+#~ msgid "This is simple dialog window"
+#~ msgstr "Isto é uma simples janela de diálogo"
+
+#~ msgid "Reminder"
+#~ msgstr "Lembrete"
+
+#~ msgid "Dialog Window"
+#~ msgstr "Janela de Diálogo"
+
+#~ msgid "%s:%s - Today"
+#~ msgstr "%s:%s - Hoje"
+
+#~ msgid "%s:%s - Cancelled"
+#~ msgstr "%s:%s - Cancelado"
+
+#~ msgid "Select location"
+#~ msgstr "Selecione a localização"
+
+#~ msgid "This file does not contain any alarm information."
+#~ msgstr "Este arquivo não contêm nenhuma informação de alarme."
+
+#~ msgid ""
+#~ "Are you sure you want to create a new alarm list?\n"
+#~ "Any unsaved changes will be lost."
+#~ msgstr ""
+#~ "Você tem certeza que quer criar uma nova lista de alarmes?\n"
+#~ "Quaisquer alterações não salvas serão perdidas."
+
+#~ msgid ""
+#~ "The GLADE file <b>%s</b> is incorrect. It should contain a dialog called "
+#~ "\"alarm_dialog\" and a label called \"alarm_label\"."
+#~ msgstr ""
+#~ "O arquivo GLADE <b>%s</b> está incorreto. Ele deve conter uma janela "
+#~ "chamada \"alarm_dialog\" e um label chamado \"alarm_label\"."
+
+#~ msgid "Error: cannot create dialog window."
+#~ msgstr "Erro: não foi possível criar uma janela de diálogo."
+
+#~ msgid "Shutdown"
+#~ msgstr "Desligar"
+
+#~ msgid "Reboot"
+#~ msgstr "Reiniciar"
+
+#~ msgid "Usage:"
+#~ msgstr "Uso:"
+
+#~ msgid "  %s [--OPTION]"
+#~ msgstr "  %s [--OPÇÃO]"
+
+#~ msgid "Available options:"
+#~ msgstr "Opções disponíveis:"
+
+#~ msgid "  -?, -h, --help        Show this help"
+#~ msgstr "  -?, -h, --help        Mostra esta ajuda"
+
+#~ msgid "  -v, --version         Show version"
+#~ msgstr "  -v, --version         Mostra a versão"
+
+#~ msgid "  -t, --tray            Start minimized"
+#~ msgstr "  -t, --tray            Inicia minimizado"
+
+#~ msgid "Alarm Clock version %s"
+#~ msgstr "Alarm Clock versão %s"
+
+#~ msgid "Unknown parameter, use --help for help."
+#~ msgstr "Parâmetro desconhecido, Use --help para ajuda."
+
+#~ msgid "110"
+#~ msgstr "110"
+
+#~ msgid "<b>Account type</b>"
+#~ msgstr "<b>Tipo de conta</b>"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>Comentário</b>"
+
+#~ msgid "<b>Confirmation</b>"
+#~ msgstr "<b>Confirmação</b>"
+
+#~ msgid "<b>Login information</b>"
+#~ msgstr "<b>Informação de acesso</b>"
+
+#~ msgid "<b>Mail checking</b>"
+#~ msgstr "<b>Checando email</b>"
+
+#~ msgid "<b>Server information</b>"
+#~ msgstr "<b>Infomarção do servidor</b>"
+
+#~ msgid "<b>Summary text</b>"
+#~ msgstr "<b>Texto resumido</b>"
+
+#~ msgid "<b>Summary</b>"
+#~ msgstr "<b>Resumo</b>"
+
+#~ msgid ""
+#~ "<big>No birthdays found.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>To create a new birthday, please click\n"
+#~ "on Add button on the right side.\n"
+#~ "You can remove birthday by clicking\n"
+#~ "the Remove button. You can edit birthdays\n"
+#~ "in the future by clicking Properties button.</small>"
+#~ msgstr ""
+#~ "<big>Nenhum aniversário encontrado.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>Para criar um novo aniversário, por favor clique \n"
+#~ "no botão Adicionar na lateral direita.\n"
+#~ "Você pode remover aniversários clicando sobre \n"
+#~ "o botão Remover. Você pode editar aniversários\n"
+#~ "no futuro clicando sobre o botão Propriedades.</small>"
+
+#~ msgid ""
+#~ "<big>No templates found.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>To create a new template, please click\n"
+#~ "on Add button on the right side.\n"
+#~ "You can remove template by clicking\n"
+#~ "the Remove button. You can edit templates\n"
+#~ "in the future by clicking Properties button.</small>"
+#~ msgstr ""
+#~ "<big>Nenhum modelo encontrado.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "</big>\n"
+#~ "<small>Para criar um novo modelo, por favor clique \n"
+#~ "no botão Adicionar na lateral direita.\n"
+#~ "Você pode remover modelos clicando sobre \n"
+#~ "o botão Remover. Você pode editar modelos\n"
+#~ "no futuro clicando sobre o botão Propriedades.</small>"
+
+#~ msgid "Account type:"
+#~ msgstr "Tipo da conta:"
+
+#~ msgid "Add exception"
+#~ msgstr "Adicionar exceção"
+
+#~ msgid ""
+#~ "Add items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr ""
+#~ "Adicionar itens a lista\n"
+#~ "Substituir itens da lista"
+
+#~ msgid "Address:"
+#~ msgstr "Endereço:"
+
+#~ msgid ""
+#~ "Append items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr ""
+#~ "Acrescentar itens a lista\n"
+#~ "Substituir itens da lista"
+
+#~ msgid "Ask for confirmation"
+#~ msgstr "Pedir confirmação"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Choose a GLADE file"
+#~ msgstr "Escolha um arquivo GLADE"
+
+#~ msgid "Choose action:"
+#~ msgstr "Escolha a ação:"
+
+#~ msgid "Choose file to open"
+#~ msgstr "Escolha um arquivo para abrir"
+
+#~ msgid "Comments:"
+#~ msgstr "Comentários:"
+
+#~ msgid "Confirmation timeout (sec):"
+#~ msgstr "Confirmação de tempo de espera (seg):"
+
+#~ msgid "Create from template"
+#~ msgstr "Criar de um modelo"
+
+#~ msgid "Create new alarm from scratch"
+#~ msgstr "Criar novo alarme a partir do zero"
+
+#~ msgid "Create simple counter"
+#~ msgstr "Criar contador simples"
+
+#~ msgid "Custom window:"
+#~ msgstr "Janela personalizada:"
+
+#~ msgid "Day:"
+#~ msgstr "Dia:"
+
+#~ msgid "Duration in seconds:"
+#~ msgstr "Duração em segundos:"
+
+#~ msgid "Email address"
+#~ msgstr "Endereço de e-mail"
+
+#~ msgid "Email address:"
+#~ msgstr "Endereço de e-mail:"
+
+#~ msgid "Enable mail notification"
+#~ msgstr "Habilitar notificação por email"
+
+#~ msgid "Fade"
+#~ msgstr "Desaparecer"
+
+#~ msgid "High"
+#~ msgstr "Alto"
+
+#~ msgid "Initial volume:"
+#~ msgstr "Volume inicial:"
+
+#~ msgid "Interval (in minutes):"
+#~ msgstr "Intervalo (em minutos)"
+
+#~ msgid ""
+#~ "January\n"
+#~ "February\n"
+#~ "March\n"
+#~ "April\n"
+#~ "May\n"
+#~ "June\n"
+#~ "July\n"
+#~ "August\n"
+#~ "September\n"
+#~ "October\n"
+#~ "November\n"
+#~ "December"
+#~ msgstr ""
+#~ "Janeiro\n"
+#~ "Fevereiro\n"
+#~ "Março\n"
+#~ "Abril\n"
+#~ "Maio\n"
+#~ "Junho\n"
+#~ "Julho\n"
+#~ "Agosto\n"
+#~ "Setembro\n"
+#~ "Outubro\n"
+#~ "Novembro\n"
+#~ "Dezembro"
+
+#~ msgid "Load custom window"
+#~ msgstr "Carregar janela personalizada"
+
+#~ msgid "Load exception list"
+#~ msgstr "Carregar lista de exceções"
+
+#~ msgid "Login:"
+#~ msgstr "Login:"
+
+#~ msgid "Low"
+#~ msgstr "Baixo"
+
+#~ msgid "Month:"
+#~ msgstr "Mês:"
+
+#~ msgid "NO_TEMP"
+#~ msgstr "NO_TEMP"
+
+#~ msgid "No sound"
+#~ msgstr "Sem áudio"
+
+#~ msgid ""
+#~ "POP3\n"
+#~ "IMAP"
+#~ msgstr ""
+#~ "POP3\n"
+#~ "IMAP"
+
+#~ msgid "Passive window"
+#~ msgstr "Janela passiva"
+
+#~ msgid "Password:"
+#~ msgstr "Senha:"
+
+#~ msgid "Person's name:"
+#~ msgstr "Nome da pessoa:"
+
+#~ msgid "Play sound"
+#~ msgstr "Reproduzir som"
+
+#~ msgid "Port:"
+#~ msgstr "Porta:"
+
+#~ msgid "Reboot the computer"
+#~ msgstr "Reiniciar o computador"
+
+#~ msgid "Remove selected alarm"
+#~ msgstr "Remover alarme selecionado"
+
+#~ msgid "Save exception list"
+#~ msgstr "Salvar lista de exceções"
+
+#~ msgid "Select birthday"
+#~ msgstr "Selecionar aniversário"
+
+#~ msgid "Select exception list"
+#~ msgstr "Selecionar lista de exceções"
+
+#~ msgid "Show in fullscreen"
+#~ msgstr "Mostrar em tela cheia"
+
+#~ msgid "Shut down the computer"
+#~ msgstr "Desligar o computador"
+
+#~ msgid "Simple counter"
+#~ msgstr "Contador simples"
+
+#~ msgid ""
+#~ "Small\n"
+#~ "Normal\n"
+#~ "Big\n"
+#~ "Large\n"
+#~ "Very large\n"
+#~ "Huge\n"
+#~ "Giant"
+#~ msgstr ""
+#~ "Pequeno\n"
+#~ "Normal\n"
+#~ "Grande\n"
+#~ "Bastante grande\n"
+#~ "Muito grande\n"
+#~ "Enorme\n"
+#~ "Gigante"
+
+#~ msgid "Stops the currently played sound file."
+#~ msgstr "Parar o arquivo do som."
+
+#~ msgid "TEMP"
+#~ msgstr "TEMP"
+
+#~ msgid "Test"
+#~ msgstr "Teste"
+
+#~ msgid "Timeout in seconds:"
+#~ msgstr "Tempo limite em segundos:"
+
+#~ msgid "Unnamed person"
+#~ msgstr "Pessoa sem nome"
+
+#~ msgid "Use SSL (eg. for GMail)"
+#~ msgstr "Usar SSL (p.e. para GMail)"
+
+#~ msgid "Use default window"
+#~ msgstr "Usar janela padrão"
+
+#~ msgid "Volume:"
+#~ msgstr "Volume:"
+
+#~ msgid "What do you want to do?"
+#~ msgstr "O que você deseja fazer?"
+
+#~ msgid "gtk-clear"
+#~ msgstr "Limpar-gy"
+
+#~ msgid "gtk-close"
+#~ msgstr "fechar-gtk"

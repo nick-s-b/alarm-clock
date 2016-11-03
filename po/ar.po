@@ -1,0 +1,1033 @@
+# Arabic translation for alarmclock
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the alarmclock package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alarmclock\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 14:10+0100\n"
+"PO-Revision-Date: 2008-07-04 09:35+0000\n"
+"Last-Translator: صقر بن عبدالله <Unknown>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-11-10 12:36+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../src/interface/alarm-clock.ui.h:1
+msgid ":"
+msgstr ":"
+
+#: ../src/interface/alarm-clock.ui.h:2
+msgid "<b>Action to perform</b>"
+msgstr "<b>العملية للقيام بها</b>"
+
+#: ../src/interface/alarm-clock.ui.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>الاضطرارية</b>"
+
+#: ../src/interface/alarm-clock.ui.h:4
+#, fuzzy
+msgid "<b>Command or script</b>"
+msgstr "<b>أمر</b>"
+
+#: ../src/interface/alarm-clock.ui.h:5
+msgid "<b>Date</b>"
+msgstr "<b>التاريخ</b>"
+
+#: ../src/interface/alarm-clock.ui.h:6
+#, fuzzy
+msgid "<b>Dates</b>"
+msgstr "<b>التاريخ</b>"
+
+#: ../src/interface/alarm-clock.ui.h:7
+msgid "<b>Dialog window</b>"
+msgstr "<b>نافذة الحوار</b>"
+
+#: ../src/interface/alarm-clock.ui.h:8
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>خيارات عامة</b>"
+
+#: ../src/interface/alarm-clock.ui.h:9
+#, fuzzy
+msgid "<b>Hour</b>"
+msgstr "<b>الأصوات</b>"
+
+#: ../src/interface/alarm-clock.ui.h:10
+#, fuzzy
+msgid "<b>Message</b>"
+msgstr "<b>التاريخ</b>"
+
+#: ../src/interface/alarm-clock.ui.h:11
+msgid "<b>Months</b>"
+msgstr "<b>الأشهر</b>"
+
+#: ../src/interface/alarm-clock.ui.h:12
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "<b>التاريخ</b>"
+
+#: ../src/interface/alarm-clock.ui.h:13
+#, fuzzy
+msgid "<b>Passive popup</b>"
+msgstr "<b>النافذة السلبية</b>"
+
+#: ../src/interface/alarm-clock.ui.h:14
+#, fuzzy
+msgid "<b>Priority</b>"
+msgstr "<b/>فترة الاستراحه<b>"
+
+#: ../src/interface/alarm-clock.ui.h:15
+msgid "<b>Short name</b>"
+msgstr "<b>الاسم القصير</b>"
+
+#: ../src/interface/alarm-clock.ui.h:16
+msgid "<b>Snooze</b>"
+msgstr "<b>اغف</b>"
+
+#: ../src/interface/alarm-clock.ui.h:17
+#, fuzzy
+msgid "<b>Sound file</b>"
+msgstr "<b>الأصوات</b>"
+
+#: ../src/interface/alarm-clock.ui.h:18
+msgid "<b>Sound</b>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:19
+msgid "<b>Standard action</b>"
+msgstr "<b>العملية الاعتيادية</b>"
+
+#: ../src/interface/alarm-clock.ui.h:20
+msgid "<b>Startup</b>"
+msgstr "<b>بدأ التشغيل</b>"
+
+#: ../src/interface/alarm-clock.ui.h:21
+#, fuzzy
+msgid "<b>Terminal command</b>"
+msgstr "<b>أمر</b>"
+
+#: ../src/interface/alarm-clock.ui.h:22
+msgid "<b>Text</b>"
+msgstr "<b>النص</b>"
+
+#: ../src/interface/alarm-clock.ui.h:23
+#, fuzzy
+msgid "<b>Time format</b>"
+msgstr "<b/>فترة الاستراحه<b>"
+
+#: ../src/interface/alarm-clock.ui.h:24
+msgid "<b>Time</b>"
+msgstr "<b>الوقت</b>"
+
+#: ../src/interface/alarm-clock.ui.h:25
+msgid "<b>Timeout</b>"
+msgstr "<b/>فترة الاستراحه<b>"
+
+#: ../src/interface/alarm-clock.ui.h:26
+#, fuzzy
+msgid "<b>Title</b>"
+msgstr "<b>الوقت</b>"
+
+#: ../src/interface/alarm-clock.ui.h:27
+#, fuzzy
+msgid "<b>Volume</b>"
+msgstr "<b>الوقت</b>"
+
+#: ../src/interface/alarm-clock.ui.h:28
+msgid "<b>Weekdays</b>"
+msgstr "<b>أيام الأسبوع</b>"
+
+#: ../src/interface/alarm-clock.ui.h:29
+msgid ""
+"<big><big>No alarms active</big></big>\n"
+"\n"
+"You can create new alarm by clicking on the plus button on the top of this "
+"window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:32
+msgid ""
+"<big>No birthdays found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:36
+msgid "<big>No dates selected.</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:37
+msgid "<big>No missed alarms</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:38
+msgid ""
+"<big>No tempates found</big>\n"
+"\n"
+"To add a new template, click on \"Add\" button\n"
+"on the left side of the window."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:42
+msgid "<big>No templates found</big>"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:43
+#, fuzzy
+msgid "Add alarm"
+msgstr "إضافة منبه جديد"
+
+#: ../src/interface/alarm-clock.ui.h:44
+#, fuzzy
+msgid "Add new _alarm"
+msgstr "إضافة منبه جديد"
+
+#: ../src/interface/alarm-clock.ui.h:45
+#, fuzzy
+msgid "Add new _counter"
+msgstr "قم بإضافة عدّاد جديد..."
+
+#: ../src/interface/alarm-clock.ui.h:46
+#, fuzzy
+msgid "Add new alarm"
+msgstr "إضافة منبه جديد"
+
+#: ../src/interface/alarm-clock.ui.h:47 ../src/alarm_thread.c:480
+#: ../src/common.c:85 ../src/main.c:124 ../src/main.c:153
+#: ../src/status_icon.c:160
+msgid "Alarm Clock"
+msgstr "ساعة منبهة"
+
+#: ../src/interface/alarm-clock.ui.h:48
+#, fuzzy
+msgid "Alarm priority:"
+msgstr "وقت المنبه:"
+
+#: ../src/interface/alarm-clock.ui.h:49
+msgid "Alarm time:"
+msgstr "وقت المنبه:"
+
+#: ../src/interface/alarm-clock.ui.h:50
+#, fuzzy
+msgid "Alarm timeout:"
+msgstr "وقت المنبه:"
+
+#: ../src/interface/alarm-clock.ui.h:51 ../src/schedule.c:28
+msgid "April"
+msgstr "أبريل"
+
+#: ../src/interface/alarm-clock.ui.h:52 ../src/schedule.c:32
+msgid "August"
+msgstr "أغسطس"
+
+#: ../src/interface/alarm-clock.ui.h:53
+msgid "Background color:"
+msgstr "لون الخلفية:"
+
+#: ../src/interface/alarm-clock.ui.h:54
+#, fuzzy
+msgid "Birthday preferences"
+msgstr "أعياد الميلاد"
+
+#: ../src/interface/alarm-clock.ui.h:55
+msgid "Birthdays"
+msgstr "أعياد الميلاد"
+
+#: ../src/interface/alarm-clock.ui.h:56 ../src/status_icon.c:90
+#: ../src/status_icon.c:230
+#, fuzzy
+msgid "Birthdays & templates"
+msgstr "تاريخ الولادة"
+
+#: ../src/interface/alarm-clock.ui.h:57
+#, fuzzy
+msgid "Birthdays and templates"
+msgstr "تاريخ الولادة"
+
+#: ../src/interface/alarm-clock.ui.h:58
+msgid "Check for updates..."
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:59
+msgid "Choose date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:60
+msgid "Constant volume"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:61 ../src/main_list.c:425
+msgid "Counter"
+msgstr "العدّاد"
+
+#: ../src/interface/alarm-clock.ui.h:62 ../src/schedule.c:36
+msgid "December"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:63
+msgid "Deselect all"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:64
+#, fuzzy
+msgid "Dialog window properties"
+msgstr "نافذة الحوار"
+
+#: ../src/interface/alarm-clock.ui.h:65
+msgid "Do not play any sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:66
+msgid "Exclude this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:67
+msgid "Execute command or shell script"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:68
+#, fuzzy
+msgid "Execute standard action"
+msgstr "<b>العملية الاعتيادية</b>"
+
+#: ../src/interface/alarm-clock.ui.h:69
+msgid "Faded volume"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:70 ../src/schedule.c:26
+msgid "February"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:71
+msgid "Friday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:72
+msgid "General"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:73
+msgid "General settings"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:74
+msgid "Include this date"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:75 ../src/schedule.c:25
+msgid "January"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:76 ../src/schedule.c:31
+msgid "July"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:77 ../src/schedule.c:30
+msgid "June"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:78
+msgid "LIST_VIEW"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:79
+msgid "Lock the screen"
+msgstr "أقفل الشاشة"
+
+#: ../src/interface/alarm-clock.ui.h:80 ../src/schedule.c:27
+msgid "March"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:81 ../src/schedule.c:29
+msgid "May"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:82
+msgid "Missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:83
+msgid "Monday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:84
+msgid "NO_ALARMS"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:85
+msgid "Notification"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:86 ../src/schedule.c:35
+msgid "November"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:87 ../src/schedule.c:34
+msgid "October"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:88 ../src/export.c:70
+msgid "Open alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:89
+msgid "Play sound during event"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:90
+msgid "Play standard sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:91
+#, fuzzy
+msgid "Play this sound file"
+msgstr "اختر ملف الصوت الخاص بك"
+
+#: ../src/interface/alarm-clock.ui.h:92
+msgid "Popup preferences"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:93
+msgid "Preferences"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:94
+msgid "Repeat after finish "
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:95
+msgid "Run command"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:96
+msgid "Run inside GNOME terminal"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:97
+msgid "Saturday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:98 ../src/export.c:29
+msgid "Save alarms list"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:99
+msgid "Schedule"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:100 ../src/main_list.c:430
+msgid "Scheduled"
+msgstr "المجدول"
+
+#: ../src/interface/alarm-clock.ui.h:101
+#, fuzzy
+msgid "Select all"
+msgstr "اختر الموقع"
+
+#: ../src/interface/alarm-clock.ui.h:102
+#, fuzzy
+msgid "Select date"
+msgstr "اختر الموقع"
+
+#: ../src/interface/alarm-clock.ui.h:103 ../src/schedule.c:33
+msgid "September"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:104
+#, fuzzy
+msgid "Show dialog window during event"
+msgstr "أظهر النافذة الرئيسة على الشاشة"
+
+#: ../src/interface/alarm-clock.ui.h:105 ../src/status_icon.c:94
+#: ../src/status_icon.c:234
+msgid "Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:106
+msgid "Show passive popup during event"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:107
+msgid "Show snooze button (min):"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:108
+msgid "Single day"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:109
+msgid "Sound properties"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:110
+msgid "Standard action"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:111
+msgid "Start minimized"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:112
+msgid "Start the program automatically with GNOME"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:113
+msgid "Start this alarm in (in minutes):"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:114
+msgid "Stop the sound"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:115
+msgid "Sunday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:116
+msgid "Templates"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:117
+msgid "Test current alarm"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:118
+msgid "Text color:"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:119
+msgid "Text size:"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:120
+msgid "Thursday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:121
+msgid "Today"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:122
+msgid "Tomorrow"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:123
+msgid "Tuesday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:124
+msgid "Turn off the monitor"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:125
+msgid "Use 12-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:126
+msgid "Use 24-hour clock"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:127
+msgid "Use custom sound file"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:128
+msgid "Wednesday"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:129
+#, fuzzy
+msgid "_Add new counter..."
+msgstr "قم بإضافة عدّاد جديد..."
+
+#: ../src/interface/alarm-clock.ui.h:130
+msgid "_Edit"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:131
+msgid "_File"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:132
+msgid "_Help"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:133
+#, fuzzy
+msgid "_Remove alarm"
+msgstr "حذف هذا المنبه"
+
+#: ../src/interface/alarm-clock.ui.h:134 ../src/main_list.c:106
+#: ../src/status_icon.c:98 ../src/status_icon.c:238
+msgid "_Show menu bar"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:135
+msgid "_Show missed alarms"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:136
+msgid "_View"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:137
+msgid "page 1"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:138
+msgid "page 2"
+msgstr ""
+
+#: ../src/interface/alarm-clock.ui.h:139
+msgid "toolbutton1"
+msgstr ""
+
+#: ../src/alarm_runner.c:97
+#, fuzzy
+msgid "<b>Too many sounds!</b>"
+msgstr "<b>الأصوات</b>"
+
+#: ../src/alarm_runner.c:98
+msgid "Cannot play more than 1 sound at once."
+msgstr ""
+
+#: ../src/alarm_runner.c:123
+#, c-format
+msgid "Cannot play sound because the sound file <b>%s</b> was not found."
+msgstr ""
+
+#: ../src/alarm_runner.c:129
+#, fuzzy
+msgid "<b>Cannot find sound file!</b>"
+msgstr "<b>عنوان النافذة</b>"
+
+#: ../src/alarm_runner.c:284
+msgid "Snooze"
+msgstr ""
+
+#: ../src/alarm_runner.c:351
+msgid "Press any key to continue..."
+msgstr ""
+
+#: ../src/alarm_thread.c:474
+#, c-format
+msgid ""
+"Today's birthdays:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../src/common.c:94
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/counters.c:31 ../src/modify_alarm.c:238 ../src/modify_alarm.c:239
+msgid "Untitled"
+msgstr "بلا عنوان"
+
+#: ../src/counters.c:45 ../src/modify_alarm.c:257
+msgid "Popup"
+msgstr ""
+
+#: ../src/counters.c:46 ../src/modify_alarm.c:258
+msgid "Short popup"
+msgstr ""
+
+#: ../src/counters.c:51 ../src/modify_alarm.c:263
+msgid "Dialog window"
+msgstr ""
+
+#: ../src/counters.c:52 ../src/modify_alarm.c:264
+#, fuzzy
+msgid "This is a small message"
+msgstr "هذا تذكير بسيط."
+
+#: ../src/counters.c:77
+#, fuzzy
+msgid "Sound files"
+msgstr "ملفات الصوت"
+
+#: ../src/counters.c:80 ../src/export.c:38 ../src/export.c:79
+msgid "All files"
+msgstr "جميع الملفات"
+
+#: ../src/counters.c:152 ../src/modify_alarm.c:435
+#, fuzzy
+msgid "<b>Invalid filename</b>"
+msgstr "<b>عنوان النافذة</b>"
+
+#: ../src/counters.c:153 ../src/modify_alarm.c:436
+msgid "You need to specify sound file name."
+msgstr ""
+
+#: ../src/counters.c:170
+#, fuzzy
+msgid "<b>Invalid title</b>"
+msgstr "<b>عنوان النافذة</b>"
+
+#: ../src/counters.c:171
+msgid "You need to specify title of the counter."
+msgstr ""
+
+#: ../src/export.c:40 ../src/export.c:81
+#, fuzzy
+msgid "Alarm clock alarms"
+msgstr "ساعة منبهة"
+
+#: ../src/main_list.c:86
+#, fuzzy
+msgid "_Add new alarm"
+msgstr "إضافة منبه جديد"
+
+#: ../src/main_list.c:90
+#, fuzzy
+msgid "_Add new counter"
+msgstr "قم بإضافة عدّاد جديد..."
+
+#: ../src/main_list.c:96
+#, fuzzy
+msgid "_Remove this alarm"
+msgstr "حذف هذا المنبه"
+
+#: ../src/main_list.c:215 ../src/main_window.c:197
+msgid "Name"
+msgstr "الاسم"
+
+#: ../src/main_list.c:216
+#, fuzzy
+msgid "Alarm type"
+msgstr "وقت المنبه:"
+
+#: ../src/main_list.c:217
+#, fuzzy
+msgid "Date and time"
+msgstr "التاريخ والوقت"
+
+#: ../src/main_list.c:218
+msgid "Time left"
+msgstr ""
+
+#: ../src/main_list.c:359 ../src/main_list.c:370 ../src/main_list.c:374
+#: ../src/main_list.c:388 ../src/main_list.c:399 ../src/main_list.c:403
+#: ../src/main_window.c:145
+msgid "AM"
+msgstr ""
+
+#: ../src/main_list.c:363 ../src/main_list.c:367 ../src/main_list.c:392
+#: ../src/main_list.c:396 ../src/main_window.c:146
+msgid "PM"
+msgstr ""
+
+#: ../src/main_list.c:419
+#, fuzzy
+msgid "<i>Single</i>"
+msgstr "مفرد"
+
+#: ../src/main_list.c:420
+msgid "Single"
+msgstr "مفرد"
+
+#: ../src/main_list.c:424
+#, fuzzy
+msgid "<i>Counter</i>"
+msgstr "العدّاد"
+
+#: ../src/main_list.c:429
+#, fuzzy
+msgid "<i>Scheduled</i>"
+msgstr "المجدول"
+
+#: ../src/main_window.c:50
+msgid "<b>You have old alarms</b>"
+msgstr ""
+
+#: ../src/main_window.c:52
+msgid ""
+"It seems you missed some alarms, because your old alarm list is not empty."
+msgstr ""
+
+#: ../src/main_window.c:198
+msgid "Date"
+msgstr "التاريخ"
+
+#: ../src/main_window.c:252 ../src/schedule.c:349
+#, fuzzy
+msgid "<b>Include</b>"
+msgstr "<b>اغف</b>"
+
+#: ../src/main_window.c:254 ../src/schedule.c:351
+#, fuzzy
+msgid "<b>Exclude</b>"
+msgstr "<b>الإستثناءات</b>"
+
+#: ../src/main_window.c:276
+msgid "Small"
+msgstr ""
+
+#: ../src/main_window.c:277
+msgid "Medium"
+msgstr ""
+
+#: ../src/main_window.c:278
+msgid "Large"
+msgstr ""
+
+#: ../src/main_window.c:279
+msgid "Very large"
+msgstr ""
+
+#: ../src/modify_alarm.c:383 ../src/modify_alarm.c:400
+#, c-format
+msgid "Infinite"
+msgstr ""
+
+#: ../src/modify_alarm.c:812 ../src/modify_alarm.c:833
+msgid "<b>Error occured!</b>"
+msgstr ""
+
+#: ../src/modify_alarm.c:814
+msgid "You need to select at least one notification."
+msgstr ""
+
+#: ../src/modify_alarm.c:835
+msgid "Alarm title cannot be empty."
+msgstr ""
+
+#: ../src/modify_alarm.c:1132 ../src/templates.c:485
+#, fuzzy
+msgid "<b>Are you sure?</b>"
+msgstr "هل أنت متأكد؟"
+
+#: ../src/modify_alarm.c:1134
+#, fuzzy, c-format
+msgid "Are you sure you want to remove alarm %s?"
+msgstr "هل أنت متأكد من إزالة هذا المنبه؟"
+
+#: ../src/schedule.c:38
+msgid "Invalid"
+msgstr ""
+
+#: ../src/schedule.c:435
+#, fuzzy
+msgid "<b>Cannot add date</b>"
+msgstr "<b>العملية الاعتيادية</b>"
+
+#: ../src/schedule.c:437
+msgid "This date already exists on the list."
+msgstr ""
+
+#: ../src/schedule.c:498
+msgid ""
+"You need to select at least one month and day or include one date to the "
+"schedule."
+msgstr ""
+
+#: ../src/schedule.c:524
+#, fuzzy
+msgid "<b>Cannot proceed</b>"
+msgstr "<b>اغف</b>"
+
+#: ../src/status_icon.c:74 ../src/status_icon.c:216
+#, fuzzy
+msgid "_Show main window"
+msgstr "أظهر النافذة الرئيسة على الشاشة"
+
+#: ../src/status_icon.c:80 ../src/status_icon.c:220
+#, fuzzy
+msgid "_Add alarm..."
+msgstr "قم بإضافة منبه جديد..."
+
+#: ../src/status_icon.c:84 ../src/status_icon.c:224
+#, fuzzy
+msgid "Add counter..."
+msgstr "قم بإضافة عدّاد جديد..."
+
+#: ../src/templates.c:164
+msgid "You need to provide the name."
+msgstr ""
+
+#: ../src/templates.c:409
+#, fuzzy, c-format
+msgid "Are you sure you want to remove birthday for %s?"
+msgstr "هل أنت متأكد من إزالة تاريخ الولادة هذا؟"
+
+#: ../src/templates.c:478
+#, fuzzy, c-format
+msgid "Are you sure you want to remove template %s?"
+msgstr "هل أنت متأكد من إزالة هذا القالب؟"
+
+#~ msgid "Current time: %c"
+#~ msgstr "الوقت الحالي: %c"
+
+#~ msgid "Birthday today! Remember to buy presents:\n"
+#~ msgstr "يصادف اليوم عيد ميلاد! تذكر شراء الهدايا!\n"
+
+#~ msgid "Confirmation equired"
+#~ msgstr "مطلوب التأكيد"
+
+#~ msgid ""
+#~ "Alarm Clock will perform the following action:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "in %i seconds. Click \"Cancel\" to cancel the action."
+#~ msgstr ""
+#~ "ساعة المنبه سوق تقوم بإجراء الأعمال الآتية:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "في %i ثانية. قم بالنقر على \"إلغاء\" ليتم إلغاء هذه العملية."
+
+#~ msgid "Confirmation required"
+#~ msgstr "مطلوب التأكيد"
+
+#~ msgid "Error!"
+#~ msgstr "خطأ!"
+
+#~ msgid "Error loading pynotify module!"
+#~ msgstr "خطأ في تحميل وحدة pynotify!"
+
+#~ msgid "Cannot initialize threading library!"
+#~ msgstr "لا يمكن البدء بمكتبة مسارات التنفيذ!"
+
+#~ msgid "Type"
+#~ msgstr "النوع"
+
+#~ msgid "Template name"
+#~ msgstr "اسم القالب"
+
+#~ msgid "First and last name"
+#~ msgstr "الاسم الأول واسم العائلة"
+
+#~ msgid "Birthday removal"
+#~ msgstr "حذف عيد الميلاد"
+
+#~ msgid "Alarm removal"
+#~ msgstr "إزالة المنبه"
+
+#~ msgid ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "For Kamila:)"
+#~ msgstr ""
+#~ "(c) 2008 Tomasz Sałaciński\n"
+#~ "<tsalacinski@gmail.com>\n"
+#~ "\n"
+#~ "إهداء إلى Kamila:)"
+
+#~ msgid "Error"
+#~ msgstr "خطأ"
+
+#~ msgid "A simple counter."
+#~ msgstr "عدّاد بسيط."
+
+#~ msgid "Counter message"
+#~ msgstr "رسالة العدّاد"
+
+#~ msgid "Choose your Glade file"
+#~ msgstr "اختر ملف Glade الخاص بك"
+
+#~ msgid "Glade files"
+#~ msgstr "ملفات Glade"
+
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "Comment"
+#~ msgstr "ملاحظة"
+
+#~ msgid "This is simple dialog window"
+#~ msgstr "هذه نافذة حوار بسيطة"
+
+#~ msgid "Reminder"
+#~ msgstr "رسالة التذكير"
+
+#~ msgid "%s:%s - Today"
+#~ msgstr "%s:%s - اليوم"
+
+#~ msgid "%s:%s - Cancelled"
+#~ msgstr "%s:%s - ملغى"
+
+#~ msgid "This file does not contain any alarm information."
+#~ msgstr "هذا الملف لا يحتوي على أي معلومات للمنبه."
+
+#~ msgid ""
+#~ "Are you sure you want to create a new alarm list?\n"
+#~ "Any unsaved changes will be lost."
+#~ msgstr ""
+#~ "هل أنت متأكد من القيام بقائمة منبهات جديدة؟\n"
+#~ "كل التعديلات السابقة التي لم يتم تخزينها سوف تحذف."
+
+#~ msgid ""
+#~ "The GLADE file <b>%s</b> is incorrect. It should contain a dialog called "
+#~ "\"alarm_dialog\" and a label called \"alarm_label\"."
+#~ msgstr ""
+#~ "ملف GLADE  <b>%s</b> غير صحيح. يجب أن يحتوي على حوار باسم \"alarm_dialog"
+#~ "\" وملصق باسم \"alarm_label\"."
+
+#~ msgid "Error: cannot create dialog window."
+#~ msgstr "خطاً: لا يمكن إيجاد نافذة حوار."
+
+#~ msgid "Shutdown"
+#~ msgstr "إغلاق"
+
+#~ msgid "Reboot"
+#~ msgstr "إعادة تشغيل"
+
+#~ msgid "Usage:"
+#~ msgstr "الاستعمال:"
+
+#~ msgid "110"
+#~ msgstr "110"
+
+#~ msgid "<b>Account type</b>"
+#~ msgstr "<b>نوع الحساب</b>"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>تعليق</b>"
+
+#~ msgid "<b>Confirmation</b>"
+#~ msgstr "<b>تأكيد</b>"
+
+#~ msgid "<b>Login information</b>"
+#~ msgstr "<b>معلومات الولوج</b>"
+
+#~ msgid "<b>Server information</b>"
+#~ msgstr "<b>معلومات الخادوم</b>"
+
+#~ msgid "<b>Summary text</b>"
+#~ msgstr "<b>النص الملخّص</b>"
+
+#~ msgid "<b>Summary</b>"
+#~ msgstr "<b> الملخّص</b>"
+
+#~ msgid "Account type:"
+#~ msgstr "نوع الحساب:"
+
+#~ msgid "Add exception"
+#~ msgstr "أضِف إستثناء"
+
+#~ msgid ""
+#~ "Add items to the list\n"
+#~ "Overwrite items on the list"
+#~ msgstr ""
+#~ "اضافة بنود الى قائمة\n"
+#~ "استبدال البنود المدرجه على قائمة"
+
+#~ msgid "Address:"
+#~ msgstr "العنوان:"
+
+#~ msgid "Ask for confirmation"
+#~ msgstr "السؤال للتأكيد"
+
+#~ msgid "Author:"
+#~ msgstr "المؤلف:"

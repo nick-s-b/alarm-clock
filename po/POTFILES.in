@@ -1,0 +1,18 @@
+# List of source files containing translatable strings.
+
+[type: gettext/glade]src/interface/alarm-clock.ui
+src/alarm_runner.c
+src/alarm_thread.c
+src/common.c
+src/configuration.c
+src/counters.c
+src/date.c
+src/export.c
+src/main.c
+src/main_list.c
+src/main_window.c
+src/modify_alarm.c
+src/preferences.c
+src/schedule.c
+src/status_icon.c
+src/templates.c
