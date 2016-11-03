@@ -213,10 +213,13 @@ show_popup(gchar *name)
 	
 	if (notify != NULL) notify_notification_close(notify, NULL);
 #ifndef APPINDICATOR
+   #if NOTIFY_CHECK_VERSION (0, 7, 0)
+     notify = notify_notification_new(title, text, NULL);
+     notify = notify_notification_new(title, text, NULL);
+   #else    
+	notify = notify_notification_new_with_status_icon(title, text, NULL, status_icon);
+   #endif
 	notify = notify_notification_new(title, text, NULL);
-#endif
-#ifdef APPINDICATOR
-	notify = notify_notification_new(title, text, NULL, NULL);
 #endif
 	if (notify == NULL) g_print("BAD");
 	notify_notification_set_urgency(notify, type);
