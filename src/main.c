@@ -116,7 +116,6 @@ main (int argc, char *argv[])
 		return 0;
 	}
 	
-	if (!g_thread_supported()) g_thread_init(NULL);
 	gdk_threads_init();
 	
 	gst_init (&argc, &argv);
