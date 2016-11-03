@@ -262,7 +262,7 @@
             <child>
               <object class="GtkMenuToolButton" id="add_menu">
                 <property name="visible">True</property>
-                <property name="label" translatable="yes">toolbutton1</property>
+                <property name="label" translatable="yes">Add Alarm</property>
                 <property name="use_underline">True</property>
                 <property name="stock_id">gtk-add</property>
                 <property name="menu">menu5</property>

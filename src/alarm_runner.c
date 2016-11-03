@@ -183,7 +183,7 @@ start_sound(gpointer user_data)
 			count_play = count_play + (60 * repeat_value);
 		}
 
-		g_thread_create((GThreadFunc) volume_fade_thread, g_strdup(name), FALSE, NULL);
+		g_thread_new((GThreadFunc) volume_fade_thread, g_strdup(name), FALSE, NULL);
 		
 		gst_bus_add_watch (bus, constant_bus_callback, NULL);
 		gst_element_set_state (play, GST_STATE_PLAYING);
@@ -213,7 +213,7 @@ show_popup(gchar *name)
 	
 	if (notify != NULL) notify_notification_close(notify, NULL);
 #ifndef APPINDICATOR
-	notify = notify_notification_new_with_status_icon(title, text, NULL, status_icon);
+	notify = notify_notification_new(title, text, NULL);
 #endif
 #ifdef APPINDICATOR
 	notify = notify_notification_new(title, text, NULL, NULL);
@@ -393,7 +393,7 @@ run_alarm(gchar *name)
 	alarm_name = g_key_file_get_string(loaded_alarms, name, "Title", NULL);
 	
 	if (g_key_file_get_boolean(loaded_alarms, name, "SoundEnabled", NULL))
-		g_thread_create((GThreadFunc) start_sound, alarm_code, FALSE, NULL);
+		g_thread_new((GThreadFunc) start_sound, alarm_code, FALSE, NULL);
 	
 	if (g_key_file_get_boolean(loaded_alarms, name, "PassivePopupEnabled", NULL))
 	{
