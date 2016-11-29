@@ -3,12 +3,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Library General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1301,  USA
@@ -46,7 +46,7 @@ check_current_schedule_date_selected(void)
 	GtkTreeModel *model = GTK_TREE_MODEL(schedule_dates_store);
 	gboolean name;
 	GtkTreeIter iter;
-	
+
 	selection = gtk_tree_view_get_selection(GTK_TREE_VIEW(schedule_dates_tree));
 	if (gtk_tree_selection_get_selected(selection, &model, &iter))
 	{
@@ -67,7 +67,7 @@ check_current_schedule_date_selectedDateDay(void)
 	GtkTreeModel *model = GTK_TREE_MODEL(schedule_dates_store);
 	gint name;
 	GtkTreeIter iter;
-	
+
 	selection = gtk_tree_view_get_selection(GTK_TREE_VIEW(schedule_dates_tree));
 	if (gtk_tree_selection_get_selected(selection, &model, &iter))
 	{
@@ -88,7 +88,7 @@ check_current_schedule_date_selectedDateMon(void)
 	GtkTreeModel *model = GTK_TREE_MODEL(schedule_dates_store);
 	gint name;
 	GtkTreeIter iter;
-	
+
 	selection = gtk_tree_view_get_selection(GTK_TREE_VIEW(schedule_dates_tree));
 	if (gtk_tree_selection_get_selected(selection, &model, &iter))
 	{
@@ -126,7 +126,7 @@ gboolean remove_foreach (GtkTreeModel *model,
 		gtk_tree_store_remove(GTK_TREE_STORE(schedule_dates_store), iter);
 		return TRUE;
 	}
-	else 
+	else
 	{
 		return FALSE;
 	}
@@ -144,7 +144,7 @@ gboolean check_include_date_foreach (GtkTreeModel *model,
 	gchar *string_from_iter = gtk_tree_model_get_string_from_iter(model, iter);
 	gchar **split = g_strsplit(string_from_iter, ":", 2);
 	gchar *buffer;
-	
+
 	gtk_tree_model_get(GTK_TREE_MODEL(model), iter, 1, &ok, 2, &day, 3, &month, -1);
 
 	if (g_strcmp0(split[0], "0") == 0 && ok)
@@ -186,7 +186,7 @@ remove_schedule_date()
 
 	included = 0;
 	excluded = 0;
-	
+
 	dates_include = g_string_new(NULL);
 	dates_exclude = g_string_new(NULL);
 
@@ -203,7 +203,7 @@ remove_schedule_date()
 
 	if (!gtk_tree_selection_get_selected(GTK_TREE_SELECTION(sel), NULL, NULL))
 		gtk_widget_set_sensitive(GTK_WIDGET(button), FALSE);
-	
+
 }
 
 void
@@ -221,7 +221,7 @@ show_schedule_editor(void)
 
 	deselect_all_months ();
 	deselect_all_weekdays ();
-	
+
 	buffer = g_key_file_get_string(current_key, untitled_name, "ScheduleWeekdays", NULL);
 
 	split = g_strsplit(buffer, ":", 7);
@@ -239,7 +239,7 @@ show_schedule_editor(void)
 
 	g_strfreev(split);
 	g_free(buffer);
-	
+
 
 	buffer = g_key_file_get_string(current_key, untitled_name, "ScheduleMonths", NULL);
 
@@ -280,14 +280,14 @@ show_schedule_editor(void)
 		month = g_ascii_strtoll(date_split[1], NULL, 10);
 
 		g_strfreev(date_split);
-		
+
 		buffer = g_strdup_printf("%s %i", get_month_name(month), day);
-		
+
 		gtk_tree_store_append(GTK_TREE_STORE(schedule_dates_store), &iter, &parent);
-		gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter, 
+		gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter,
 		                   0, buffer,
 		                   1, TRUE,
-		                   2, day, 
+		                   2, day,
 		                   3, month,
 		                   -1);
 		gtk_notebook_set_current_page(GTK_NOTEBOOK(notebook), 0);
@@ -311,19 +311,19 @@ show_schedule_editor(void)
 		if (g_strcmp0(split[i], NULL) == 0) break;
 
 		date_split = g_strsplit(split[i], "/", 2);
-		
+
 		day = g_ascii_strtoll(date_split[0], NULL, 10);
 		month = g_ascii_strtoll(date_split[1], NULL, 10);
 
 		g_strfreev(date_split);
-		
+
 		buffer = g_strdup_printf("%s %i", get_month_name(month), day);
-		
+
 		gtk_tree_store_append(GTK_TREE_STORE(schedule_dates_store), &iter, &parent);
-		gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter, 
+		gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter,
 		                   0, buffer,
 		                   1, TRUE,
-		                   2, day, 
+		                   2, day,
 		                   3, month,
 		                   -1);
 		gtk_notebook_set_current_page(GTK_NOTEBOOK(notebook), 0);
@@ -333,7 +333,7 @@ show_schedule_editor(void)
 
 	gtk_tree_view_expand_all(GTK_TREE_VIEW(tree));
 
-	
+
 	gtk_widget_show(GTK_WIDGET(dialog));
 }
 
@@ -349,7 +349,7 @@ close_schedule_editor(void)
 	gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter, 0, _("<b>Include</b>"), 1, FALSE, -1);
 	gtk_tree_store_append(GTK_TREE_STORE(schedule_dates_store), &iter, NULL);
 	gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter, 0, _("<b>Exclude</b>"), 1, FALSE, -1);
-	
+
 	gtk_widget_hide(GTK_WIDGET(dialog));
 }
 
@@ -362,7 +362,7 @@ widget_checker(gchar *name, gint max)
 	gchar *widget_name;
 
 	gboolean active = FALSE;
-	
+
 	for (i = 1; i <= max; i++)
 	{
 		widget_name = g_strdup_printf("%s%i", name, i);
@@ -370,7 +370,7 @@ widget_checker(gchar *name, gint max)
 
 		if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(buffer_widget)))
 			active = TRUE;
-		
+
 		g_free(widget_name);
 	}
 
@@ -393,12 +393,12 @@ gboolean check_foreach (GtkTreeModel *model,
 {
 	gint d, m;
 	gtk_tree_model_get(GTK_TREE_MODEL(model), iter, 2, &d, 3, &m, -1);
-	
+
 	if (d == ex_day && m == ex_mon)
 		date_exists = TRUE;
 	else
 		date_exists = FALSE;
-	
+
 	return date_exists;
 }
 
@@ -413,14 +413,14 @@ schedule_date_ok(void)
 	guint day, month;
 	gchar *date, *path;
 	GtkTreeIter iter, parent;
-	
+
 	gtk_calendar_get_date(GTK_CALENDAR(calendar), NULL, &month, &day);
 
 	date_exists = FALSE;
 
 	ex_day = day;
 	ex_mon = month + 1;
-	
+
 	gtk_tree_model_foreach(GTK_TREE_MODEL(schedule_dates_store),
 	                       check_foreach, NULL);
 
@@ -437,13 +437,13 @@ schedule_date_ok(void)
 												 _("This date already exists on the list."));
 		gtk_dialog_run (GTK_DIALOG (error_dialog));
 		gtk_widget_destroy (GTK_WIDGET(error_dialog));
-		
+
 		return;
 	}
-	
-	
+
+
 	date = g_strdup_printf("%s %i", get_month_name(month + 1), day);
-	
+
 	if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(radio_include)))
 	    path = g_strdup("0");
 	else if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(radio_exclude)))
@@ -453,12 +453,12 @@ schedule_date_ok(void)
 
 	gtk_tree_model_get_iter_from_string(GTK_TREE_MODEL(schedule_dates_store),
 	                                    &parent, path);
-	
+
 	gtk_tree_store_append(GTK_TREE_STORE(schedule_dates_store), &iter, &parent);
-	gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter, 
+	gtk_tree_store_set(GTK_TREE_STORE(schedule_dates_store), &iter,
 	                   0, date,
 	                   1, TRUE,
-	                   2, day, 
+	                   2, day,
 	                   3, month + 1,
 	                   -1);
 
@@ -466,7 +466,7 @@ schedule_date_ok(void)
 
 	gtk_notebook_set_current_page(GTK_NOTEBOOK(notebook), 0);
 	gtk_tree_view_expand_all(GTK_TREE_VIEW(schedule_dates_tree));
-	
+
 	g_free(date);
 	g_free(path);
 }
@@ -475,7 +475,7 @@ void
 add_single_date(void)
 {
 	GDate *date = g_date_new();
-	g_date_set_time_t (date, time (NULL)); 
+	g_date_set_time_t (date, time (NULL));
 	GtkWidget *dates_window = GTK_WIDGET (gtk_builder_get_object (gxml, "schedule_date_dialog"));
 	GtkWidget *radio = GTK_WIDGET (gtk_builder_get_object (gxml, "include_date_radio"));
 
@@ -496,7 +496,7 @@ schedule_editor_ok(void)
 	gboolean ok = FALSE;
 	gint i = 1;
 	gchar *error_message = g_strdup(_("You need to select at least one month and day or include one date to the schedule."));
-	
+
 	GtkWidget *dialog = GTK_WIDGET (gtk_builder_get_object (gxml, "schedule_dialog"));
 
 	included = 0;
@@ -512,7 +512,7 @@ schedule_editor_ok(void)
 	if (widget_checker("week", 7) && widget_checker("month", 12)) ok = TRUE;
 	if (included && widget_checker("week", 7) && !widget_checker("month", 12)) ok = FALSE;
 	if (included && !widget_checker("week", 7) && widget_checker("month", 12)) ok = FALSE;
-	
+
 	if (!ok)
 	{
 		GtkWidget *error_dialog = gtk_message_dialog_new(GTK_WINDOW(dialog),
@@ -527,7 +527,7 @@ schedule_editor_ok(void)
 		gtk_dialog_run (GTK_DIALOG (error_dialog));
 		gtk_widget_destroy (GTK_WIDGET(error_dialog));
 		g_free(error_message);
-		
+
 		return;
 	}
 
@@ -598,14 +598,14 @@ widget_selector(gchar *name, gint max, gboolean select)
 
 	GtkWidget *buffer_widget;
 	gchar *widget_name;
-	
+
 	for (i = 1; i <= max; i++)
 	{
 		widget_name = g_strdup_printf("%s%i", name, i);
 		buffer_widget = GTK_WIDGET (gtk_builder_get_object (gxml, widget_name));
 
 		gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(buffer_widget), select);
-		
+
 		g_free(widget_name);
 	}
 
@@ -616,9 +616,9 @@ widget_selector_single(gchar *name, gint number, gboolean select)
 {
 	GtkWidget *buffer_widget;
 	gchar *widget_name;
-	
+
 	widget_name = g_strdup_printf("%s%i", name, number);
-	
+
 	buffer_widget = GTK_WIDGET (gtk_builder_get_object (gxml, widget_name));
 
 	gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(buffer_widget), select);

@@ -3,12 +3,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Library General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1301,  USA
@@ -32,26 +32,26 @@ quit_alarm_clock(void)
 	GKeyFile *config = g_key_file_new();
 	gchar *data;
 	gint posx, posy, width, height;
-	
+
 	g_key_file_load_from_file(config, config_global, G_KEY_FILE_NONE, NULL);
-	
+
 	gtk_window_get_size(GTK_WINDOW(main_window), &width, &height);
 	gtk_window_get_position(GTK_WINDOW(main_window), &posx, &posy);
-	
+
 	g_key_file_set_integer(config, "WindowGeometry", "WindowPositionX", posx);
 	g_key_file_set_integer(config, "WindowGeometry", "WindowPositionY", posy);
 	g_key_file_set_integer(config, "WindowGeometry", "WindowSizeX", width);
 	g_key_file_set_integer(config, "WindowGeometry", "WindowSizeY", height);
 	g_key_file_set_boolean(config, "Global", "ShowMenuBar", show_menu);
-	
+
 	data = g_key_file_to_data(config, NULL, NULL);
-	
+
 	g_file_set_contents (config_global, data, -1, NULL);
-	
+
 	/* Need to close threads here... */
-	
+
 	if (notify != NULL) notify_notification_close(notify, NULL);
-	
+
 	g_key_file_free(config);
 	g_free(data);
 	gtk_main_quit();
@@ -65,8 +65,8 @@ about_alarm_clock(void)
 	GdkPixbuf *logo = gtk_image_get_pixbuf(GTK_IMAGE(image));
 	gchar **authors = g_strsplit("Programming\n\tTomasz Sałaciński <tsalacinski@gmail.com>", "\n", -1);
 	gchar **artists = g_strsplit("Icons\n\t(c) Tango Desktop Project\nUbuntu support icons\n\tBui Arantsson", "\n", -1);
-	
-	gchar *license = 
+
+	gchar *license =
 
 	"Alarm Clock is free software; you can redistribute it and/or modify\n"
 	"it under the terms of the GNU General Public License as published by\n"
@@ -97,7 +97,7 @@ about_alarm_clock(void)
 
 	gtk_window_set_skip_taskbar_hint(GTK_WINDOW(about), TRUE);
    	gtk_window_set_skip_pager_hint(GTK_WINDOW(about), TRUE);
-	    
+
 	gtk_dialog_run(GTK_DIALOG(about));
 
 	gtk_widget_destroy(image);
@@ -130,21 +130,21 @@ show_missed_alarms(void)
 {
 	GtkWidget *dialog = GTK_WIDGET (gtk_builder_get_object (gxml, "missed_alarms_dialog"));
 	GtkWidget *notebook = GTK_WIDGET (gtk_builder_get_object (gxml, "missed_alarm_notebook"));
-	GtkWidget *mbutton = GTK_WIDGET (gtk_builder_get_object (gxml, "clear_missed_button"));	
+	GtkWidget *mbutton = GTK_WIDGET (gtk_builder_get_object (gxml, "clear_missed_button"));
 	GKeyFile *key = g_key_file_new();
 	gchar **groups, *buffer;
 	gsize num_groups;
 	gint x = 0;
 	g_key_file_load_from_file(key, config_missed, G_KEY_FILE_NONE, NULL);
 	GtkTreeIter iter;
-	
+
 	groups = g_key_file_get_groups(key, &num_groups);
-	
+
 	gtk_list_store_clear(GTK_LIST_STORE(missed_store));
 
-		
-	
-	
+
+
+
 	if (num_groups > 0)
 	{
 		gtk_notebook_set_current_page(GTK_NOTEBOOK(notebook), 0);
@@ -163,7 +163,7 @@ show_missed_alarms(void)
 		gtk_notebook_set_current_page(GTK_NOTEBOOK(notebook), 1);
 		gtk_widget_set_sensitive(GTK_WIDGET(mbutton), FALSE);
 	}
-	
+
 	g_strfreev(groups);
 	g_key_file_free(key);
 	gtk_widget_show(GTK_WIDGET(dialog));

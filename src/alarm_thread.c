@@ -3,12 +3,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Library General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1301,  USA
@@ -36,17 +36,17 @@ gchar
 	gint minutes = (usecs - int_buf) / 60;
 	int_buf = int_buf + minutes * 60;
 	gint seconds = (usecs -int_buf);
-	
+
 	if (hours < 10) ghours = g_strdup_printf("0%i", hours);
 	else ghours = g_strdup_printf("%i", hours);
 
 	if (minutes < 10) gminutes = g_strdup_printf("0%i", minutes);
 	else gminutes = g_strdup_printf("%i", minutes);
-	
-	if (seconds < 10) gseconds = g_strdup_printf("0%i", seconds);
-	else gseconds = g_strdup_printf("%i", seconds);	
 
-	
+	if (seconds < 10) gseconds = g_strdup_printf("0%i", seconds);
+	else gseconds = g_strdup_printf("%i", seconds);
+
+
 	if (days < 1)
 	{
 		tleft = g_strdup_printf("%s:%s:%s", ghours, gminutes, gseconds);
@@ -61,7 +61,7 @@ gchar
 		days = days % 365;
 		tleft = g_strdup_printf("%iy %id %s:%s:%s", years, days, ghours, gminutes, gseconds);
 	}
-	
+
 	g_free(ghours);
 	g_free(gminutes);
 	g_free(gseconds);
@@ -76,7 +76,7 @@ is_date_excluded(gchar *alarm_name, gint day, gint month)
 	gint d, m, count = 0;
 
 	buffer = g_key_file_get_string(loaded_alarms, alarm_name, "ScheduleDateExclude", NULL);
-	if (buffer == NULL) 
+	if (buffer == NULL)
 		return FALSE;
 
 	split = g_strsplit(buffer, ";", -1);
@@ -90,7 +90,7 @@ is_date_excluded(gchar *alarm_name, gint day, gint month)
 		m = g_ascii_strtoll(date_split[1], NULL, 10);
 
 
-		if (d == day && m == month) 
+		if (d == day && m == month)
 		{
 			g_strfreev(split);
 			g_strfreev(date_split);
@@ -102,7 +102,7 @@ is_date_excluded(gchar *alarm_name, gint day, gint month)
 	}
 
 	g_strfreev(split);
-	
+
 	return FALSE;
 }
 gulong
@@ -112,25 +112,25 @@ check_date(gint month, gint day, gint hour, gint minute, gint year)
 	time(&rawtime);
 	struct tm * mytime;
 	mytime = localtime(&rawtime);
-	
+
 	mytime->tm_mon = month - 1;
 	mytime->tm_mday = day;
 	mytime->tm_hour = hour;
 	mytime->tm_min = minute;
 	mytime->tm_year = year;
 	mytime->tm_sec = 0;
-	
+
 	return mktime(mytime);
 }
 
-struct tm * 
+struct tm *
 convert_back(struct tm * convert)
 {
 	gulong conv = mktime(convert);
 
 	struct tm * mytime;
 	mytime = localtime((const time_t*)&conv);
-	
+
 	return convert;
 }
 
@@ -171,18 +171,18 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 
 	gchar **sinclude_split = g_strsplit(sinclude, ";", 0);
 	gchar **sexclude_split = g_strsplit(sexclude, ";", 0);
-	
+
 	g_free(sinclude);
 	g_free(sexclude);
 
 	timeinfo = localtime ((const time_t*)&alarm_time);
-	
+
 	hour = timeinfo->tm_hour;
 	minute = timeinfo->tm_min;
 	year = timeinfo->tm_year;
 	timeinfo = localtime ( &rawtime );
-	
-	
+
+
 	while (TRUE)
 	{
 		if (sinclude_split[count] == NULL) break;
@@ -192,14 +192,14 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 		gint month = g_ascii_strtoull(split_date[1], NULL, 10);
 
 		g_strfreev(split_date);
-		
+
 		gulong date_got = check_date(month, day, hour, minute, year);
 
 		if (smallest_date != 0 && smallest_date > date_got) { smallest_date = date_got; }
 		if (smallest_date == 0) { smallest_date = date_got; }
 		count++;
 	}
-	
+
 	gchar **sweekdays_split = g_strsplit(sweekdays, ":", 0);
 	gchar **smonths_split = g_strsplit(smonths, ":", 0);
 
@@ -216,7 +216,7 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 		gint wday = mytime->tm_wday - 1;
 
 		if (wday == -1) wday = 6;
-		
+
 		if (g_strcmp0(smonths_split[mytime->tm_mon], "T") == 0 && g_strcmp0(sweekdays_split[wday], "T") == 0)
 		{
 			qdate = mktime(mytime);
@@ -224,7 +224,7 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 		}
 
 		mytime->tm_year = year;
-		
+
 		mytime->tm_mon = mytime->tm_mon;
 		mytime->tm_hour = hour;
 		mytime->tm_min = minute;
@@ -233,7 +233,7 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 
 		mytime = convert_back (mytime);
 	}
-	
+
 
 	g_strfreev(sinclude_split);
 	g_strfreev(sexclude_split);
@@ -241,7 +241,7 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 	g_strfreev(sweekdays_split);
 	g_free(sweekdays);
 	g_free(smonths);
-	
+
 	if (qdate < smallest_date && smallest_date != 0) return qdate;
 	if (smallest_date == 0) return qdate;
 	else return smallest_date;
@@ -253,30 +253,30 @@ move_to_missed(gchar *name)
 	gint key = 0;
 	gchar *buffer, **keys;
 	GKeyFile *temp_key = g_key_file_new();
-	
+
 	g_key_file_load_from_file(temp_key, config_missed, G_KEY_FILE_NONE, NULL);
-	
+
 	keys = g_key_file_get_keys(loaded_alarms, name, NULL, NULL);
-	
+
 	while (TRUE)
 	{
 		if (keys[key] == NULL) break;
 		buffer = g_key_file_get_string(loaded_alarms, name, keys[key], NULL);
 
 		g_key_file_set_string(temp_key, name, keys[key], buffer);
-		
+
 		key++;
 		g_free(buffer);
 	}
-	
+
 	buffer = g_key_file_to_data(temp_key, NULL, NULL);
-	
+
 	g_file_set_contents(config_missed, buffer, -1, NULL);
-	
+
 	g_key_file_free(temp_key);
 	g_free(buffer);
 	g_strfreev(keys);
-	
+
 }
 
 void
@@ -290,11 +290,11 @@ manage_old_alarm(gchar *name)
 	if (snooze)  snooze = FALSE;
 
 	g_free(type);
-	
+
 	if (need_check_first)
 	{
 		move_to_missed(name);
-		if (single) 
+		if (single)
 		{
 			remove_alarm(name);
 			reload_alarms();
@@ -324,7 +324,7 @@ update_alarm_thread(gboolean thread)
 	GtkTreeIter iter;
 	gchar *name;
 	gboolean snoozed;
-	
+
 	count = 0;
 	gboolean first = TRUE;
 
@@ -337,7 +337,7 @@ update_alarm_thread(gboolean thread)
 		{
 			break;
 		}
-				
+
 		alarm_type = g_key_file_get_string(loaded_alarms, alarms[count], "AlarmType", NULL);
 		snoozed = g_key_file_get_boolean(loaded_alarms, alarms[count], "Snoozed", NULL);
 
@@ -357,7 +357,7 @@ update_alarm_thread(gboolean thread)
 		}
 
 		g_get_current_time(&cur_time);
-	
+
 		diff = alarm_time - cur_time.tv_sec;
 
 		gtk_tree_model_get_iter_first(GTK_TREE_MODEL(store), &iter);
@@ -382,7 +382,7 @@ update_alarm_thread(gboolean thread)
 		{
 			manage_old_alarm(alarms[count]);
 		}
-		
+
 		if (diff > 1)
 		{
 			if (snoozed)
@@ -406,7 +406,7 @@ update_alarm_thread(gboolean thread)
 
 		}
 
-		
+
 		if (diff == 1)
 		{
 			gdk_threads_enter();
@@ -458,13 +458,13 @@ check_current_birthdays(void)
 	{
 		day = g_strdup_printf("%i", timeinfo->tm_mday);
 	}
-	
+
 	iso_date = g_strdup_printf("%i-%s-%s", timeinfo->tm_year + 1900, month, day);
 
 	birthdays_key = g_key_file_new();
 	g_key_file_load_from_file(birthdays_key, config_birthdays, G_KEY_FILE_NONE, NULL);
 	birthdays = g_key_file_get_groups(birthdays_key, NULL);
-	
+
 	while (TRUE)
 	{
 		if (birthdays[count] == NULL) break;
@@ -495,7 +495,7 @@ check_current_birthdays(void)
 
 #ifndef APPINDICATOR
 	change_birthday_status(got_birthday);
-	
+
 	if (got_birthday)
 	{
 		buffer = g_strdup_printf(_("Today's birthdays:\n\n%s"), names->str);
@@ -537,14 +537,14 @@ alarm_thread(void)
 
 	time ( &rawtime );
 	timeinfo = localtime ( &rawtime );
-	
+
 	need_check_first = TRUE;
 	gdk_threads_enter();
 	check_current_birthdays();
 	gdk_threads_leave();
 	update_list_entries();
 
-	
+
 	while (TRUE)
 	{
 		if (timeinfo->tm_hour == 0 && timeinfo->tm_min == 0 && timeinfo->tm_sec == 0)
@@ -562,7 +562,7 @@ alarm_thread(void)
 		}
 		g_usleep(G_USEC_PER_SEC);
 		need_check_first = FALSE;
-		
+
 	}
 }
 
@@ -571,7 +571,7 @@ reload_alarms(void)
 {
 	if (loaded_alarms != NULL)
 		g_key_file_free(loaded_alarms);
-	
+
 	loaded_alarms = g_key_file_new();
 	g_key_file_load_from_file(loaded_alarms, config_alarms, G_KEY_FILE_NONE, NULL);
 }

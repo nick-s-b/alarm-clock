@@ -3,12 +3,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Library General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1301,  USA
@@ -115,13 +115,13 @@ main (int argc, char *argv[])
 
 		return 0;
 	}
-	
+
 	gdk_threads_init();
-	
+
 	gst_init (&argc, &argv);
 
 	g_set_application_name(_("Alarm Clock"));
-	
+
 	GError *error = NULL;
 
 	gxml = gtk_builder_new ();
@@ -133,34 +133,34 @@ main (int argc, char *argv[])
 	}
 
 	if (error) g_error_free(error);
-	
+
 	initialize_config();
 
 	g_key_file_load_from_file(key, config_global, G_KEY_FILE_NONE, NULL);
-	
+
 	GtkWidget *main_window = create_main_window();
 
 	create_status_icon();
 
 	reload_alarms();
-	
+
 	g_thread_try_new("alarm thread", (GThreadFunc) alarm_thread, NULL, NULL);
-	
+
 	notify_init(_("Alarm Clock"));
-	
+
 	gtk_window_get_position(GTK_WINDOW(main_window), &current_x, &current_y);
 
 	g_signal_connect (app, "message-received", G_CALLBACK (message_received_cb), NULL);
 
 	if (!g_key_file_get_boolean(key, "Global", "StartMinimized", NULL))
 		gtk_widget_show_all (main_window);
-	
+
 
 	GtkWidget *stop_sound = GTK_WIDGET (gtk_builder_get_object (gxml, "stop_the_sound_toolbutton"));
 	gtk_widget_hide(GTK_WIDGET(stop_sound));
 
 	change_selection();
-	
+
 	gtk_main ();
 
 	g_key_file_free(key);

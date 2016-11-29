@@ -3,12 +3,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Library General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1301,  USA
@@ -30,9 +30,9 @@ void
 change_window_status(void)
 {
 	gboolean visible;
-	
+
 	g_object_get(G_OBJECT(main_window), "visible", &visible, NULL);
-	
+
 	if (visible)
 	{
 		gtk_window_get_position(GTK_WINDOW(main_window), &current_x, &current_y);
@@ -74,38 +74,38 @@ status_menu (GtkStatusIcon *status_icon,
 	win_show = gtk_check_menu_item_new_with_mnemonic(_("_Show main window"));
 	g_object_get(G_OBJECT(main_window), "visible", &visible, NULL);
 	gtk_check_menu_item_set_active(GTK_CHECK_MENU_ITEM(win_show), visible);
-	
+
 	menu_separator1 = gtk_separator_menu_item_new();
-	
+
 	add_alarm = gtk_image_menu_item_new_with_mnemonic(_("_Add alarm..."));
 	add_alarm_image = gtk_image_new_from_stock("gtk-add", GTK_ICON_SIZE_MENU);
 	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(add_alarm), add_alarm_image);
-	
+
 	add_counter = gtk_image_menu_item_new_with_mnemonic(_("Add counter..."));
 	add_counter_image = gtk_image_new_from_stock("gtk-add", GTK_ICON_SIZE_MENU);
-	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(add_counter), add_counter_image);	
+	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(add_counter), add_counter_image);
 
 	menu_separator2 = gtk_separator_menu_item_new();
-	
+
 	birthdays_templates = gtk_image_menu_item_new_with_mnemonic(_("Birthdays & templates"));
 	birthdays_templates_image = gtk_image_new_from_stock("gtk-index", GTK_ICON_SIZE_MENU);
-	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(birthdays_templates), birthdays_templates_image);	
+	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(birthdays_templates), birthdays_templates_image);
 
 	missed_alarms = gtk_image_menu_item_new_with_mnemonic(_("Show missed alarms"));
 	missed_alarms_image = gtk_image_new_from_stock("gtk-revert-to-saved", GTK_ICON_SIZE_MENU);
-	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(missed_alarms), missed_alarms_image);	
+	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(missed_alarms), missed_alarms_image);
 
 	show_menubar = gtk_menu_item_new_with_mnemonic(_("_Show menu bar"));
 	menu_separator4 = gtk_separator_menu_item_new();
-	
+
 	menu_separator3 = gtk_separator_menu_item_new();
 
 	quit = gtk_image_menu_item_new_from_stock("gtk-quit", NULL);
-	
 
-	
-	
-	
+
+
+
+
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), win_show);
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), menu_separator1);
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), add_alarm);
@@ -122,11 +122,11 @@ status_menu (GtkStatusIcon *status_icon,
 		g_signal_connect (G_OBJECT (show_menubar), "activate",
 						  G_CALLBACK (show_menu_toggle), NULL);
 	}
-	
+
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), quit);
 
 	gtk_widget_show_all(menu);
-	
+
 	g_signal_connect (G_OBJECT (win_show), "activate",
 					  G_CALLBACK (change_window_status), NULL);
 
@@ -138,18 +138,18 @@ status_menu (GtkStatusIcon *status_icon,
 
 	g_signal_connect (G_OBJECT (missed_alarms), "activate",
 					  G_CALLBACK (show_missed_alarms), NULL);
-	
+
 	g_signal_connect (G_OBJECT (add_counter), "activate",
 					  G_CALLBACK (add_counter_dialog), NULL);
-	
+
 	g_signal_connect (G_OBJECT (quit), "activate",
 					  G_CALLBACK (quit_alarm_clock), NULL);
-	
+
 	gtk_menu_popup (GTK_MENU(menu), NULL, NULL,
 					(GtkMenuPositionFunc)gtk_status_icon_position_menu,
 					status_icon, button, activate_time);
-	
-	
+
+
 }
 
 void
@@ -158,10 +158,10 @@ create_status_icon(void)
 	status_icon = gtk_status_icon_new_from_file(ALARM_CLOCK_ICON_NORMAL);
 
 	gtk_status_icon_set_tooltip(GTK_STATUS_ICON(status_icon), _("Alarm Clock"));
-	
+
 	g_signal_connect (G_OBJECT (status_icon), "activate",
 					  G_CALLBACK (change_window_status), NULL);
-	
+
 	g_signal_connect (G_OBJECT (status_icon), "popup-menu",
 					  G_CALLBACK (status_menu), NULL);
 
@@ -214,38 +214,38 @@ create_status_icon(void)
 	GtkWidget *quit;
 
 	win_show = gtk_menu_item_new_with_mnemonic(_("_Show main window"));
-	
+
 	menu_separator1 = gtk_separator_menu_item_new();
-	
+
 	add_alarm = gtk_image_menu_item_new_with_mnemonic(_("_Add alarm..."));
 	add_alarm_image = gtk_image_new_from_stock("gtk-add", GTK_ICON_SIZE_MENU);
 	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(add_alarm), add_alarm_image);
-	
+
 	add_counter = gtk_image_menu_item_new_with_mnemonic(_("Add counter..."));
 	add_counter_image = gtk_image_new_from_stock("gtk-add", GTK_ICON_SIZE_MENU);
-	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(add_counter), add_counter_image);	
+	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(add_counter), add_counter_image);
 
 	menu_separator2 = gtk_separator_menu_item_new();
-	
+
 	birthdays_templates = gtk_image_menu_item_new_with_mnemonic(_("Birthdays & templates"));
 	birthdays_templates_image = gtk_image_new_from_stock("gtk-index", GTK_ICON_SIZE_MENU);
-	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(birthdays_templates), birthdays_templates_image);	
+	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(birthdays_templates), birthdays_templates_image);
 
 	missed_alarms = gtk_image_menu_item_new_with_mnemonic(_("Show missed alarms"));
 	missed_alarms_image = gtk_image_new_from_stock("gtk-revert-to-saved", GTK_ICON_SIZE_MENU);
-	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(missed_alarms), missed_alarms_image);	
+	gtk_image_menu_item_set_image(GTK_IMAGE_MENU_ITEM(missed_alarms), missed_alarms_image);
 
 	show_menubar = gtk_menu_item_new_with_mnemonic(_("_Show menu bar"));
 	menu_separator4 = gtk_separator_menu_item_new();
-	
+
 	menu_separator3 = gtk_separator_menu_item_new();
 
 	quit = gtk_image_menu_item_new_from_stock("gtk-quit", NULL);
-	
 
-	
-	
-	
+
+
+
+
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), win_show);
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), menu_separator1);
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), add_alarm);
@@ -262,11 +262,11 @@ create_status_icon(void)
 		g_signal_connect (G_OBJECT (show_menubar), "activate",
 						  G_CALLBACK (show_menu_toggle), NULL);
 	}
-	
+
 	gtk_menu_shell_append(GTK_MENU_SHELL(menu), quit);
 
 	gtk_widget_show_all(menu);
-	
+
 	g_signal_connect (G_OBJECT (win_show), "activate",
 					  G_CALLBACK (change_window_status), NULL);
 
@@ -278,13 +278,13 @@ create_status_icon(void)
 
 	g_signal_connect (G_OBJECT (missed_alarms), "activate",
 					  G_CALLBACK (show_missed_alarms), NULL);
-	
+
 	g_signal_connect (G_OBJECT (add_counter), "activate",
 					  G_CALLBACK (add_counter_dialog), NULL);
-	
+
 	g_signal_connect (G_OBJECT (quit), "activate",
 					  G_CALLBACK (quit_alarm_clock), NULL);
-	
+
 
 
 
