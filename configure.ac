@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 dnl Created by Anjuta application wizard.
 
-AC_INIT(alarm-clock, 1.4.2)
+AC_INIT(alarm-clock, 1.4.4)
 
 AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
 AC_CONFIG_HEADERS([config.h])
@@ -32,12 +32,12 @@ AC_ARG_ENABLE([appindicator],
     AS_HELP_STRING([--enable-appindicator], [Enable appindicator support for Ubuntu]))
 
 AS_IF([test "x$enable_appindicator" == "xyes"], [
-	PKG_CHECK_MODULES(ALARMCLOCK, [gtk+-2.0 >= 2.8 glib-2.0 gthread-2.0 gstreamer-0.10 libnotify unique-1.0 appindicator-0.1])
+	PKG_CHECK_MODULES(ALARMCLOCK, [gtk+-2.0 >= 2.8 glib-2.0 gthread-2.0 gstreamer-1.0 libnotify unique-1.0 appindicator-0.1])
 	AC_DEFINE([APPINDICATOR], [], [Use indicator applet instead of system tray])
 ])
 
 AS_IF([test "x$enable_appindicator" != "xyes"], [
-	PKG_CHECK_MODULES(ALARMCLOCK, [gtk+-2.0 >= 2.8 glib-2.0 gthread-2.0 gstreamer-0.10 libnotify unique-1.0])
+	PKG_CHECK_MODULES(ALARMCLOCK, [gtk+-2.0 >= 2.8 glib-2.0 gthread-2.0 gstreamer-1.0 libnotify unique-1.0])
 ])
 
 
