@@ -346,5 +346,5 @@ create_main_window(void)
 void
 check_for_updates(void)
 {
-	g_spawn_command_line_async("xdg-open http://www.alarm-clock.pl/downloads", NULL);
+	g_spawn_command_line_async("xdg-open https://github.com/shaggytwodope/alarm-clock/releases", NULL);
 }

@@ -63,7 +63,7 @@ about_alarm_clock(void)
 	GtkWidget *about = gtk_about_dialog_new();
 	GtkWidget *image = gtk_image_new_from_file(ALARM_CLOCK_ICON_NORMAL);
 	GdkPixbuf *logo = gtk_image_get_pixbuf(GTK_IMAGE(image));
-	gchar **authors = g_strsplit("Programming\n\tTomasz Sałaciński <tsalacinski@gmail.com>", "\n", -1);
+	gchar **authors = g_strsplit("Programming\n\tTomasz Sałaciński <tsalacinski@gmail.com>\n\tJohnathan Jenkins <twodopeshaggy@gmail.com>", "\n", -1);
 	gchar **artists = g_strsplit("Icons\n\t(c) Tango Desktop Project\nUbuntu support icons\n\tBui Arantsson", "\n", -1);
 
 	gchar *license =
@@ -84,16 +84,16 @@ about_alarm_clock(void)
 
 	gtk_about_dialog_set_program_name(GTK_ABOUT_DIALOG(about), _("Alarm Clock"));
 	gtk_about_dialog_set_version(GTK_ABOUT_DIALOG(about), ALARM_CLOCK_VERSION);
-	gtk_about_dialog_set_copyright(GTK_ABOUT_DIALOG(about), "(c) 2008-2010 Tomasz Sałaciński <tsalacinskI@gmail.com>");
-	gtk_about_dialog_set_comments(GTK_ABOUT_DIALOG(about), _("A simple alarm clock for GNOME desktop."));
+	gtk_about_dialog_set_copyright(GTK_ABOUT_DIALOG(about), "(c) 2008-2010 Tomasz Sałaciński <tsalacinskI@gmail.com>\n(c) 2016-2017 Johnathan Jenkins <twodopeshaggy@gmail.com>");
+	gtk_about_dialog_set_comments(GTK_ABOUT_DIALOG(about), _("A simple alarm clock."));
 	gtk_about_dialog_set_logo(GTK_ABOUT_DIALOG(about), logo);
 	gtk_about_dialog_set_license(GTK_ABOUT_DIALOG(about), license);
 
 	gtk_about_dialog_set_authors(GTK_ABOUT_DIALOG(about), (const gchar**)authors);
 	gtk_about_dialog_set_artists(GTK_ABOUT_DIALOG(about), (const gchar**)artists);
 	gtk_about_dialog_set_translator_credits(GTK_ABOUT_DIALOG(about), _("translator-credits"));
-	gtk_about_dialog_set_website_label(GTK_ABOUT_DIALOG(about), "http://www.alarm-clock.pl");
-	gtk_about_dialog_set_website(GTK_ABOUT_DIALOG(about), "http://www.alarm-clock.pl");
+	gtk_about_dialog_set_website_label(GTK_ABOUT_DIALOG(about), "homepage");
+	gtk_about_dialog_set_website(GTK_ABOUT_DIALOG(about), "https://github.com/shaggytwodope/alarm-clock");
 
 	gtk_window_set_skip_taskbar_hint(GTK_WINDOW(about), TRUE);
    	gtk_window_set_skip_pager_hint(GTK_WINDOW(about), TRUE);
