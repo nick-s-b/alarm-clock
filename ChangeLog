@@ -1,3 +1,6 @@
+2017-xx-xx   Johnathan Jenkins <twodopeshaggy@gmail.com>
+	* src/alarm_thread.c: Fix high cpu use with g_usleep(...)
+
 2017-01-26   Johnathan Jenkins <twodopeshaggy@gmail.com>
 	* src/interface/alarm-clock.ui: Added tooltip text when hovering over certain icon
 	* src/main.c: Fixed glib-2.32, using g_thread_init() is deprecated
