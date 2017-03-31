@@ -1,31 +1,41 @@
 Alarm Clock Readme file
 ===========================
 
-Author:
+Authors:
 	Tomasz Sałaciński <tsalacinski@gmail.com>
+    Johnathan Jenkins <twodopeshaggy@gmail.com>
 
 Contact:
-	Please submit bugs to launchpad account:
-		https://launchpad.net/alarmclock
-
-
-If you want to contact me personally, just write to:
-tsalacinski@gmail.com
+	Please submit bugs to:
+		https://github.com/shaggytwodope/alarm-clock/issues
 
 
 Description
 ===========
 
-Alarm Clock is a GNOME application designed to remind you
+Alarm Clock is a GTK2 application designed to remind you
 about upcoming events. Alarm Clock is very easy to configue,
 so no one should have problems using it.
+
+It is no longer actively developed by the original author Tomasz Sałaciński.
+Please do not contact him with any questions regarding this fork.
 
 Installation
 ============
 
-In order to install the application, view the INSTALL file included
-in this package. In order to run Alarm Clock, you need to have the following installed:
+In order to install the application manually, view the INSTALL file included
+in this package.
+
+Some platform packages are provided:
+
+Archlinux
+yaourt -S alarm-clock
+
+Ubuntu
+
+Debian
 
 To see changes over previous versions, read the ChangeLog file.
 
-(c) 2007-2009 by Tomasz Sałaciński.
+(c) 2007-2010 by Tomasz Sałaciński.
+(c) 2016-2017 by Johnathan Jenkins.
