@@ -232,7 +232,7 @@ get_iso_date_from_scheduled(gchar *alarm_name)
 		mytime->tm_sec = 0;
 
 		mytime = convert_back (mytime);
-        g_usleep(G_USEC_PER_SEC/5);
+		g_usleep(G_USEC_PER_SEC/5);
 	}
 
 
