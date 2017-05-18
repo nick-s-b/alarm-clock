@@ -21,16 +21,16 @@
 #include "main_list.h"
 #include "alarm_thread.h"
 
-void
-save_alarms_list(void)
+void save_alarms_list(void)
 {
 	gchar *filename, *buffer;
-	GtkWidget *parent = GTK_WIDGET (gtk_builder_get_object (gxml, "main_window"));
+	GtkWidget *parent =
+	    GTK_WIDGET(gtk_builder_get_object(gxml, "main_window"));
 	GtkWidget *dialog = gtk_file_chooser_dialog_new(_("Save alarms list"),
-	                                                GTK_WINDOW(parent),
-	                                                GTK_FILE_CHOOSER_ACTION_SAVE,
-	                                                "gtk-cancel", 2,
-	                                                "gtk-save", 3, NULL);
+							GTK_WINDOW(parent),
+							GTK_FILE_CHOOSER_ACTION_SAVE,
+							"gtk-cancel", 2,
+							"gtk-save", 3, NULL);
 
 	GtkFileFilter *all_filter = gtk_file_filter_new();
 	GtkFileFilter *alarms_filter = gtk_file_filter_new();
@@ -45,9 +45,9 @@ save_alarms_list(void)
 
 	gint response = gtk_dialog_run(GTK_DIALOG(dialog));
 
-	if (response == 3)
-	{
-		filename = gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(dialog));
+	if (response == 3) {
+		filename =
+		    gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(dialog));
 		g_file_get_contents(config_alarms, &buffer, NULL, NULL);
 
 		g_file_set_contents(filename, buffer, -1, NULL);
@@ -55,23 +55,21 @@ save_alarms_list(void)
 		g_free(filename);
 		g_free(buffer);
 		gtk_widget_destroy(GTK_WIDGET(dialog));
-	}
-	else
-	{
+	} else {
 		gtk_widget_destroy(GTK_WIDGET(dialog));
 	}
 }
 
-void
-open_alarms_list(void)
+void open_alarms_list(void)
 {
 	gchar *filename, *buffer;
-	GtkWidget *parent = GTK_WIDGET (gtk_builder_get_object (gxml, "main_window"));
+	GtkWidget *parent =
+	    GTK_WIDGET(gtk_builder_get_object(gxml, "main_window"));
 	GtkWidget *dialog = gtk_file_chooser_dialog_new(_("Open alarms list"),
-	                                                GTK_WINDOW(parent),
-	                                                GTK_FILE_CHOOSER_ACTION_SAVE,
-	                                                "gtk-cancel", 2,
-	                                                "gtk-open", 3, NULL);
+							GTK_WINDOW(parent),
+							GTK_FILE_CHOOSER_ACTION_SAVE,
+							"gtk-cancel", 2,
+							"gtk-open", 3, NULL);
 
 	GtkFileFilter *all_filter = gtk_file_filter_new();
 	GtkFileFilter *alarms_filter = gtk_file_filter_new();
@@ -84,12 +82,11 @@ open_alarms_list(void)
 	gtk_file_chooser_add_filter(GTK_FILE_CHOOSER(dialog), all_filter);
 	gtk_file_chooser_add_filter(GTK_FILE_CHOOSER(dialog), alarms_filter);
 
-
 	gint response = gtk_dialog_run(GTK_DIALOG(dialog));
 
-	if (response == 3)
-	{
-		filename = gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(dialog));
+	if (response == 3) {
+		filename =
+		    gtk_file_chooser_get_filename(GTK_FILE_CHOOSER(dialog));
 		g_file_get_contents(filename, &buffer, NULL, NULL);
 
 		g_file_set_contents(config_alarms, buffer, -1, NULL);
@@ -97,12 +94,10 @@ open_alarms_list(void)
 		g_free(filename);
 		g_free(buffer);
 		gtk_widget_destroy(GTK_WIDGET(dialog));
-		update_list_entries ();
-		reload_alarms ();
-		update_alarm_thread (TRUE);
-	}
-	else
-	{
+		update_list_entries();
+		reload_alarms();
+		update_alarm_thread(TRUE);
+	} else {
 		gtk_widget_destroy(GTK_WIDGET(dialog));
 	}
 }

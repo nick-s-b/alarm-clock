@@ -17,8 +17,7 @@
 #include "configuration.h"
 #include <glib/gstdio.h>
 
-void
-initialize_config(void)
+void initialize_config(void)
 {
 	config_dir = g_strdup_printf("%s/alarm-clock", g_get_user_config_dir());
 	config_global = g_strdup_printf("%s/global.conf", config_dir);
@@ -27,18 +26,20 @@ initialize_config(void)
 	config_birthdays = g_strdup_printf("%s/birthdays.conf", config_dir);
 	config_missed = g_strdup_printf("%s/missed.conf", config_dir);
 
-	if (!g_file_test (config_dir, G_FILE_TEST_EXISTS))
-	{
+	if (!g_file_test(config_dir, G_FILE_TEST_EXISTS)) {
 		g_mkdir_with_parents(config_dir, S_IRUSR | S_IWUSR | S_IXUSR);
 	}
 
-	if (!g_file_test(config_global, G_FILE_TEST_EXISTS))
-	{
+	if (!g_file_test(config_global, G_FILE_TEST_EXISTS)) {
 		GKeyFile *key = g_key_file_new();
-		g_key_file_set_integer(key, "WindowGeometry", "WindowPositionX", 0);
-		g_key_file_set_integer(key, "WindowGeometry", "WindowPositionY", 0);
-		g_key_file_set_integer(key, "WindowGeometry", "WindowSizeX", 770);
-		g_key_file_set_integer(key, "WindowGeometry", "WindowSizeY", 400);
+		g_key_file_set_integer(key, "WindowGeometry", "WindowPositionX",
+				       0);
+		g_key_file_set_integer(key, "WindowGeometry", "WindowPositionY",
+				       0);
+		g_key_file_set_integer(key, "WindowGeometry", "WindowSizeX",
+				       770);
+		g_key_file_set_integer(key, "WindowGeometry", "WindowSizeY",
+				       400);
 		g_key_file_set_integer(key, "Global", "TimeType", 24);
 		g_key_file_set_boolean(key, "Global", "ShowMenuBar", TRUE);
 		g_key_file_set_boolean(key, "Global", "StartMinimized", FALSE);
@@ -47,27 +48,23 @@ initialize_config(void)
 
 		g_key_file_free(key);
 
-		g_file_set_contents (config_global, keystring, -1, NULL);
+		g_file_set_contents(config_global, keystring, -1, NULL);
 		g_free(keystring);
 	}
 
-	if (!g_file_test (config_alarms, G_FILE_TEST_EXISTS))
-	{
+	if (!g_file_test(config_alarms, G_FILE_TEST_EXISTS)) {
 		g_file_set_contents(config_alarms, "", -1, NULL);
 	}
 
-	if (!g_file_test (config_birthdays, G_FILE_TEST_EXISTS))
-	{
+	if (!g_file_test(config_birthdays, G_FILE_TEST_EXISTS)) {
 		g_file_set_contents(config_birthdays, "", -1, NULL);
 	}
 
-	if (!g_file_test (config_templates, G_FILE_TEST_EXISTS))
-	{
+	if (!g_file_test(config_templates, G_FILE_TEST_EXISTS)) {
 		g_file_set_contents(config_templates, "", -1, NULL);
 	}
 
-	if (!g_file_test (config_missed, G_FILE_TEST_EXISTS))
-	{
+	if (!g_file_test(config_missed, G_FILE_TEST_EXISTS)) {
 		g_file_set_contents(config_missed, "", -1, NULL);
 	}
 

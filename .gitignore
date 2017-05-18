@@ -18,6 +18,7 @@ src/.deps
 
 # Object files
 *.o
+*.c~
 *.ko
 *.obj
 *.elf

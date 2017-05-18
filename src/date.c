@@ -17,25 +17,26 @@
 #include "date.h"
 #include "modify_alarm.h"
 #include <main_window.h>
-void
-single_day_prefs(void)
+void single_day_prefs(void)
 {
-	GtkWidget *prefs = GTK_WIDGET (gtk_builder_get_object (gxml, "single_day_prefs"));
+	GtkWidget *prefs =
+	    GTK_WIDGET(gtk_builder_get_object(gxml, "single_day_prefs"));
 
 	gtk_widget_show(GTK_WIDGET(prefs));
 
 }
 
-void
-date_selected(void)
+void date_selected(void)
 {
-	GtkWidget *prefs = GTK_WIDGET (gtk_builder_get_object (gxml, "single_day_prefs"));
-	GtkWidget *cal = GTK_WIDGET (gtk_builder_get_object (gxml, "calendar1"));
-	gulong current_date = g_key_file_get_double(current_key, untitled_name, "DateTime", NULL);
+	GtkWidget *prefs =
+	    GTK_WIDGET(gtk_builder_get_object(gxml, "single_day_prefs"));
+	GtkWidget *cal = GTK_WIDGET(gtk_builder_get_object(gxml, "calendar1"));
+	gulong current_date =
+	    g_key_file_get_double(current_key, untitled_name, "DateTime", NULL);
 	gulong new_date;
 	guint year, month, day;
 	struct tm *timeinfo;
-	timeinfo = localtime((const time_t*)&current_date);
+	timeinfo = localtime((const time_t *)&current_date);
 
 	gtk_calendar_get_date(GTK_CALENDAR(cal), &year, &month, &day);
 
