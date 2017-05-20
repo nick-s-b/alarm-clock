@@ -1,13 +1,24 @@
-2017-xx-xx   Johnathan Jenkins <twodopeshaggy@gmail.com>
-	* src/alarm_thread.c: Fix high cpu use with g_usleep(...)
 
-2017-01-26   Johnathan Jenkins <twodopeshaggy@gmail.com>
-	* src/interface/alarm-clock.ui: Added tooltip text when hovering over certain icon
-	* src/main.c: Fixed glib-2.32, using g_thread_init() is deprecated
-	* alarm-clock.desktop: Fixed desktop file to show up in other desktops
-	* src/main.c: Removed deprecated glib functions
-	* src/alarm_runner.c: Fixes for appindicator
-	* configure.ac: Drop gstreamer0.10, upgrade to gstreamer 1.0
+1.4.6 / 2017-05-19
+==================
+
+  * Fixes #1 high cpu use with g_usleep(...)
+  * New changelog format
+
+1.4.5 / 2017-02-01
+==================
+
+  * modifiy author and upstream urls
+
+1.4.4 / 2017-01-26
+==================
+
+  * Added tooltip text when hovering over certain icon
+  * Fixed glib-2.32, using g_thread_init() is deprecated
+  * Fixed desktop file to show up in other desktops
+  * Removed deprecated glib functions
+  * Fixes for appindicator
+  * cDrop gstreamer0.10, upgrade to gstreamer 1.0
 
 2010-11-04   Tomasz Sałaciński <tommy@alarm-clock.pl>
 	* src/alarm-thread.c: Fixed memory leaks
