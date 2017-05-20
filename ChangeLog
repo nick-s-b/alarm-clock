@@ -18,7 +18,7 @@
   * Fixed desktop file to show up in other desktops
   * Removed deprecated glib functions
   * Fixes for appindicator
-  * cDrop gstreamer0.10, upgrade to gstreamer 1.0
+  * Drop gstreamer0.10, upgrade to gstreamer 1.0
 
 2010-11-04   Tomasz Sałaciński <tommy@alarm-clock.pl>
 	* src/alarm-thread.c: Fixed memory leaks
