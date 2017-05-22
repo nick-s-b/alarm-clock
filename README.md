@@ -1,8 +1,9 @@
-Alarm Clock Readme file
+Alarm Clock
 ===========================
-
+A simple gtk2 alarm clock for your desktop. 
 
 <p align="center">
+Prebuilt packages:
 <a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/bpglRXT6jEPuVRsSmFzJhi7sAV0/status.svg" alt="Arch" /></a>
 <a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/oTvrNfkVPhxrwKIFrKXKIL3A2oM/status.svg" alt="CentOS 7" /></a>
 <a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/UB7W-oAkOJotAHZqsVBtdZqqdyI/status.svg" alt="Fedora 25" /></a>
