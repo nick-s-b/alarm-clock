@@ -4,16 +4,22 @@ Alarm Clock Readme file
 
 <p align="center">
 <a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/bpglRXT6jEPuVRsSmFzJhi7sAV0/status.svg" alt="Arch" /></a>
-
+<a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/oTvrNfkVPhxrwKIFrKXKIL3A2oM/status.svg" alt="CentOS 7" /></a>
+<a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/UB7W-oAkOJotAHZqsVBtdZqqdyI/status.svg" alt="Fedora 25" /></a>
+<a href="https://github.com/shaggytwodope/alarm-clock/releases/latest"><img src="https://bytepackager.com/badge/YsrntUPqixiz5KM2ZgtcGtI0EjI/status.svg" alt="Ubuntu 16.04 LTS" /></a>
 </p>
 
 
 Authors:
+===========
     Tomasz Sałaciński <tsalacinski@gmail.com>
+    
     Johnathan Jenkins <twodopeshaggy@gmail.com>
 
 Contact:
+===========
     Please submit bugs to:
+    
     https://github.com/shaggytwodope/alarm-clock/issues
 
 
@@ -45,4 +51,5 @@ Debian
 To see changes over previous versions, read the ChangeLog file.
 
 (c) 2007-2010 by Tomasz Sałaciński.
+
 (c) 2016-2017 by Johnathan Jenkins.
