@@ -1,3 +1,7 @@
+1.4.7 / 2017-??-??
+==================
+
+  * Change hardcoded background color to respect gtk themes
 
 1.4.6 / 2017-05-19
 ==================

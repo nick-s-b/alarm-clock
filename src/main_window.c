@@ -310,18 +310,15 @@ GtkWidget *create_main_window(void)
 			 G_CALLBACK(schedule_dates_cursor_change), NULL);
 
 	/* Rest */
+    gdk_color_parse ("gray", &color);
 
-	color.red = 65535;
-	color.green = 65535;
-	color.blue = 65535;
-
-	gtk_widget_modify_bg(GTK_WIDGET(event), GTK_STATE_NORMAL, &color);
+	gtk_widget_modify_bg(GTK_WIDGET(event), GTK_STATE_NORMAL, NULL);
 	gtk_widget_modify_bg(GTK_WIDGET(templates_set_event), GTK_STATE_NORMAL,
-			     &color);
+			     NULL);
 	gtk_widget_modify_bg(GTK_WIDGET(missed_event), GTK_STATE_NORMAL,
-			     &color);
+			     NULL);
 	gtk_widget_modify_bg(GTK_WIDGET(schedule_dates_event), GTK_STATE_NORMAL,
-			     &color);
+			     NULL);
 	create_list_model_and_view();
 
 	text_size_combo = gtk_combo_box_new_text();
