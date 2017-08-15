@@ -1,4 +1,4 @@
-Fix missed alarm white bg
-Change url for checkupdates
+Begin removing gnome specific features
+Reconsider check updates menu item
 Add tooltip to translations
 Clean up readme
