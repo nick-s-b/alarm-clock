@@ -32,6 +32,7 @@ packages:
       - unique-devel
       - libnotify-devel
       - intltool
+      - libtool
     deps:
         - unique
         - libnotify
@@ -45,6 +46,7 @@ packages:
       - unique-devel
       - libnotify-devel
       - intltool
+      - libtool
     deps:
         - unique
         - libnotify
