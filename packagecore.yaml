@@ -1,15 +1,14 @@
 name: alarm-clock
 metadata:
-  maintainer: twodopeshaggy@gmail.com
+  maintainer: Johnathan Jenkins <twodopeshaggy@gmail.com>
   license: GPLv3
   summary: A simple gtk2 alarm clock for your desktop.
   homepage: https://github.com/shaggytwodope/alarm-clock
 commands:
-  compile:
-    - ./autogen.sh --prefix=/usr
-    - make
-  install:
-    - make DESTDIR="${BP_DESTDIR}" install
+  compile: |
+    ./autogen.sh --prefix=/usr && make
+  install: |
+    make install DESTDIR="${BP_DESTDIR}"
 packages:
   archlinux:
     builddeps:
