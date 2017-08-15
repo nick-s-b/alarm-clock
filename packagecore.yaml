@@ -1,0 +1,67 @@
+name: alarm-clock
+metadata:
+  maintainer: twodopeshaggy@gmail.com
+  license: GPLv3
+  summary: A simple gtk2 alarm clock for your desktop.
+  homepage: https://github.com/shaggytwodope/alarm-clock
+commands:
+  compile:
+    - ./autogen.sh --prefix=/usr
+    - make
+  install:
+    - make DESTDIR="${BP_DESTDIR}" install
+packages:
+  archlinux:
+    builddeps:
+      - gcc
+      - intltool
+      - libunique
+      - libnotify
+      - gstreamer
+      - gtk2
+    deps:
+      - libunique
+      - libnotify
+      - gstreamer
+      - gtk2
+  fedora25:
+    builddeps:
+      - gcc
+      - gstreamer1-devel
+      - gtk2-devel
+      - unique-devel
+      - libnotify-devel
+      - intltool
+    deps:
+        - unique
+        - libnotify
+        - gstreamer1
+        - gtk2
+  centos7.3:
+    builddeps:
+      - gcc
+      - gstreamer1-devel
+      - gtk2-devel
+      - unique-devel
+      - libnotify-devel
+      - intltool
+    deps:
+        - unique
+        - libnotify
+        - gstreamer1
+        - gtk2
+  ubuntu17.10:
+    builddeps:
+      - gcc
+      - libgtk2.0-dev
+      - libtool-bin
+      - libtool
+      - libnotify-dev
+      - libunique-dev
+      - libgstreamer1.0-dev
+      - pkg-config
+    deps:
+        - libgstreamer1.0-0
+        - libnotify4
+        - libunique-1.0-0
+        - libgtk2.0-0
