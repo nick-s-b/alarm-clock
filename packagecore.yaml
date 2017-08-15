@@ -60,6 +60,7 @@ packages:
       - libunique-dev
       - libgstreamer1.0-dev
       - pkg-config
+      - intltool
     deps:
         - libgstreamer1.0-0
         - libnotify4
