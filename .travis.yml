@@ -30,5 +30,4 @@ deploy:
       - alarm-clock_*.deb
   skip_cleanup: true
   on:
-    tags: true
     repo: shaggytwodope/alarm-clock
