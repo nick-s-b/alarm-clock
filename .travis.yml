@@ -25,9 +25,9 @@ deploy:
   api_key:
     secure: FLURtuvfPQ3yNmKH9nJoxr5FTu+HRSokyveOXJwKVHlyMwNuo/gjo3x3mloSTE93CYsI+JMh4Vxj/9MAr/58PxFeFhVjXqECDQrTVX7mZ2RNql47qKVEufrdn3bTAVsyxenMmpFlxtHpd4zCUsP0IZl9ORD3uIF3KjjNK/8DYY6S/w9ME1RM1Nj01ndNuQEKlFMr0RILcMTEqdRbJtpNV0BeJ5BtrxQ8zDYFrRIUfZvGSKe6Qodw0aC6wOejgsjh7d7FOXIPvF6IfjfN/585QDRL+4M8hrUpq5KOIg7cs/Lc5+20AAMKqAtTMyztUONLxIXnFz1MSBewVe2RA9JawSLUXj4Ork6JXy/XwguUeID5qzm833oVy3IhYfIWRSabz6dWpZ4caPhXbRcwpcz84WWdJlCamZg94GfA6aDR1CDdIZkd3Bd8Qz3KRtjmNU5ixpLtB95lfG4SKavIbplfrv6TcgOWkJTjCZbDa5z5WKkahDZ2kRHlB8ZhmuvRW5jjigAyGswerBb6aB6KR/P+bpt+FUBk9Gla80Z1vbffdGBlL0dJ+8blzdHB+xP+wukJrF9ytLphmRcu+eXj4Vn5TBEpHVvPhTKhUVPTWfy/e7G4BHm4cziCT+BB53lXBG0wOukUVXfXzwKMkbCtf16bve0FSy86AKRweOZsm0fK9l4=
   file:
-      - alarm-clock-*.rpm
-      - alarm-clock-*.pkg.tar.xz 
-      - alarm-clock_*.deb
+      - dist/alarm-clock-*.rpm
+      - dist/alarm-clock-*.pkg.tar.xz 
+      - dist/alarm-clock_*.deb
   skip_cleanup: true
   on:
     tags: true
