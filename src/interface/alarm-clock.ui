@@ -3440,7 +3440,7 @@ on the right side of the window.</property>
                             <property name="left_padding">12</property>
                             <child>
                               <object class="GtkCheckButton" id="start_automatically">
-                                <property name="label" translatable="yes">Start the program automatically with GNOME</property>
+                                <property name="label" translatable="yes">Launch Alarm Clock at Startup</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
