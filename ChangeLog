@@ -1,4 +1,10 @@
-1.4.7 / 2017-??-??
+1.4.8 / 2017-08-15
+==================
+
+  * Minor aesthetic changes
+  * Begin work to remove references to gnome specific features
+
+1.4.7 / 2017-08-05
 ==================
 
   * Change hardcoded background color to respect gtk themes
