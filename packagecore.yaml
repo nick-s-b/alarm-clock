@@ -38,20 +38,6 @@ packages:
         - libnotify
         - gstreamer1
         - gtk2
-  centos7.3:
-    builddeps:
-      - gcc
-      - gstreamer1-devel
-      - gtk2-devel
-      - unique-devel
-      - libnotify-devel
-      - intltool
-      - libtool
-    deps:
-        - unique
-        - libnotify
-        - gstreamer1
-        - gtk2
   ubuntu17.10:
     builddeps:
       - gcc
