@@ -182,7 +182,7 @@ void create_list_model_and_view(void)
 
 	gtk_tree_view_column_pack_start(name_column, name_renderer, FALSE);
 
-	gtk_tree_view_column_add_attribute(name_column, name_renderer, "markup",
+	gtk_tree_view_column_add_attribute(name_column, name_renderer, "text",
 					   0);
 	gtk_tree_view_column_add_attribute(name_column, name_renderer,
 					   "editable", 7);
