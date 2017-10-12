@@ -215,6 +215,9 @@ void set_time_format(void)
 		gtk_combo_box_set_active(GTK_COMBO_BOX(ampm_combo), 0);
 
 		gtk_spin_button_set_range(GTK_SPIN_BUTTON(hour), 1, 12);
+
+        gtk_spin_button_set_wrap (GTK_SPIN_BUTTON(hour), TRUE);
+
 	} else {
 		GKeyFile *keyfile = g_key_file_new();
 		g_key_file_load_from_file(keyfile, config_global,
